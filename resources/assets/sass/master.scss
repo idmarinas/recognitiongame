@@ -1,0 +1,226 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,700");
+
+// Variables
+@import "variables";
+
+// HTML tags
+html, body {
+    font-family: $fontfamily;
+    background-color: $color1;
+}
+// END OF HTML tags
+// Colors
+.color1 {
+    color: $color1;
+}
+
+.color2 {
+    color: $color2;
+}
+
+.color3 {
+    color: $color3;
+}
+
+.color4 {
+    color: $color4;
+}
+
+.color5 {
+    color: $color5;
+}
+
+.color6 {
+    color: $color6;
+}
+
+.color7 {
+    color: $color7;
+}
+
+.color8 {
+    color: $color8;
+}
+
+.color10 {
+    color: $color10;
+}
+
+.bgcolor1 {
+    background-color: $color1;
+}
+
+.bgcolor2 {
+    background-color: $color2;
+}
+
+.bgcolor3 {
+    background-color: $color3;
+}
+
+.bgcolor5 {
+    background-color: $color5;
+}
+
+.bgcolor6 {
+    background-color: $color6;
+}
+
+.bgcolor7 {
+    background-color: $color7;
+}
+
+.bgcolor8 {
+    background-color: $color8;
+}
+
+.bgcolor10 {
+    background-color: $color10;
+}
+
+// Links ( Not used yet )
+
+.link2 {
+    color: $color2;
+}
+
+.link2:hover {
+    text-decoration: none;
+    color: $color2;
+}
+
+// Bootstrap
+.card {
+    margin: 0px 5px 10px 5px !important;
+    padding: 0px !important;
+    border-radius: 0px !important;
+    border: none;
+}
+
+.card-title_type1 {
+    background-color: $color5;
+    color: $color4;
+    font-weight:bold;
+    font-size: $fontsize7;
+    margin: 0px !important;
+    padding: 5px 0 5px 0 !important;
+    text-align: center !important;
+}
+
+.card-body_type1 {
+    border: 0.5px solid $color5 !important;
+    padding: 5px !important;
+    background-color: $color2;
+    color: $color4;
+    font-size: $fontsize5;
+}
+
+.card-title_type2 {
+    background-color: $color4;
+    color: $color6;
+    font-size: $fontsize5;
+    margin: 0px !important;
+    padding: 3px 0 3px 3px !important;
+    text-align: left !important;
+}
+
+.card-body_type2 {
+    border: 0.5px solid $color7 !important;
+    padding: 3px !important;
+    background-color: $color6;
+    color: $color5;
+    font-size: $fontsize4;
+}
+
+.navbar {
+    margin-bottom: 5px !important;
+    padding: 0 5px 0 10px !important;
+    background-color: $color7;
+}
+
+.navbar-brand {
+    margin: 0 !important;
+}
+
+.nav-link {
+    color: $color2 !important;
+    font-size: $fontsize5;
+}
+
+.row{
+    padding: 2px !important;
+}
+
+// Images
+
+.img_flag {
+    margin-bottom: 3px !important;
+    height: 1.2rem;
+    padding:0 !important;
+}
+
+.img_logo {
+    height: 5rem;    
+}
+
+// Spans
+
+.span_maintitle {
+    font-size: $fontsize8;
+    color: $color4;
+    font-weight: 700 !important;
+}
+
+.span_submaintitle {
+    font-size: $fontsize5;
+    color: $color4;
+}
+
+.link {
+    color: $color5 !important;
+}
+
+.link:hover {
+    color: $color5 !important;
+}
+
+.link:visited {
+    color: $color5 !important;
+}
+
+// Vertical Table
+
+.table_vertalign_table {
+  display: table;
+  table-layout: auto;
+}
+.table_vertalign_midcell,
+.table_vertalign_firstcell,
+.table_vertalign_lastcell {
+  display: table-cell;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.table_vertalign_firstcell,
+.table_vertalign_midcell {
+  padding-right: 5px;
+}
+/********************************* Wait for Angular "Loading..." circle **************************/
+.angular_loading {
+    border: 3px solid $color6;
+    border-radius: 50%;
+    border-top: 3px solid $color5;
+    width: 20px !important;
+    height: 20px !important;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+  
