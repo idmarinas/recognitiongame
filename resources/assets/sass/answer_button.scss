@@ -1,0 +1,69 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,700");
+
+// Variables
+@import "variables";
+
+/*********************************************** Game *********************************************/
+.game_button,
+.game_button_nohover {
+  color: $color7 !important;
+  width: 90% !important;
+  cursor: pointer !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  outline: none !important;
+  display: inline-block;
+  vertical-align: baseline;
+  margin: 0 0 5px 0;
+  padding: 0.15em 0 .15em 0;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: .1em;
+  -moz-border-radius: .1em;
+  border-radius: .5em;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+// .game_button_nohover {
+//   cursor: no-drop !important;
+// }
+.game_button:hover {
+  color: $color4 !important;
+  text-decoration: none !important;
+}
+.game_button:active {
+  color: $color4 !important;
+  top: 1px !important;
+  position: relative !important;
+}
+
+/************************************** Colored answer buttons ***********************************/
+.button_white, .button_white_nohover, 
+.button_green, .button_green_nohover,
+.button_orange, .button_orange_nohover,
+.button_red, .button_red_nohover,
+.button_gray, .button_gray_nohover {
+    border: solid 1px $color1;
+    //color: $color5;
+}
+
+.button_white, .button_white_nohover { background: $color15; }
+.button_white:hover { background: darken($color15, 5%); }
+.button_white:active { background: darken($color15, 15%); }
+
+.button_green, .button_green_nohover { background: $color16; }
+.button_green:hover { background: darken($color16, 5%); }
+.button_green:active { background: darken($color16, 15%); }
+
+.button_orange, .button_orange_nohover { background: $color17; }
+.button_orange:hover { background: darken($color17, 5%); }
+.button_orange:active { background: darken($color17, 15%); }
+
+.button_red, .button_red_nohover { background: $color18; }
+.button_red:hover { background: darken($color18, 5%); }
+.button_red:active { background: darken($color18, 15%); }
+
+.button_gray, .button_gray_nohover { background: $color19; }
+.button_gray:hover { background: darken($color19, 5%); }
+.button_gray:active { background: darken($color19, 15%); }

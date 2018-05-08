@@ -1,29 +1,33 @@
 
 // Body
-$body-bg: #f5f8fa;
+$body_bg: #f5f8fa;
 
 // Typography
 $fontfamily: 'Roboto';
-$fontsize-base: 1rem;
+$fontsize_base: 1rem;
 
 //Colors
-$color1: #c2cad0;
-$color2: #d8c3a5;
-$color3: #c38d9e;
-$color4: #505050;
+$color1: #aeb3b8;
+$color2: #eed5b2;
+$color3: #9eb470;
+$color4: #687864;
 $color5: #5085a5;
 $color6: #a8d0e6;
-$color7: #687864;
-$color8: #e27d60;
-$color10: #cc3b61;
+$color7: #383030;
+$color8: #a05844;
+$color15: white;
+$color16: #64991e;
+$color17: #f78d1d;
+$color18: #d81b21;
+$color19: #616161;
 
 //Font sizes
-$fontsize1: $fontsize-base * 0.2;
-$fontsize2: $fontsize-base * 0.4;
-$fontsize3: $fontsize-base * 0.6;
-$fontsize4: $fontsize-base * 0.8;
-$fontsize5: $fontsize-base;
-$fontsize6: $fontsize-base * 1.2;
-$fontsize7: $fontsize-base * 1.4;
-$fontsize8: $fontsize-base * 1.6;
-$fontsize8: $fontsize-base * 1.8;
+$fontsize1: $fontsize_base * 0.2;
+$fontsize2: $fontsize_base * 0.4;
+$fontsize3: $fontsize_base * 0.6;
+$fontsize4: $fontsize_base * 0.8;
+$fontsize5: $fontsize_base;
+$fontsize6: $fontsize_base * 1.2;
+$fontsize7: $fontsize_base * 1.4;
+$fontsize8: $fontsize_base * 1.6;
+$fontsize9: $fontsize_base * 1.8;
