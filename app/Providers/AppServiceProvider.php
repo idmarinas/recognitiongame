@@ -21,11 +21,11 @@ class AppServiceProvider extends ServiceProvider
         $rg_lang=session('rg_lang');
         if (session('rg_lang')===null){
             switch (parse_url(url()->full())['host']) {
-                case 'felismero':
-                    $rg_lang = 'hu';
+                case 'recognition':
+                    $rg_lang = 'en';
                     break;
                 default:
-                    $rg_lang = 'en';
+                    $rg_lang = 'hu';
                     break;
             }
             session(['rg_lang'=>$rg_lang]);
