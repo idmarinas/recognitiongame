@@ -1,0 +1,288 @@
+1
+Földrajz
+Geography
+0
+2
+Informatika
+Information Technology
+0
+3
+Internet
+Internet
+2
+4
+Póker
+Poker
+11
+5
+Természet
+Nature
+0
+6
+Állatvilág
+Zoology
+5
+7
+Madár
+Bird
+9
+8
+Hal
+Fish
+6
+9
+Emlős
+Mammal
+6
+10
+Növény
+Flora
+5
+11
+Kártya
+Card
+14
+12
+Autó-Motor
+Auto-Motor
+19
+13
+Mese
+Tale
+16
+14
+Sport
+Sport
+0
+15
+Sakk
+Chess
+14
+16
+Gyerek
+Child
+0
+17
+Rajzolás
+Drawing
+16
+18
+Matematika
+Mathematics
+16
+19
+Közlekedés
+Transport
+0
+20
+Művészet
+Art
+0
+21
+Irodalom
+Literature
+20
+22
+Festészet
+Painting
+20
+23
+Gasztronómia
+Gastronomy
+0
+24
+Édesség
+Sweetness
+23
+25
+Történelem
+History
+0
+26
+Film
+Movie
+47
+27
+Vallás
+Religion
+0
+28
+Mitológia
+Mythology
+27
+29
+Ízeltlábú, puhatestű
+Arthropod, mollusc
+6
+30
+Kétéltű
+Amphibian
+6
+31
+Zászló, címer
+Flag, coat of arms
+1
+32
+Vaktérkép
+Blind map
+1
+33
+Építészet
+Architecture
+20
+34
+Zene
+Music
+0
+35
+Asztrológia
+Astrology
+27
+36
+Antropológia
+Anthropology
+37
+37
+Ember
+Human
+5
+38
+Amerikai Egyesült Államok
+United States of America
+32
+39
+Labdarúgás
+Football
+14
+40
+Nemzeti válogatott
+National team
+39
+41
+Csillagászat
+Astronomy
+1
+42
+Média
+Media
+47
+43
+Kereskedelem
+Commerce
+0
+44
+Filmszínész
+Movie actor
+26
+45
+Filmjelenet
+Movie scene
+26
+46
+Film szereplő
+Movie figure
+26
+47
+Szórakozás
+Entertainment
+0
+48
+Nyaralás, kirándulás
+Holiday, trip
+47
+49
+Tudomány
+Science
+0
+50
+Film (valami alapján)
+Movie (based on)
+26
+51
+Trónok harca
+Game of thrones
+52
+52
+Filmsorozat
+Movie series
+46
+53
+Herkules
+Hercules: The Legendary Journeys
+52
+54
+Váratlan utazás
+Road to Avonlea
+52
+55
+Família Kft.
+Família Kft.
+52
+56
+Kézilabda
+Handball
+14
+57
+Férfi kézilabda
+Man's handball
+56
+58
+Női kézilabda
+Woman's handball
+56
+59
+Kosárlabda
+Basketball
+14
+60
+NBA
+NBA
+59
+61
+Gossip Girl
+Gossip Girl
+52
+62
+Charlie angyalai
+Charlie's Angels
+52
+63
+Grace klinika
+Grey's Anatomy
+52
+64
+Színésznő, színész filmjelenet
+Actress, actor movie scene
+45
+65
+Horror, thriller filmjelenet
+Horror, thriller movie scene
+45
+66
+Star Wars
+Star Wars
+46
+67
+Filmsorozat
+Movie series
+26
+68
+Barátok közt
+Among Friends
+52
+69
+Sztár (valami alapján)
+Star (based on)
+42
+70
+Sztár
+Star
+42
+71
+Esemény résztvevő
+Event participant
+42
+72
+Sztárpár
+Star couple
+42  

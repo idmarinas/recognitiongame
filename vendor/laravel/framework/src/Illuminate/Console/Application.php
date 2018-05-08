@@ -163,22 +163,18 @@ class Application extends SymfonyApplication implements ApplicationContract
      *
      * @param  string  $command
      * @param  array  $parameters
-     * @param  \Symfony\Component\Console\Output\OutputInterface|null  $outputBuffer
+     * @param  \Symfony\Component\Console\Output\OutputInterface  $outputBuffer
      * @return int
      */
     public function call($command, array $parameters = [], $outputBuffer = null)
     {
-        if (is_subclass_of($command, SymfonyCommand::class)) {
-            $command = $this->laravel->make($command)->getName();
-        }
-
-        array_unshift($parameters, $command);
+        $parameters = collect($parameters)->prepend($command);
 
         $this->lastOutput = $outputBuffer ?: new BufferedOutput;
 
         $this->setCatchExceptions(false);
 
-        $result = $this->run(new ArrayInput($parameters), $this->lastOutput);
+        $result = $this->run(new ArrayInput($parameters->toArray()), $this->lastOutput);
 
         $this->setCatchExceptions(true);
 
@@ -192,9 +188,7 @@ class Application extends SymfonyApplication implements ApplicationContract
      */
     public function output()
     {
-        return $this->lastOutput && method_exists($this->lastOutput, 'fetch')
-                        ? $this->lastOutput->fetch()
-                        : '';
+        return $this->lastOutput ? $this->lastOutput->fetch() : '';
     }
 
     /**

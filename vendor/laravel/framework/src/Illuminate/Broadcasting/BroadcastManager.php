@@ -140,7 +140,7 @@ class BroadcastManager implements FactoryContract
     /**
      * Get a driver instance.
      *
-     * @param  string|null  $name
+     * @param  string  $name
      * @return mixed
      */
     public function driver($name = null)

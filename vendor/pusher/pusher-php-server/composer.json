@@ -1,0 +1,42 @@
+{
+    "name": "pusher/pusher-http",
+    "type": "library",
+    "description": "Client code for the REST API",
+    "keywords": ["pusher", "http", "rest", "web service"],
+    "homepage": "https://github.com/pusher/pusher-http-php/",
+    "license": "MIT",
+
+    "require": {
+        "php": ">=5.3.3",
+        "ext-json": "*"
+    },
+
+    "suggest": {
+        "ext-curl": "Pusher will use a different HTTP adapter if cURL is present"
+    },
+
+    "require-dev": {
+        "ext-curl": "*",
+        "phpunit/phpunit": "~4.0",
+        "phpdocumentor/phpdocumentor": "2.*",
+        "squizlabs/php_codesniffer": "2.x"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Pusher\\": "src/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Pusher\\Tests\\": "tests/"
+        }
+    },
+
+    "extra": {
+        "branch-alias": {
+            "dev-new-lib": "3.0-dev"
+        }
+    }
+}

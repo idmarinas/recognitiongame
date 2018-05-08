@@ -6,11 +6,13 @@
     "type": "project",
     "require": {
         "php": "^7.1.3",
+        "doctrine/dbal": "v2.4.2",
         "fideloper/proxy": "^4.0",
-        "laravel/framework": "5.6.*",
+        "laravel/framework": "5.5.*",
         "laravel/tinker": "^1.0",
-        "uepg/laravel-sybase": "1.*",
-        "doctrine/dbal": "v2.4.2"
+        "pusher/pusher-http-laravel": "^4.1",
+        "pusher/pusher-php-server": "^3.0",
+        "uepg/laravel-sybase": "1.*"
     },
     "require-dev": {
         "filp/whoops": "^2.0",

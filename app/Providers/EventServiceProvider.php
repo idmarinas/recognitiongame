@@ -16,6 +16,9 @@ class EventServiceProvider extends ServiceProvider
         'RecognitionGame\Events\Event' => [
             'RecognitionGame\Listeners\EventListener',
         ],
+        'RecognitionGame\Events\NewGameLoading' => [
+            'RecognitionGame\Listeners\NewGameLoadingListener',
+        ],
     ];
 
     /**

@@ -5,11 +5,25 @@
 @import "variables";
 
 // HTML tags
-html, body {
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
     font-family: $fontfamily;
     background-color: $color1;
+    margin-bottom: 70px;
 }
-// END OF HTML tags
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: $color19;
+    color: $color1;
+    text-align: center;
+}
 // Colors
 .color1 {
     color: $color1;
@@ -43,8 +57,12 @@ html, body {
     color: $color8;
 }
 
-.color10 {
-    color: $color10;
+.color16 {
+    color: $color16;
+}
+
+.color18 {
+    color: $color18;
 }
 
 .bgcolor1 {
@@ -67,30 +85,147 @@ html, body {
     background-color: $color6;
 }
 
-.bgcolor7 {
-    background-color: $color7;
+.bgcolor4 {
+    background-color: $color4;
 }
 
 .bgcolor8 {
     background-color: $color8;
 }
 
-.bgcolor10 {
-    background-color: $color10;
+.bgcolor16 {
+    background-color: $color16;
 }
 
-// Links ( Not used yet )
-
-.link2 {
-    color: $color2;
+.bgcolor18 {
+    background-color: $color18;
 }
 
-.link2:hover {
-    text-decoration: none;
-    color: $color2;
+.bgcolor19 {
+    background-color: $color19;
+}
+
+.bordercolor4 {
+    border: 0.5px solid $color4 !important;
+}
+
+.fontsize1 {
+    font-size: $fontsize1 !important;
+}
+
+.fontsize2 {
+    font-size: $fontsize2 !important;
+}
+
+.fontsize3 {
+    font-size: $fontsize3 !important;
+}
+
+.fontsize4 {
+    font-size: $fontsize4 !important;
+}
+
+.fontsize5 {
+    font-size: $fontsize5 !important;
+}
+
+.fontsize6 {
+    font-size: $fontsize6 !important;
+}
+
+.fontsize7 {
+    font-size: $fontsize7 !important;
+}
+
+.fontsize8 {
+    font-size: $fontsize8 !important;
+}
+
+.fontsize9 {
+    font-size: $fontsize9 !important;
+}
+
+// Links
+
+.link1 {
+    color: $color1 !important;
+    cursor: pointer !important;
+    text-decoration:none !important;
+}
+
+.link1:hover {
+    color: $color1 !important;
+    cursor: pointer !important;
+    text-decoration:none !important;
+}
+
+.link1:visited {
+    color: $color1 !important;
+    cursor: pointer !important;
+    text-decoration:none !important;
+}
+
+.link3 {
+    color: $color3 !important;
+    cursor: pointer !important;
+    text-decoration:none !important;
+}
+
+.link3:hover {
+    color: $color3 !important;
+    cursor: pointer !important;
+    text-decoration:none !important;
+}
+
+.link3:visited {
+    color: $color3 !important;
+    cursor: pointer !important;
+    text-decoration:none !important;
+}
+
+.link5 {
+    color: $color5 !important;
+    cursor: pointer !important;
+    text-decoration:none !important;
+}
+
+.link5:hover {
+    color: $color5 !important;
+    cursor: pointer !important;
+    text-decoration:none !important;
+}
+
+.link5:visited {
+    color: $color5 !important;
+    cursor: pointer !important;
+    text-decoration:none !important;
+}
+
+.link8 {
+    color: $color8 !important;
+    cursor: pointer !important;
+    text-decoration:none !important;
+}
+
+.link8:hover {
+    color: $color8 !important;
+    cursor: pointer !important;
+    text-decoration:none !important;
+}
+
+.link8:visited {
+    color: $color8 !important;
+    cursor: pointer !important;
+    text-decoration:none !important;
 }
 
 // Bootstrap
+.button:active, .button:focus, .button:hover,
+.btn:active, .btn:focus, .btn:hover  {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 .card {
     margin: 0px 5px 10px 5px !important;
     padding: 0px !important;
@@ -98,45 +233,60 @@ html, body {
     border: none;
 }
 
-.card-title_type1 {
+.card-header_type1 {
     background-color: $color5;
-    color: $color4;
+    color: $color6;
     font-weight:bold;
     font-size: $fontsize7;
     margin: 0px !important;
     padding: 5px 0 5px 0 !important;
     text-align: center !important;
+    border-radius: 0px !important;
+    border: none;
 }
 
 .card-body_type1 {
     border: 0.5px solid $color5 !important;
-    padding: 5px !important;
+    padding: 5px 5px 15px 5px !important;
     background-color: $color2;
-    color: $color4;
-    font-size: $fontsize5;
+    color: $color7;
+    font-size: $fontsize6;
 }
 
-.card-title_type2 {
-    background-color: $color4;
-    color: $color6;
+.card-footer_type1 {
+    color: $color4;
+    background-color: $color6;
+    border-top: 0 !important;
+    border-right: 0.5px solid $color5 !important;
+    border-bottom: 0.5px solid $color5 !important;
+    border-left: 0.5px solid $color5 !important;
+    font-size: $fontsize6;
+    padding: 5px !important;
+    border-radius: 0px !important;
+    border: none;
+}
+
+.card-header_type2 {
+    background-color: $color4 !important;
+    color: $color1;
     font-size: $fontsize5;
     margin: 0px !important;
-    padding: 3px 0 3px 3px !important;
+    padding: 5px !important;
     text-align: left !important;
 }
 
 .card-body_type2 {
-    border: 0.5px solid $color7 !important;
+    border: 0.5px solid $color4 !important;
     padding: 3px !important;
     background-color: $color6;
-    color: $color5;
-    font-size: $fontsize4;
+    color: $color4;
+    font-size: $fontsize5;
 }
 
 .navbar {
     margin-bottom: 5px !important;
     padding: 0 5px 0 10px !important;
-    background-color: $color7;
+    background-color: $color3 !important;
 }
 
 .navbar-brand {
@@ -144,68 +294,66 @@ html, body {
 }
 
 .nav-link {
-    color: $color2 !important;
+    color: $color8 !important;
     font-size: $fontsize5;
 }
 
 .row{
-    padding: 2px !important;
+    padding: 3px !important;    
 }
 
 // Images
 
 .img_flag {
-    margin-bottom: 3px !important;
     height: 1.2rem;
-    padding:0 !important;
+    margin-right: 3px !important;
 }
 
 .img_logo {
     height: 5rem;    
 }
 
-// Spans
+.img_answer {
+    display: block;
+    margin: auto;
+    padding: 5px 0 10px 0 !important;
+    max-width: 80%;
+}
 
-.span_maintitle {
+// Divs
+
+.div_source {
+    text-align: right;
+    padding: 5px 0 5px 0 !important;
+}
+
+.div_empty {
+    height: 1rem !important;
+}
+
+.div_sempty {
+    height: 0.5rem !important;
+}
+  
+.div_ssempty {
+    height: 0.25rem !important;
+}
+  
+.div_sssempty {
+    height: 0.12rem !important;
+} 
+
+.div_maintitle {
     font-size: $fontsize8;
     color: $color4;
     font-weight: 700 !important;
 }
 
-.span_submaintitle {
+.div_submaintitle {
     font-size: $fontsize5;
     color: $color4;
 }
 
-.link {
-    color: $color5 !important;
-}
-
-.link:hover {
-    color: $color5 !important;
-}
-
-.link:visited {
-    color: $color5 !important;
-}
-
-// Vertical Table
-
-.table_vertalign_table {
-  display: table;
-  table-layout: auto;
-}
-.table_vertalign_midcell,
-.table_vertalign_firstcell,
-.table_vertalign_lastcell {
-  display: table-cell;
-  vertical-align: middle;
-  white-space: nowrap;
-}
-.table_vertalign_firstcell,
-.table_vertalign_midcell {
-  padding-right: 5px;
-}
 /********************************* Wait for Angular "Loading..." circle **************************/
 .angular_loading {
     border: 3px solid $color6;
@@ -223,4 +371,3 @@ html, body {
         transform: rotate(360deg);
     }
 }
-  

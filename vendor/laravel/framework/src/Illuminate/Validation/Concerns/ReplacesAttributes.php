@@ -277,15 +277,9 @@ trait ReplacesAttributes
      */
     protected function replaceRequiredUnless($message, $attribute, $rule, $parameters)
     {
-        $other = $this->getDisplayableAttribute($parameters[0]);
+        $other = $this->getDisplayableAttribute(array_shift($parameters));
 
-        $values = [];
-
-        foreach (array_slice($parameters, 1) as $value) {
-            $values[] = $this->getDisplayableValue($parameters[0], $value);
-        }
-
-        return str_replace([':other', ':values'], [$other, implode(', ', $values)], $message);
+        return str_replace([':other', ':values'], [$other, implode(', ', $parameters)], $message);
     }
 
     /**

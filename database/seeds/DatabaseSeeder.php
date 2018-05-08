@@ -2,15 +2,15 @@
 
 use Illuminate\Database\Seeder;
 
-class DatabaseSeeder extends Seeder
-{
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
-    public function run()
-    {
-        // $this->call(UsersTableSeeder::class);
+class DatabaseSeeder extends Seeder{
+    
+    public function run(){
+        $this->call([
+            TableDifficultylevelSeeder::class, 
+            TableImageSeeder::class, 
+            TableThemeSeeder::class,
+            TableTopicSeeder::class,
+            TableWebpagetextSeeder::class
+        ]);
     }
 }
