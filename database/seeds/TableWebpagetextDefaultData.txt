@@ -192,4 +192,10 @@ Témakör
 Theme
 1057
 Téma
-Topic  
+Topic
+1100
+HIBA
+ERROR
+1101
+Kapcsold be a magyar témákat
+Turn on the hungarian topics  

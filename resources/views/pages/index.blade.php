@@ -6,7 +6,7 @@
             {{RecognitionGame\Models\Webpagetext::find(11)->getAttribute('name_'.session('rg_lang'))}}
         </div>
         <div class="card-body card-body_type1">
-            <index_ang2index><div class="angular_loading"></div></index_ang2index>
+            <index_ang2index proposal_Data="{{$share_proposal_Data}}"><div class="angular_loading"></div></index_ang2index>
         </div>
     </div>
 @endsection

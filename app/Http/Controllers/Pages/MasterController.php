@@ -54,7 +54,8 @@ class MasterController extends Controller {
             [
                 Theme::where('parent',0)->get(['id','name_'.session('rg_lang')])->get(rand(0,$mainthemeCount-1)),    
                 Theme::where('parent','<>',0)->get(['id','name_'.session('rg_lang')])->get(rand(0,$themeCount-1)),
-                Topic::get(['id','name_'.session('rg_lang')])->get(rand(0,$topicCount-1)),
+                Topic::get(['id','name_'.session('rg_lang')])->get(rand(0,$topicCount-1))
+            ],[
                 $lastTopics[0],
                 $lastTopics[1],
                 $lastTopics[2]
@@ -93,6 +94,24 @@ class MasterController extends Controller {
         Image::find($request->all()[0])->increment('answer_good', $request->all()[1] ? 1 : 0);
     }
 
+    public function mainthemeOfThemeTopic(Request $request) {  
+        if ($request->all()[0]==1056)
+            return response([$this->mainthemeOfThemeTopic_GetStatic($request->all()[1])]);
+        else{
+            $theme_ID = Topic::find($request->all()[1])->getAttribute('theme');
+            return response([$this->mainthemeOfThemeTopic_GetStatic($theme_ID)]);
+        }
+    }
+
+    public static function mainthemeOfThemeTopic_GetStatic( int $id ){
+        $parent_ID = 
+            Theme::find($id)->getAttribute('parent');
+        if ($parent_ID == 0)
+            return [$id];
+        $back_Array = array_merge(MasterController::mainthemeOfThemeTopic_GetStatic($parent_ID), [$id]);
+        return $back_Array;
+    }
+
     public function topicsThemesOfTheme(Request $request) {  
         return response([$this->getTopicsThemesOfTheme_Static(1, $request->all()[0], $request->all()[1])]);
     }
@@ -105,9 +124,12 @@ class MasterController extends Controller {
             Theme::where('parent', $parent)->get(['id', 'name_'.session('rg_lang'), 'parent']);
         $subThemesTopics =[];
         foreach ($subThemes as $item){
-            $subThemesTopics = array_merge($subThemesTopics, MasterController::getTopicsThemesOfTheme_Static($type, $item['id'], $enablehungarian) );
-            if ((count($subThemesTopics)>0)&&($type == 1))
-                array_push($back_Array, array( 'id' => '1056;'.$item['id'], 'name' => $item['name_'.session('rg_lang')], 'parent' => $parent));
+            $subThemesTopics_TMP = MasterController::getTopicsThemesOfTheme_Static($type, $item['id'], $enablehungarian) ;
+            if (count($subThemesTopics_TMP)>0){
+                $subThemesTopics = array_merge($subThemesTopics, $subThemesTopics_TMP);
+                if ((count($subThemesTopics)>0)&&($type == 1))
+                    array_push($back_Array, array( 'id' => '1056;'.$item['id'], 'name' => $item['name_'.session('rg_lang')], 'parent' => $parent));
+            }
         }
         if (count($subThemesTopics)>0){
             $back_Array = array_merge($back_Array, $subThemesTopics);

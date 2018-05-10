@@ -21,7 +21,7 @@ Route::get('/master/changelang',[
     'as' => 'changelang'
 ]);
 
-Route::get('/index',[
+Route::get('/index/{proposal_Data?}',[
     'uses' => 'Pages\IndexController@index',
     'as' => 'index'
 ]);
@@ -47,6 +47,7 @@ Route::get('/themestopics', [
 ]);
 
 Route::post('/master/answerLogToDB', 'Pages\MasterController@answerLogToDB');
+Route::post('/master/mainthemeOfThemeTopic', 'Pages\MasterController@mainthemeOfThemeTopic');
 Route::post('/master/topicsThemesOfTheme', 'Pages\MasterController@topicsThemesOfTheme');
 Route::post('/master/mainthemethemetopicFromDB', 'Pages\MasterController@mainthemethemetopicFromDB');
 Route::post('/master/proposalFromDB', 'Pages\MasterController@proposalFromDB');
