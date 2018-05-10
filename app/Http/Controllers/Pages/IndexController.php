@@ -90,9 +90,16 @@ class IndexController extends Controller {
             }
             array_push($images, $image_ID);
             shuffle($images);
+            $bigImages = [];
+            foreach($images as $image){
+                $bigImage = get_headers("http://www.felismerojatek.hu/kepek_big/".$possibleTopic_Array[$topic_Place]['id']."/".($image-$possibleTopic_Array[$topic_Place]['image_from']+1).".png");
+                $bigImage_Exists = stripos($bigImage[0],"200 OK") ? '_big' : '';
+                array_push($bigImages, $bigImage_Exists);
+            }
             $topic_Array = [];
             $topic_Array['image_ID'] = $image_ID;
             $topic_Array['images'] = $images;
+            $topic_Array['bigImages'] = $bigImages;
             $topic_Array['topic_ID'] = $possibleTopic_Array[$topic_Place]['id'];
             $topic_Array['topic_ImageFrom'] = $possibleTopic_Array[$topic_Place]['image_from'];
             $topic_Array['topic_Source'] = $possibleTopic_Array[$topic_Place]['source'];

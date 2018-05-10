@@ -88,12 +88,15 @@ class MasterController extends Controller {
         }
         $correctAnswerID = $possibleAnswerIDArray[rand(0,$possibleAnswersCount-1)];
         $possibleAnswerArray = Image::whereIn('id',$possibleAnswerIDArray)->inRandomOrder()->get();
+        $bigImage = get_headers("http://www.felismerojatek.hu/kepek_big/".$topic['id']."/".($correctAnswerID-$topic['image_from']+1).".png");
+        $bigImage_Exists = stripos($bigImage[0],"200 OK") ? true : false;
         return response([
             $topic,
             $possibleAnswerArray,
             $correctAnswerID,
             session('rg_lang'),
-            $this->question_Compose_Static($topic->id)
+            $this->question_Compose_Static($topic->id),
+            $bigImage_Exists
         ]);
     }
 

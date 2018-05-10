@@ -196,3 +196,6 @@ Theme
 1057
 Téma
 Topic  
+2000
+Magyar témák bekapcsolásra kerültek
+Hungarian topics are turned on  
