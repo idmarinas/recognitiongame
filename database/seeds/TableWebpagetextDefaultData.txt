@@ -106,6 +106,9 @@ NEXT
 36
 VÉGE
 FINISH
+37
+Főtémakör, témakör, téma gyorskereső
+Main theme, theme, topic quick search
 39
 E-mail
 E-mail
@@ -192,10 +195,4 @@ Témakör
 Theme
 1057
 Téma
-Topic
-1100
-HIBA
-ERROR
-1101
-Kapcsold be a magyar témákat
-Turn on the hungarian topics  
+Topic  

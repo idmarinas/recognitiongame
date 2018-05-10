@@ -27,22 +27,30 @@ class MasterController extends Controller {
     }
 
     public function mainthemethemetopicFromDB(Request $request) {
-        $backArray=[];
-        switch ($request->all()[0]){
-            case 1054:
-                array_push($backArray,Theme::orderBy('name_'.session('rg_lang'))->get(['id','name_'.session('rg_lang')]));
-            break;
-            case 1055:
-                array_push($backArray,Theme::where('parent',  0)->orderBy('name_'.session('rg_lang'))->get(['id','name_'.session('rg_lang')]));
-            break;
-            case 1056:
-                array_push($backArray,Theme::where('parent','<>',  0)->orderBy('name_'.session('rg_lang'))->get(['id','name_'.session('rg_lang')]));
-            break;
-            case 1057:
-                array_push($backArray,Topic::orderBy('name_'.session('rg_lang'))->get(['id','name_'.session('rg_lang')]));
-            break;
+        $back_Array=[];
+        if (in_array(1054, $request->all())){
+            $tmp_Array = Theme::orderBy('name_'.session('rg_lang'))->get(['id','name_'.session('rg_lang')]);
+            foreach ($tmp_Array as $item)
+                array_push($back_Array,array('id' => "1054;".$item['id'] , 'text' => $item['name_'.session('rg_lang')] ));
         }
-        return response([$backArray[0],session('rg_lang')]);
+        if (in_array(1055, $request->all())){
+            $tmp_Array =Theme::where('parent',  0)->orderBy('name_'.session('rg_lang'))->get(['id','name_'.session('rg_lang')]);
+            foreach ($tmp_Array as $item)
+                array_push($back_Array,array('id' => "1055;".$item['id'] , 'text' => $item['name_'.session('rg_lang')] ));
+        }
+        if (in_array(1056, $request->all())){
+            $tmp_Array = Theme::where('parent','<>',  0)->orderBy('name_'.session('rg_lang'))->get(['id','name_'.session('rg_lang')]);
+            foreach ($tmp_Array as $item)
+                array_push($back_Array,array('id' => "1056;".$item['id'] , 'text' => $item['name_'.session('rg_lang')] ));
+        }
+        if (in_array(1057, $request->all())){
+            $tmp_Array = Topic::orderBy('name_'.session('rg_lang'))->get(['id','name_'.session('rg_lang')]);
+            foreach ($tmp_Array as $item)
+                array_push($back_Array,array('id' => "1057;".$item['id'] , 'text' => $item['name_'.session('rg_lang')] ));
+        }
+        if (count($request->all())>0)
+            usort($back_Array, function($a,$b) {return strnatcasecmp($a['text'],$b['text']);});
+        return response([$back_Array]);
     }
 
     public function proposalFromDB(Request $request) {
