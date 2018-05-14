@@ -9,9 +9,11 @@
         </div>
     </div>
     <div class="col my-auto">
-        <a href="{{route('changelang',['route'=>url()->current(),'lang'=>session('rg_lang')=='hu'?'en':'hu'])}}">
-            <img class="img_flag float-right img-responsive" src="img/lang/flag_{{session('rg_lang')=='hu'?'en':'hu'}}.png" title="{{RecognitionGame\Models\Webpagetext::where('id',1)->pluck('name_'.(session('rg_lang')=='hu'?'en':'hu'))->first()}}">
-        </a>
+        @if ($share_pageID!=5)
+            <a href="{{route('changelang',['route'=>url()->current(),'lang'=>session('rg_lang')=='hu'?'en':'hu'])}}">
+                <img class="img_flag float-right img-responsive" src="img/lang/flag_{{session('rg_lang')=='hu'?'en':'hu'}}.png" title="{{RecognitionGame\Models\Webpagetext::where('id',1)->pluck('name_'.(session('rg_lang')=='hu'?'en':'hu'))->first()}}">
+            </a>
+        @endif
     </div>
 </div>
 <nav class="navbar navbar-expand-sm">

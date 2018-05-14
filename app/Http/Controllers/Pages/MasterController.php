@@ -179,10 +179,15 @@ public static function mainthemethemetopic_FromDB_Static($input_Array) {
         return $back_value;
     }
 
+/********************************** Log the answers ************************************/
     public function answerLog_ToDB(Request $request) {
-        Image::find($request->all()[0])->increment('answer_total', 1);
-        Image::find($request->all()[0])->increment('answer_good', $request->all()[1] ? 1 : 0);
-        return response([]);
+        return response($this->answerLog_ToDB_Static($request->all()));
+    }
+
+    public static function answerLog_ToDB_Static($input_Array){ 
+        Image::find($input_Array[0])->increment('answer_total', 1);
+        Image::find($input_Array[0])->increment('answer_good', $input_Array[1] ? 1 : 0);
+        return [];
     }
 
 /************************************ Topic path **************************************/
