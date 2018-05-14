@@ -21,7 +21,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent-6">
         <ul class="navbar-nav mr-auto">
         <?php
-            $menutexts = RecognitionGame\Models\Webpagetext::select('id', 'name_'.session('rg_lang'))->whereBetween('id',[1000,1004])->get();
+            $menutexts = RecognitionGame\Models\Webpagetext::select('id', 'name_'.session('rg_lang'))->whereBetween('id',[1000,1003])->get();
             for($i=0;$i<count($menutexts);$i++){              
                 print 
                     '<li class="nav-item">

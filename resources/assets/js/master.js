@@ -2,15 +2,7 @@
 function master_notification_proc(notification_text_string, notification_type_int, header_string) {
     // Toastr notifications counter, more than one from a type at the same time not allowed
     // notification_type: info(0), success(1), warning(2), error(3)
-    // $.ajax({
-    //     type: 'POST',
-    //     url: 'WebService.asmx/Toastr_count',
-    //     contentType: 'application/json; charset=utf-8',
-    //     data: "{'value':'1'}",
-    // });
-    howlong_stay = "5000";
-    if (notification_type_int === 0) delay = Math.floor(Math.random() * 5000) + 5000;
-    if ((notification_type_int === 1) || (notification_type_int === 3)) howlong_stay = "1500";
+    howlong_stay = "3000";
     toastr.options = {
         "closeButton": false,
         "debug": false,
@@ -26,14 +18,6 @@ function master_notification_proc(notification_text_string, notification_type_in
         "showMethod": "fadeIn",
         "hideMethod": "fadeOut"
     }
-    // toastr.options.onHidden = function () {
-    //     $.ajax({
-    //         type: 'POST',
-    //         url: 'WebService.asmx/Toastr_count',
-    //         contentType: 'application/json; charset=utf-8',
-    //         data: "{'value':'-1'}",
-    //     });
-    // };
     if (notification_type_int === 0) toastr["info"](notification_text_string, header_string);
     if (notification_type_int === 1) toastr["success"](notification_text_string, header_string);
     if (notification_type_int === 2) toastr["warning"](notification_text_string, header_string);

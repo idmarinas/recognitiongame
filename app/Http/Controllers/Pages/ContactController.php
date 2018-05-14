@@ -13,6 +13,18 @@ class ContactController extends Controller {
         return view('pages/contact');
     }
 
+    public function init(Request $request) {
+        return response([
+            MasterController::databaseinfo_Init_Static(),
+            MasterController::greeting_Init_Static(),
+            MasterController::proposal_Init_Static(),
+            MasterController::quickgame_Init_Static(),
+            MasterController::webpagetext_FromDB_Static(
+                [ 1001, 39, 55, 56, 57, 43, 44, 60, 1001, 59]
+            )
+        ]);
+    }
+
     public function submitForm(Request $request) {
         $data = $request->all();
         $contact = new Contact();

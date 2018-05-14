@@ -109,6 +109,16 @@ body {
     border: 0.5px solid $color4 !important;
 }
 
+.bordercolor5 {
+    border: 0.5px solid $color5 !important;
+}
+
+.hr_4 {
+    color: $color4 !important;
+    margin: 0 0 5px 0 !important;
+    padding: 0 !important;
+}
+
 .fontsize1 {
     font-size: $fontsize1 !important;
 }
@@ -182,6 +192,23 @@ body {
     cursor: pointer !important;
     text-decoration:none !important;
 }
+.link4 {
+    color: $color4 !important;
+    cursor: pointer !important;
+    text-decoration:none !important;
+}
+
+.link4:hover {
+    color: $color4 !important;
+    cursor: pointer !important;
+    text-decoration:none !important;
+}
+
+.link4:visited {
+    color: $color4 !important;
+    cursor: pointer !important;
+    text-decoration:none !important;
+}
 
 .link5 {
     color: $color5 !important;
@@ -234,7 +261,7 @@ body {
 }
 
 .card-header_type1 {
-    background-color: $color5;
+    background-color: $color4;
     color: $color6;
     font-weight:bold;
     font-size: $fontsize7;
@@ -247,7 +274,7 @@ body {
 
 .card-body_type1 {
     border: 0.5px solid $color5 !important;
-    padding: 5px 5px 15px 5px !important;
+    padding: 5px 5px 10px 5px !important;
     background-color: $color2;
     color: $color4;
     font-size: $fontsize6;
@@ -277,7 +304,7 @@ body {
 
 .card-body_type2 {
     border: 0.5px solid $color4 !important;
-    padding: 3px !important;
+    padding: 5px !important;
     background-color: $color6;
     color: $color4;
     font-size: $fontsize5;
@@ -316,16 +343,11 @@ body {
 .img_answer {
     display: block;
     margin: auto;
-    padding: 5px 0 10px 0 !important;
+    padding: 0 0 5px 0 !important;
     max-width: 80%;
 }
 
 // Divs
-
-.div_source {
-    text-align: right;
-    padding: 5px 0 5px 0 !important;
-}
 
 .div_empty {
     height: 1rem !important;
@@ -354,8 +376,13 @@ body {
     color: $color4;
 }
 
+.div_question, .div_topicpath {
+    margin: 0 0 5px 0 !important;
+}
+
+
 /********************************* Wait for Angular "Loading..." circle **************************/
-.angular_loading {
+.angular_loading1 {
     border: 3px solid $color6;
     border-radius: 50%;
     border-top: 3px solid $color5;
@@ -363,6 +390,7 @@ body {
     height: 20px !important;
     animation: spin 2s linear infinite;
 }
+
 @keyframes spin {
     0% {
         transform: rotate(0deg);
@@ -370,4 +398,13 @@ body {
     100% {
         transform: rotate(360deg);
     }
+}
+
+.angular_loading2 {
+    border: 3px solid $color2;
+    border-radius: 50%;
+    border-top: 3px solid $color4;
+    width: 20px !important;
+    height: 20px !important;
+    animation: spin 2s linear infinite;
 }

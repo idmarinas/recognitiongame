@@ -17,19 +17,46 @@ class IndexController extends Controller {
         return view('pages/index');
     }
 
-    public function imageCountFromDB(Request $request) {  
+    public function init(Request $request) {
+        return response([
+            MasterController::databaseinfo_Init_Static(),
+            MasterController::greeting_Init_Static(),
+            MasterController::proposal_Init_Static(),
+            MasterController::quickgame_Init_Static(),
+            // gametypeRadio_Items (0-4), enablehungarianSlideToggle_Text (5)
+            // imageCount_Text (6-10), webpageText (11-19)            
+            MasterController::webpagetext_FromDB_Static(
+                [   120, 121, 122, 123, 124, 
+                    115, 
+                    18, 22, 19, 20, 21,
+                    11, 23, 1055, 1054, 37, 24, 25, 26, 2000
+                ]),
+            session('rg_lang'),
+            MasterController::mainthemethemetopic_FromDB_Static([1055]),
+            MasterController::mainthemethemetopic_FromDB_Static([1055, 1056, 1057]),
+            IndexController::imageCount_FromDB_Static([
+                session('rg_lang')=='hu',
+                [1054, 0, ""]
+            ])
+        ]);
+    }
+
+    public function imageCount_FromDB(Request $request) {
+        return response($this->imageCount_FromDB_Static($request->all()));
+    }
+
+    public static function imageCount_FromDB_Static($input_Array){ 
         $topicID_Array = [];
-        switch ($request->all()[1][0]){
+        switch ($input_Array[1][0]){
             case 1054: case 1055: case 1056:
-                $topicID_Array = MasterController::getTopicsThemesOfTheme_Static(0, $request->all()[1][1], $request->all()[0]);
-                //$topicID_Array = implode(',',$topicID_Array);
+                $topicID_Array = MasterController::getTopicsThemesOfTheme_Static(0, $input_Array[1][1], $input_Array[0]);
                 break;
             case 1057:
-                array_push($topicID_Array,$request->all()[1][1]);
+                array_push($topicID_Array,$input_Array[1][1]);
                 break;
         }
         $imageCount = DB::table('topic')->select(DB::raw('sum(image_to - image_from + 1) as count'))->whereIn('id', $topicID_Array)->pluck('count')->first();
-        return response([$imageCount]);
+        return $imageCount;
     }
 
     public function startNewGame(Request $request) {

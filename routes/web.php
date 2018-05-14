@@ -46,21 +46,27 @@ Route::get('/themestopics', [
     'as' => 'themestopics'
 ]);
 
-Route::post('/master/answerLogToDB', 'Pages\MasterController@answerLogToDB');
-Route::post('/master/mainthemeOfThemeTopic', 'Pages\MasterController@mainthemeOfThemeTopic');
+Route::post('/master/answerLog_ToDB', 'Pages\MasterController@answerLog_ToDB');
+Route::post('/master/topicPath', 'Pages\MasterController@topicPath');
 Route::post('/master/topicsThemesOfTheme', 'Pages\MasterController@topicsThemesOfTheme');
-Route::post('/master/mainthemethemetopicFromDB', 'Pages\MasterController@mainthemethemetopicFromDB');
-Route::post('/master/proposalFromDB', 'Pages\MasterController@proposalFromDB');
-Route::post('/master/quickgameFromDB', 'Pages\MasterController@quickgameFromDB');
-Route::post('/master/webpagetextFromDB', 'Pages\MasterController@webpagetextFromDB');
+Route::post('/master/mainthemethemetopic_FromDB', 'Pages\MasterController@mainthemethemetopic_FromDB');
+Route::post('/master/proposalRefresh_FromDB', 'Pages\MasterController@proposalRefresh_FromDB');
+Route::post('/master/quickgameRefresh_FromDB', 'Pages\MasterController@quickgameRefresh_FromDB');
+Route::post('/master/webpagetext_FromDB', 'Pages\MasterController@webpagetext_FromDB');
 
+Route::post('/contact/init', 'Pages\ContactController@init');
 Route::post('/contact/submitForm', 'Pages\ContactController@submitForm');
 
+Route::post('/index/init', 'Pages\IndexController@init');
+Route::post('/index/imageCount_FromDB', 'Pages\IndexController@imageCount_FromDB');
 Route::post('/index/startNewGame', 'Pages\IndexController@startNewGame');
-Route::post('/index/imageCountFromDB', 'Pages\IndexController@imageCountFromDB');
 
-Route::post('/newgame/currentGameData', 'Pages\NewGameController@currentGameData');
+Route::post('/newgame/init', 'Pages\NewGameController@init');
+Route::post('/newgame/currentGame_Data', 'Pages\NewGameController@currentGame_Data');
 
+Route::post('/privacypolicy/init', 'Pages\PrivacyPolicyController@init');
+
+Route::post('/themestopics/init', 'Pages\ThemesTopicsController@init');
 
 Route::get('test', function () {
    Event::fire(new RecognitionGame\Events\NewGameLoadingEvent('KEZDŐDIK'));
