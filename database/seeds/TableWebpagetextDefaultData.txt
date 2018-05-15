@@ -71,8 +71,8 @@ Type of the game
 Kérdések száma
 Number of questions
 25
-Mehet
-Start
+MEHET
+START
 26
 Témakör vagy téma
 Theme or topic
@@ -89,8 +89,8 @@ Bad answer
 Kérdéstípus
 Type of the question
 31
-Kérdés
-Question
+kérdés
+question
 32
 Szerzői jog © 2016 Révész Imre
 Copyright © 2016 Imre Revesz
@@ -115,6 +115,12 @@ New question
 39
 E-mail
 E-mail
+40
+Segítség
+Help
+41
+Válaszok számának csökkentése
+Reduce the number of answers
 43
 Email mező kötelező
 Email field required

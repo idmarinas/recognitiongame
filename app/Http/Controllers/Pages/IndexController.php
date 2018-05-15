@@ -60,8 +60,8 @@ class IndexController extends Controller {
     }
 
     public function startNewGame(Request $request) {
-        $gameProperties_Array['gametype'] = $request->all()[0];
         $gameProperties_Array['enablehungarian'] = $request->all()[1];
+        $gameProperties_Array['gametype'] = $request->all()[0];
         $gameProperties_Array['selectedDMTT'] = $request->all()[2];
         $sessionData_Random = rand();
         // Draw only topics

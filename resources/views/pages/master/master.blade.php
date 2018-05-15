@@ -12,6 +12,7 @@
         <script type="text/javascript" src="js/bootstrapmenu.min.js"></script>
         <script type="text/javascript" src="js/toastr.min.js"></script>
         <script type="text/javascript" src="js/master.min.js"></script>
+        @yield('head_script')
         @if ($share_pageID==1000)
             <link rel="stylesheet" href="css/error.css">
         @endif
@@ -54,6 +55,7 @@
                 @if ($share_pageID==5)
                     <div class="col-lg-3">
                         <newgame_statistics></newgame_statistics>
+                        <newgame_help></newgame_help>
                     </div>
                 @else
                     <div class="col-lg-2 d-none d-lg-block">

@@ -6,7 +6,8 @@
 
 /*********************************************** Game *********************************************/
 .game_button,
-.game_button_nohover {
+.game_button_nohover,
+.game_button_disable {
   color: $color7 !important;
   width: 90% !important;
   cursor: pointer !important;
@@ -25,13 +26,16 @@
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
-// .game_button_nohover {
-//   cursor: no-drop !important;
-// }
+
+.game_button_disable {
+  cursor: no-drop !important;
+}
+
 .game_button:hover {
   color: $color4 !important;
   text-decoration: none !important;
 }
+
 .game_button:active {
   color: $color4 !important;
   top: 1px !important;
@@ -64,6 +68,6 @@
 .button_red:hover { background: darken($color18, 5%); }
 .button_red:active { background: darken($color18, 15%); }
 
-.button_gray, .button_gray_nohover { background: $color19; }
-.button_gray:hover { background: darken($color19, 5%); }
-.button_gray:active { background: darken($color19, 15%); }
+.button_gray, .button_gray_nohover { background: $color1; }
+.button_gray:hover { background: darken($color1, 5%); }
+.button_gray:active { background: darken($color1, 15%); }

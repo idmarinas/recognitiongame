@@ -21,15 +21,25 @@ class NewGameController extends Controller {
         return view('pages/newgame');
     }    
 
-
     public function init(Request $request) {
+        $session_Array = session('rg_newgame_'.$request->all()[1]);
         return response(
             [
-                MasterController::webpagetext_FromDB_Static([27, 28, 29, 24, 16, 17]),
-                MasterController::webpagetext_FromDB_Static([31, 63, 64, 35, 6, 7, 36]),
+                MasterController::webpagetext_FromDB_Static([40, 41]),
+                MasterController::webpagetext_FromDB_Static(
+                    [27, 28, 29, 23, 119 + $session_Array[0]['gametype'], $session_Array[0]['selectedDMTT'][0], 1055 ]
+                ),
+                MasterController::webpagetext_FromDB_Static([63, 64, 35, 6, 7, 36, 31]),
                 NewGameController::currentGame_Data_Static($request->all())
             ]
         );
+    }
+
+    public function imagesExploded(Request $request){
+        $session_Array = session('rg_newgame_'.$request->all()[1]);
+        $session_Array[1]['images_Exploded'] = $request->all()[0];
+        session(['rg_newgame_'.$request->all()[1] => $session_Array]);
+        return response([]);
     }
 
     public function currentGame_Data(Request $request) {
@@ -92,6 +102,24 @@ class NewGameController extends Controller {
                 'text' => Image::find($image)->getAttribute('name_'.session('rg_lang'))
             ));
         }
+        $images_Exploded = [];
+        $count_TMP =    ($images_Count>=3)&&($images_Count<=5) 
+                            ? 1 
+                            : (($images_Count>=6)&&($images_Count<=8) 
+                                ? 2 
+                                : ($images_Count>=9 ? 3 : 0));
+        for($i=0;$i<$count_TMP;$i++){
+            do{
+                $exists = false;
+                $image_Place = rand (0, $images_Count-2);
+                foreach($images_Exploded as $item)
+                    if ($item['id'] == $images[$image_Place]['id']) $exists = true;
+            } while($exists);
+            array_push($images_Exploded, array(
+                'id' => $images[$image_Place]['id'], 
+                'exploded' => false
+            ));
+        }
         array_push($images, array(
             'id' => $image_ID, 
             'text' => Image::find($image_ID)->getAttribute('name_'.session('rg_lang'))
@@ -106,6 +134,7 @@ class NewGameController extends Controller {
         $topic_Array = [];
         $topic_Array['image_ID'] = $image_ID;
         $topic_Array['images'] = $images;
+        $topic_Array['images_Exploded'] = $images_Exploded;
         $topic_Array['bigImages'] = $bigImages;
         $topic_Array['topic_ID'] = $topic_ID;
         $topic_Array['topic_ImageFrom'] = $image_from;
