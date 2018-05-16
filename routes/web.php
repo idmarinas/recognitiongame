@@ -63,7 +63,7 @@ Route::post('/index/startNewGame', 'Pages\IndexController@startNewGame');
 
 Route::post('/newgame/init', 'Pages\NewGameController@init');
 Route::post('/newgame/currentGame_Data', 'Pages\NewGameController@currentGame_Data');
-Route::post('/newgame/imagesExploded', 'Pages\NewGameController@imagesExploded');
+Route::post('/newgame/help_Change', 'Pages\NewGameController@help_Change');
 
 Route::post('/privacypolicy/init', 'Pages\PrivacyPolicyController@init');
 

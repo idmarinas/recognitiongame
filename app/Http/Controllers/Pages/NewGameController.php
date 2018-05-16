@@ -25,7 +25,7 @@ class NewGameController extends Controller {
         $session_Array = session('rg_newgame_'.$request->all()[1]);
         return response(
             [
-                MasterController::webpagetext_FromDB_Static([40, 41]),
+                MasterController::webpagetext_FromDB_Static([40, 41, 42]),
                 MasterController::webpagetext_FromDB_Static(
                     [27, 28, 29, 23, 119 + $session_Array[0]['gametype'], $session_Array[0]['selectedDMTT'][0], 1055 ]
                 ),
@@ -35,10 +35,11 @@ class NewGameController extends Controller {
         );
     }
 
-    public function imagesExploded(Request $request){
-        $session_Array = session('rg_newgame_'.$request->all()[1]);
-        $session_Array[1]['images_Exploded'] = $request->all()[0];
-        session(['rg_newgame_'.$request->all()[1] => $session_Array]);
+    public function help_Change(Request $request){
+        $session_Array = session('rg_newgame_'.$request->all()[0]);
+        $session_Array[1]['help_ImagesExploded'] = $request->all()[1];
+        $session_Array[1]['help_ZoomLevel'] = $request->all()[2];
+        session(['rg_newgame_'.$request->all()[0] => $session_Array]);
         return response([]);
     }
 
@@ -66,6 +67,7 @@ class NewGameController extends Controller {
                 }else
                     MasterController::answerLog_ToDB_Static([$topic_Array['image_ID'], false]);
                 $session_Array[2] = [$session_Array[2][0], $input_Array[0], $session_Array[2][2], $session_Array[2][3]];
+                $session_Array[1]['help_ZoomLevel'] = 0;
             break;            
         }
         session(['rg_newgame_'.$input_Array[1] => $session_Array]);
@@ -102,7 +104,7 @@ class NewGameController extends Controller {
                 'text' => Image::find($image)->getAttribute('name_'.session('rg_lang'))
             ));
         }
-        $images_Exploded = [];
+        $help_ImagesExploded = [];
         $count_TMP =    ($images_Count>=3)&&($images_Count<=5) 
                             ? 1 
                             : (($images_Count>=6)&&($images_Count<=8) 
@@ -112,10 +114,10 @@ class NewGameController extends Controller {
             do{
                 $exists = false;
                 $image_Place = rand (0, $images_Count-2);
-                foreach($images_Exploded as $item)
+                foreach($help_ImagesExploded as $item)
                     if ($item['id'] == $images[$image_Place]['id']) $exists = true;
             } while($exists);
-            array_push($images_Exploded, array(
+            array_push($help_ImagesExploded, array(
                 'id' => $images[$image_Place]['id'], 
                 'exploded' => false
             ));
@@ -134,7 +136,8 @@ class NewGameController extends Controller {
         $topic_Array = [];
         $topic_Array['image_ID'] = $image_ID;
         $topic_Array['images'] = $images;
-        $topic_Array['images_Exploded'] = $images_Exploded;
+        $topic_Array['help_ImagesExploded'] = $help_ImagesExploded;
+        $topic_Array['help_ZoomLevel'] = 2;
         $topic_Array['bigImages'] = $bigImages;
         $topic_Array['topic_ID'] = $topic_ID;
         $topic_Array['topic_ImageFrom'] = $image_from;

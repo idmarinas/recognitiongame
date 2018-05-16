@@ -121,6 +121,9 @@ Help
 41
 Válaszok számának csökkentése
 Reduce the number of answers
+42
+Látható képterület növelése
+Increase the visible image area
 43
 Email mező kötelező
 Email field required
@@ -164,11 +167,11 @@ Enable hungarian topics
 Képfelismerő
 Image recognition
 121
-Szövegfelismerő
-Text recognition
-122
 Képrészlet
 Image detail
+122
+Szövegfelismerő
+Text recognition
 123
 Szövegrészlet
 Text detail

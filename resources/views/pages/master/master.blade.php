@@ -12,7 +12,6 @@
         <script type="text/javascript" src="js/bootstrapmenu.min.js"></script>
         <script type="text/javascript" src="js/toastr.min.js"></script>
         <script type="text/javascript" src="js/master.min.js"></script>
-        @yield('head_script')
         @if ($share_pageID==1000)
             <link rel="stylesheet" href="css/error.css">
         @endif
@@ -21,6 +20,7 @@
         <link rel="stylesheet" href="css/answer_button.min.css">
         <link rel="stylesheet" href="css/toastr.min.css">
         <link rel="stylesheet" href="css/master.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <!-- Google Analytics -->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

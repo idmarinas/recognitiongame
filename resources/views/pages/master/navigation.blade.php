@@ -18,7 +18,7 @@
 </div>
 <nav class="navbar navbar-expand-sm">
     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-6" aria-controls="navbarSupportedContent-6" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars color4"></i>
+        <i class="fas fa-bars link4"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent-6">
         <ul class="navbar-nav mr-auto">

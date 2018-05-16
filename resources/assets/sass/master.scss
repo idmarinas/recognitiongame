@@ -325,6 +325,10 @@ body {
     font-size: $fontsize5;
 }
 
+.navbar-toggler {
+    outline: none !important;
+}
+
 // Images
 
 .img_flag {
@@ -333,14 +337,21 @@ body {
 }
 
 .img_logo {
-    height: 5rem;    
+    height: 5rem;   
+    margin: 5px 0 5px 5px; 
 }
 
-.img_answer {
+.img_answer1 {
     display: block;
     margin: auto;
     padding: 0 0 5px 0 !important;
     max-width: 80%;
+}
+
+.img_answer2 {
+    display: block;
+    margin: auto;
+    padding: 0 !important;
 }
 
 // Divs
