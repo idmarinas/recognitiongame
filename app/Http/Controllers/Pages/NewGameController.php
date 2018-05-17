@@ -27,7 +27,7 @@ class NewGameController extends Controller {
             [
                 MasterController::webpagetext_FromDB_Static([40, 41, 42]),
                 MasterController::webpagetext_FromDB_Static(
-                    [27, 28, 29, 23, 119 + $session_Array[0]['gametype'], $session_Array[0]['selectedDMTT'][0], 1055 ]
+                    [27, 28, 29, 23, 30, 120, 121, 122, $session_Array[0]['selectedDMTT'][0], 1055 ]
                 ),
                 MasterController::webpagetext_FromDB_Static([63, 64, 35, 6, 7, 36, 31]),
                 NewGameController::currentGame_Data_Static($request->all())
@@ -54,7 +54,7 @@ class NewGameController extends Controller {
                 $session_Array[2][0]++;
                 $session_Array[2][1] = -1;
                 array_push( $session_Array[3], $session_Array[1]['image_ID']); 
-                $session_Array[1] = NewGameController::drawNextQuestion_Static($session_Array[4][$session_Array[2][0]-1], $session_Array[3] );
+                $session_Array[1] = NewGameController::drawNextQuestion_Static($session_Array[4][$session_Array[2][0]-1], $session_Array[3], $session_Array[0]['gametype'] );
             break;
             case -1:
             
@@ -74,7 +74,7 @@ class NewGameController extends Controller {
         return $session_Array;
     }
 
-    public static function drawNextQuestion_Static($topic_ID, $answeredQuestionID_Array){
+    public static function drawNextQuestion_Static($topic_ID, $answeredQuestionID_Array, $gametype){
         $topics_Array = [];
         $image_from = Topic::find($topic_ID)->getAttribute('image_from');
         $image_to = Topic::find($topic_ID)->getAttribute('image_to');
@@ -137,8 +137,15 @@ class NewGameController extends Controller {
         $topic_Array['image_ID'] = $image_ID;
         $topic_Array['images'] = $images;
         $topic_Array['help_ImagesExploded'] = $help_ImagesExploded;
-        $topic_Array['help_ZoomLevel'] = 2;
         $topic_Array['bigImages'] = $bigImages;
+        if ($gametype==0)
+            $topic_Array['questiontype'] = rand(1,2);
+        else
+            $topic_Array['questiontype'] = $gametype;
+        if ($topic_Array['questiontype']==1)            
+            $topic_Array['help_ZoomLevel'] = 0;
+        else
+            $topic_Array['help_ZoomLevel'] = 2;
         $topic_Array['topic_ID'] = $topic_ID;
         $topic_Array['topic_ImageFrom'] = $image_from;
         $topic_Array['topic_Path'] = MasterController::topicPath_GetStatic( Topic::find($topic_Array['topic_ID'])->getAttribute('theme') );

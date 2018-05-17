@@ -23,10 +23,10 @@ class IndexController extends Controller {
             MasterController::greeting_Init_Static(),
             MasterController::proposal_Init_Static(),
             MasterController::quickgame_Init_Static(),
-            // gametypeRadio_Items (0-4), enablehungarianSlideToggle_Text (5)
-            // imageCount_Text (6-10), webpageText (11-19)            
+            // gametypeRadio_Items (0-2), enablehungarianSlideToggle_Text (3)
+            // imageCount_Text (4-8), webpageText (9-17)            
             MasterController::webpagetext_FromDB_Static(
-                [   120, 121, 122, 123, 124, 
+                [   120, 121, 122, 
                     115, 
                     18, 22, 19, 20, 21,
                     11, 23, 1055, 1054, 37, 24, 25, 26, 2000
@@ -99,7 +99,7 @@ class IndexController extends Controller {
         }
         session(['rg_newgame_'.$sessionData_Random => [
             $gameProperties_Array, 
-            NewGameController::drawNextQuestion_Static($answers_Topic[0], []),            
+            NewGameController::drawNextQuestion_Static($answers_Topic[0], [], $gameProperties_Array['gametype']),            
             [1, -1, 0, $request->all()[3]], // question_NR, answered, goodAnswer_Count, maxQuestion_NR
             [],
             $answers_Topic
