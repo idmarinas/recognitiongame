@@ -224,7 +224,7 @@ public static function mainthemethemetopic_FromDB_Static($input_Array) {
         // 1 - Themes and Topics ID and Name [{id: 1, name: 'Geography'},{id: 2, name: 'Art'}]
         $back_Array = [];
         $subThemes = 
-            Theme::where('parent', $parent)->get(['id', 'name_'.session('rg_lang'), 'parent']);
+            Theme::where('parent', $parent)->orderBy('name_'.session('rg_lang'))->get(['id', 'name_'.session('rg_lang'), 'parent']);
         $subThemesTopics =[];
         foreach ($subThemes as $item){
             $subThemesTopics_TMP = MasterController::getTopicsThemesOfTheme_Static($type, $item['id'], $enablehungarian) ;
@@ -238,7 +238,7 @@ public static function mainthemethemetopic_FromDB_Static($input_Array) {
             $back_Array = array_merge($back_Array, $subThemesTopics);
         }
         $subTopics = 
-            Topic::where('theme', $parent)->whereIn('hungarian', [false, $enablehungarian])->get(['id', 'name_'.session('rg_lang')]);
+            Topic::where('theme', $parent)->orderBy('name_'.session('rg_lang'))->whereIn('hungarian', [false, $enablehungarian])->get(['id', 'name_'.session('rg_lang')]);
         if ($subTopics->count())
             foreach ($subTopics as $item){
                 if ($type==0)
