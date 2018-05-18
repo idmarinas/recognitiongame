@@ -149,7 +149,7 @@ class NewGameController extends Controller {
         $topic_Array['topic_ID'] = $topic_ID;
         $topic_Array['topic_ImageFrom'] = $image_from;
         $topic_Array['topic_Path'] = MasterController::topicPath_GetStatic( Topic::find($topic_Array['topic_ID'])->getAttribute('theme') );
-        $topic_Array['topic_Question'] = MasterController::questionCompose_Static($topic_Array['topic_ID']);
+        $topic_Array['topic_Question'] = MasterController::questionCompose_Static($topic_Array['topic_ID'], $topic_Array['questiontype']);
         $topic_Array['topic_Source'] = $topic_source;
         return $topic_Array;
     }

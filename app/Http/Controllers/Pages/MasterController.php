@@ -161,7 +161,7 @@ public static function mainthemethemetopic_FromDB_Static($input_Array) {
         return [    $topic,
                     $answer_Array,
                     $correctAnswer_ID,
-                    MasterController::questionCompose_Static($topic->id),
+                    MasterController::questionCompose_Static($topic->id, 1),
                     $bigImage_Exists    ];
     }
 
@@ -251,13 +251,20 @@ public static function mainthemethemetopic_FromDB_Static($input_Array) {
 
 /******************************** Compose the question text ****************************/
 
-    public static function questionCompose_Static($topic_ID){
+    public static function questionCompose_Static($topic_ID, $questiontype){
         $back_String = '';
         $topic_String = Topic::find($topic_ID)->getAttribute('name_'.session('rg_lang'));
-        if (session('rg_lang')=='hu')
-            $back_String = "Melyik <i>".$topic_String."</i> látható a képen?";
-        else
-            $back_String = "Which <i>".$topic_String."</i> is this image?";
+        if (session('rg_lang')=='hu'){
+            if ($questiontype==1)
+                $back_String = "Melyik <i>".$topic_String."</i> látható a képen?";
+            else
+                $back_String = "Melyik <i>".$topic_String."</i> látható a képrészleten?";
+        }else{
+            if ($questiontype==1)
+                $back_String = "Which <i>".$topic_String."</i> is this image?";
+            else
+                $back_String = "Which <i>".$topic_String."</i> is this image detail?";
+        }
         return $back_String;
     }
 }
