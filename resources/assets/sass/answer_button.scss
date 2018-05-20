@@ -47,7 +47,8 @@
 .button_green, .button_green_nohover,
 .button_orange, .button_orange_nohover,
 .button_red, .button_red_nohover,
-.button_gray, .button_gray_nohover {
+.button_gray, .button_gray_nohover,
+.button_blue, .button_blue_nohover {
     border: solid 1px $color1;
 }
 
@@ -70,3 +71,7 @@
 .button_gray, .button_gray_nohover { background: $color1; }
 .button_gray:hover { background: darken($color1, 5%); }
 .button_gray:active { background: darken($color1, 15%); }
+
+.button_blue, .button_blue_nohover { background: $color6; }
+.button_blue:hover { background: darken($color6, 5%); }
+.button_blue:active { background: darken($color6, 15%); }

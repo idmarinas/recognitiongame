@@ -122,8 +122,8 @@ Help
 Válaszok számának csökkentése
 Reduce the number of answers
 42
-Látható képterület növelése
-Increase the visible image area
+Látható képrészlet növelése
+Increase the visible image detail
 43
 Email mező kötelező
 Email field required
