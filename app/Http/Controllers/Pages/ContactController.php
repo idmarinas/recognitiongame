@@ -20,7 +20,7 @@ class ContactController extends Controller {
             MasterController::proposal_Init_Static(),
             MasterController::quickgame_Init_Static(),
             MasterController::webpagetext_FromDB_Static(
-                [ 1001, 39, 55, 56, 57, 43, 44, 60, 1001, 59]
+                [ 1001, 39, 55, 56, 57, 43, 44, 60, 59]
             )
         ]);
     }

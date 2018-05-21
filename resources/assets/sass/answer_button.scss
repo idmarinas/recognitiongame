@@ -6,7 +6,6 @@
 
 /*********************************************** Game *********************************************/
 .game_button,
-.game_button_nohover,
 .game_button_disable {
   color: $color7 !important;
   width: 90% !important;
@@ -43,35 +42,32 @@
 }
 
 /************************************** Colored answer buttons ***********************************/
-.button_white, .button_white_nohover, 
-.button_green, .button_green_nohover,
-.button_orange, .button_orange_nohover,
-.button_red, .button_red_nohover,
-.button_gray, .button_gray_nohover,
-.button_blue, .button_blue_nohover {
+.button_white, 
+.button_green,
+.button_orange
+.button_red,
+.button_gray {
     border: solid 1px $color1;
 }
 
-.button_white, .button_white_nohover { background: $color15; }
+.button_white, { background: $color15; }
 .button_white:hover { background: darken($color15, 5%); }
 .button_white:active { background: darken($color15, 15%); }
 
-.button_green, .button_green_nohover { background: $color16; }
+.button_green, { background: $color16; }
 .button_green:hover { background: darken($color16, 5%); }
 .button_green:active { background: darken($color16, 15%); }
 
-.button_orange, .button_orange_nohover { background: $color17; }
+.button_orange, { background: $color17; }
 .button_orange:hover { background: darken($color17, 5%); }
 .button_orange:active { background: darken($color17, 15%); }
 
-.button_red, .button_red_nohover { background: $color18; }
+.button_red, { background: $color18; }
 .button_red:hover { background: darken($color18, 5%); }
 .button_red:active { background: darken($color18, 15%); }
 
-.button_gray, .button_gray_nohover { background: $color1; }
+.button_gray, { background: $color1; }
 .button_gray:hover { background: darken($color1, 5%); }
 .button_gray:active { background: darken($color1, 15%); }
 
-.button_blue, .button_blue_nohover { background: $color6; }
-.button_blue:hover { background: darken($color6, 5%); }
-.button_blue:active { background: darken($color6, 15%); }
+.button_blueborder { border: 3px solid $color5; }

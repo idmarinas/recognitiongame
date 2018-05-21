@@ -56,6 +56,7 @@
                     <div class="col-lg-3">
                         <newgame_statistics></newgame_statistics>
                         <newgame_help></newgame_help>
+                        <newgame_mistakequestion></newgame_mistakequestion>
                     </div>
                 @else
                     <div class="col-lg-2 d-none d-lg-block">

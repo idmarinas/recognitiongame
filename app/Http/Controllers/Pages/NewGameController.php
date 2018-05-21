@@ -29,8 +29,9 @@ class NewGameController extends Controller {
                 MasterController::webpagetext_FromDB_Static(
                     [27, 28, 29, 23, 30, 120, 121, 122, $session_Array[0]['selectedDMTT'][0], 1055 ]
                 ),
-                MasterController::webpagetext_FromDB_Static([63, 64, 35, 6, 7, 36, 31]),
-                NewGameController::currentGame_Data_Static($request->all())
+                MasterController::webpagetext_FromDB_Static([63, 64, 35, 6, 7, 36, 31, 68]),
+                NewGameController::currentGame_Data_Static($request->all()),
+                MasterController::webpagetext_FromDB_Static([68, 39, 69, 59, 43, 44, 57, 60])
             ]
         );
     }

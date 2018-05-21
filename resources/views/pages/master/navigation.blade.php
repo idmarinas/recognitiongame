@@ -1,9 +1,9 @@
 <div class="row bgcolor6 justify-content-between no-gutters">
     <div class="row no-gutters">
-        <div class="d-none d-md-flex">
+        <div class="d-none d-md-flex py-1 pl-1">
             <img src="img/logo/sitelogo.png" class="img_logo">
         </div>
-        <div class="col my-auto">
+        <div class="col my-auto pl-1">
             <div class="div_maintitle"> {{RecognitionGame\Models\Webpagetext::where('id',2)->pluck('name_'.session('rg_lang'))->first()}}</div>
             <div class="div_submaintitle"> {{RecognitionGame\Models\Webpagetext::where('id',3)->pluck('name_'.session('rg_lang'))->first()}} &bull; {{RecognitionGame\Models\Webpagetext::where('id',4)->pluck('name_'.session('rg_lang'))->first()}} &bull; {{RecognitionGame\Models\Webpagetext::where('id',5)->pluck('name_'.session('rg_lang'))->first()}}</div>
         </div>
