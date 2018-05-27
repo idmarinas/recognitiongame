@@ -8,8 +8,9 @@ use Illuminate\Http\Request;
 use RecognitionGame\Http\Requests;
 use RecognitionGame\Http\Controllers\Pages\MasterController;
 
-use RecognitionGame\Models\Topic;
 use RecognitionGame\Models\Image;
+use RecognitionGame\Models\Topic;
+use RecognitionGame\Models\Webpagetext;
 
 class NewGameController extends Controller {
  
@@ -27,7 +28,7 @@ class NewGameController extends Controller {
             [
                 MasterController::webpagetext_FromDB_Static([40, 41, 42]),
                 MasterController::webpagetext_FromDB_Static(
-                    [27, 28, 29, 23, 30, 120, 121, 122, $session_Array[0]['selectedDMTT'][0], 1055 ]
+                    [27, 28, 29, 23, 30, 120, 121, 122, 123, $session_Array[0]['selectedDMTT'][0], 1055 ]
                 ),
                 MasterController::webpagetext_FromDB_Static([63, 64, 35, 6, 7, 36, 31, 68]),
                 NewGameController::currentGame_Data_Static($request->all()),
@@ -76,7 +77,6 @@ class NewGameController extends Controller {
     }
 
     public static function drawNextQuestion_Static($topic_ID, $answeredQuestionID_Array, $gametype){
-        $topics_Array = [];
         $image_from = Topic::find($topic_ID)->getAttribute('image_from');
         $image_to = Topic::find($topic_ID)->getAttribute('image_to');
         $topic_source = Topic::find($topic_ID)->getAttribute('source');
@@ -89,68 +89,92 @@ class NewGameController extends Controller {
         } while ($image_Exists);
         // Draw other images
         $images = [];
-        $images_Count = rand (2, $image_to - $image_from + 1 < 10 ? $image_to - $image_from + 1 : 10);
-        for($j=0;$j<$images_Count-1;$j++){
-            $image=-1;
-            do{
-                $exists = false;
-                $image = rand ($image_from,$image_to);
-                $drawed = false;
-                foreach($images as $item)
-                    if ($item['id']==$image) $drawed = true;
-                if ($drawed||($image == $image_ID)) $exists=true;
-            } while($exists);
-            array_push($images, array(
-                'id' => $image, 
-                'text' => Image::find($image)->getAttribute('name_'.session('rg_lang'))
-            ));
-        }
         $help_ImagesExploded = [];
-        $count_TMP =    ($images_Count>=3)&&($images_Count<=5) 
-                            ? 1 
-                            : (($images_Count>=6)&&($images_Count<=8) 
-                                ? 2 
-                                : ($images_Count>=9 ? 3 : 0));
-        for($i=0;$i<$count_TMP;$i++){
-            do{
-                $exists = false;
-                $image_Place = rand (0, $images_Count-2);
-                foreach($help_ImagesExploded as $item)
-                    if ($item['id'] == $images[$image_Place]['id']) $exists = true;
-            } while($exists);
-            array_push($help_ImagesExploded, array(
-                'id' => $images[$image_Place]['id'], 
-                'exploded' => false
+        $topic_Array = [];
+        if ($gametype==0)
+            $topic_Array['questiontype'] = rand(1,3);
+        else
+            $topic_Array['questiontype'] = $gametype;
+        if (($topic_Array['questiontype']==1)||($topic_Array['questiontype']==3))            
+            $topic_Array['help_ZoomLevel'] = 0;
+        else
+            $topic_Array['help_ZoomLevel'] = 2;
+        $anotherImage_ID=-1;
+        if ($topic_Array['questiontype']!= 3){
+            $images_Count = rand (2, $image_to - $image_from + 1 < 10 ? $image_to - $image_from + 1 : 10);
+            for($j=0;$j<$images_Count-1;$j++){
+                $image=-1;
+                do{
+                    $exists = false;
+                    $image = rand ($image_from,$image_to);
+                    $drawed = false;
+                    foreach($images as $item)
+                        if ($item['id']==$image) $drawed = true;
+                    if ($drawed||($image == $image_ID)) $exists=true;
+                } while($exists);
+                array_push($images, array(
+                    'id' => $image, 
+                    'text' => Image::find($image)->getAttribute('name_'.session('rg_lang'))
+                ));
+            }
+            $count_TMP =    ($images_Count>=3)&&($images_Count<=5) 
+                                ? 1 
+                                : (($images_Count>=6)&&($images_Count<=8) 
+                                    ? 2 
+                                    : ($images_Count>=9 ? 3 : 0));
+            for($i=0;$i<$count_TMP;$i++){
+                do{
+                    $exists = false;
+                    $image_Place = rand (0, $images_Count-2);
+                    foreach($help_ImagesExploded as $item)
+                        if ($item['id'] == $images[$image_Place]['id']) $exists = true;
+                } while($exists);
+                array_push($help_ImagesExploded, array(
+                    'id' => $images[$image_Place]['id'], 
+                    'exploded' => false
+                ));
+            }
+            array_push($images, array(
+                'id' => $image_ID, 
+                'text' => Image::find($image_ID)->getAttribute('name_'.session('rg_lang'))
             ));
+            shuffle($images);
+        }else {
+            do{
+                $anotherImage_Exists = false;
+                $anotherImage_ID = rand( $image_from , $image_to);
+                if ($anotherImage_ID == $image_ID) $anotherImage_Exists=true;
+            } while ($anotherImage_Exists);
+            array_push($images, array(
+                'id' => $image_ID, 
+                'text' => '',
+                'textAfterAnswered' => MasterController::answerFalseCompose_Static(Image::find($image_ID)->getAttribute('name_'.session('rg_lang')))
+            ));
+            array_push($images, array(
+                'id' => $anotherImage_ID, 
+                'text' => '',
+                'textAfterAnswered' => MasterController::answerFalseCompose_Static(Image::find($anotherImage_ID)->getAttribute('name_'.session('rg_lang')))
+            ));
+            if ( rand(0, 1) == 1 )
+                $images = array_replace($images,[$images[1], $images[0]]);    
+            $images[0]['textAfterAnswered'] = '';
+            $images[0]['text'] = Webpagetext::find(150)->getAttribute('name_'.session('rg_lang'));
+            $images[1]['text'] = Webpagetext::find(151)->getAttribute('name_'.session('rg_lang'));
         }
-        array_push($images, array(
-            'id' => $image_ID, 
-            'text' => Image::find($image_ID)->getAttribute('name_'.session('rg_lang'))
-        ));
-        shuffle($images);
         $bigImages = [];
         foreach($images as $image){
             $bigImage = get_headers("http://www.felismerojatek.hu/kepek_big/".$topic_ID."/".($image['id'] - $image_from + 1).".png");
             $bigImage_Exists = stripos($bigImage[0],"200 OK") ? '_big' : '';
             array_push($bigImages, $bigImage_Exists);
         }
-        $topic_Array = [];
         $topic_Array['image_ID'] = $image_ID;
         $topic_Array['images'] = $images;
         $topic_Array['help_ImagesExploded'] = $help_ImagesExploded;
         $topic_Array['bigImages'] = $bigImages;
-        if ($gametype==0)
-            $topic_Array['questiontype'] = rand(1,2);
-        else
-            $topic_Array['questiontype'] = $gametype;
-        if ($topic_Array['questiontype']==1)            
-            $topic_Array['help_ZoomLevel'] = 0;
-        else
-            $topic_Array['help_ZoomLevel'] = 2;
         $topic_Array['topic_ID'] = $topic_ID;
         $topic_Array['topic_ImageFrom'] = $image_from;
         $topic_Array['topic_Path'] = MasterController::topicPath_GetStatic( Topic::find($topic_Array['topic_ID'])->getAttribute('theme') );
-        $topic_Array['topic_Question'] = MasterController::questionCompose_Static($topic_Array['topic_ID'], $topic_Array['questiontype']);
+        $topic_Array['topic_Question'] = MasterController::questionCompose_Static($topic_Array['topic_ID'], $topic_Array['questiontype'], $images[0]['id'] == $anotherImage_ID ? $anotherImage_ID : $image_ID);
         $topic_Array['topic_Source'] = $topic_source;
         return $topic_Array;
     }

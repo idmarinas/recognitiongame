@@ -351,9 +351,12 @@ body {
     display: block;
     margin: auto;
     padding: 0 !important;
-    max-width: 100%;
+    width: 100%;
 }
 
+.div_imagedetail {
+    width:50%;
+}
 // Divs
 
 .div_empty {

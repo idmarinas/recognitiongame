@@ -23,10 +23,10 @@ class IndexController extends Controller {
             MasterController::greeting_Init_Static(),
             MasterController::proposal_Init_Static(),
             MasterController::quickgame_Init_Static(),
-            // gametypeRadio_Items (0-2), enablehungarianSlideToggle_Text (3)
-            // imageCount_Text (4-8), webpageText (9-17)            
+            // gametypeRadio_Items (0-3), enablehungarianSlideToggle_Text (4)
+            // imageCount_Text (5-9), webpageText (10-18)            
             MasterController::webpagetext_FromDB_Static(
-                [   120, 121, 122, 
+                [   120, 121, 122, 123,
                     115, 
                     18, 22, 19, 20, 21,
                     11, 23, 1055, 1054, 37, 24, 25, 26, 2000

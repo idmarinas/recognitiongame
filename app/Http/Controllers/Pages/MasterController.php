@@ -161,7 +161,7 @@ public static function mainthemethemetopic_FromDB_Static($input_Array) {
         return [    $topic,
                     $answer_Array,
                     $correctAnswer_ID,
-                    MasterController::questionCompose_Static($topic->id, 1),
+                    MasterController::questionCompose_Static($topic->id, 1, null),
                     $bigImage_Exists    ];
     }
 
@@ -251,20 +251,47 @@ public static function mainthemethemetopic_FromDB_Static($input_Array) {
 
 /******************************** Compose the question text ****************************/
 
-    public static function questionCompose_Static($topic_ID, $questiontype){
+    public static function questionCompose_Static($topic_ID, $questiontype, $image_ID){
         $back_String = '';
         $topic_String = Topic::find($topic_ID)->getAttribute('name_'.session('rg_lang'));
         if (session('rg_lang')=='hu'){
-            if ($questiontype==1)
-                $back_String = "Melyik <i>".$topic_String."</i> látható a képen?";
-            else
-                $back_String = "Melyik <i>".$topic_String."</i> látható a képrészleten?";
+            switch ($questiontype){
+                case 1:
+                    $back_String = "Melyik <i>".$topic_String."</i> látható a képen?";
+                    break;
+                case 2:
+                    $back_String = "Melyik <i>".$topic_String."</i> látható a képrészleten?";
+                    break;
+                case 3:
+                    $image_String = Image::find($image_ID)->getAttribute('name_'.session('rg_lang'));
+                    $back_String = "A képen látható ".$topic_String.":<br /><i>".$image_String."</i>";
+                    break;
+            }
         }else{
-            if ($questiontype==1)
+            switch ($questiontype){
+            case 1:
                 $back_String = "Which <i>".$topic_String."</i> is this image?";
-            else
+                break;
+            case 2:
                 $back_String = "Which <i>".$topic_String."</i> is this image detail?";
+                break;
+            case 3:
+                $image_String = Image::find($image_ID)->getAttribute('name_'.session('rg_lang'));
+                $back_String = "The ".$topic_String." on the image:<br /><i>".$image_String."</i>";
+                break;
+            }
         }
+        return $back_String;
+    }
+
+/******************************** Compose the True-False answer text ****************************/
+
+    public static function answerFalseCompose_Static($text){
+        $back_String ="";
+        if (session('rg_lang')=='hu')
+            $back_String="Hamis, mert ".$text;
+        else
+            $back_String="False, because ".$text;
         return $back_String;
     }
 }

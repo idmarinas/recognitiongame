@@ -31,12 +31,12 @@
 }
 
 .game_button:hover {
-  color: $color4 !important;
+  color: $color7 !important;
   text-decoration: none !important;
 }
 
 .game_button:active {
-  color: $color4 !important;
+  color: $color7 !important;
   top: 1px !important;
   position: relative !important;
 }
@@ -50,23 +50,28 @@
     border: solid 1px $color1;
 }
 
-.button_white, { background: $color15; }
+.button_white_disable { background: $color15; }
+.button_white { background: $color15; }
 .button_white:hover { background: darken($color15, 5%); }
 .button_white:active { background: darken($color15, 15%); }
 
-.button_green, { background: $color16; }
+.button_green_disable { background: $color16; }
+.button_green { background: $color16; }
 .button_green:hover { background: darken($color16, 5%); }
 .button_green:active { background: darken($color16, 15%); }
 
-.button_orange, { background: $color17; }
+.button_orange_disable { background: $color17; }
+.button_orange { background: $color17; }
 .button_orange:hover { background: darken($color17, 5%); }
 .button_orange:active { background: darken($color17, 15%); }
 
-.button_red, { background: $color18; }
+.button_red_disable { background: $color18; }
+.button_red { background: $color18; }
 .button_red:hover { background: darken($color18, 5%); }
 .button_red:active { background: darken($color18, 15%); }
 
-.button_gray, { background: $color1; }
+.button_gray_disable { background: $color1; }
+.button_gray { background: $color1; }
 .button_gray:hover { background: darken($color1, 5%); }
 .button_gray:active { background: darken($color1, 15%); }
 
