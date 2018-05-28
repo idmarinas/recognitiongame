@@ -2760,7 +2760,7 @@ http://www.velvet.hu/
 0
 346
 Látnivaló Washington DC-ben
-Monument in Washington DC
+Attraction in Washington DC
 48
 http://kulturpara.blog.hu/
 13466
@@ -3549,4 +3549,28 @@ Movie actor (5)
 http://port.hu/
 16370
 16375
+0
+445
+Népszerű látnivaló a világon
+Popular attraction in the world
+48
+http://origo.hu/
+16376
+16400
+0
+446
+Magyar szecessziós épület
+Hungarian Art Nouveau building
+33
+http://multidezoepiteszet.blog.hu/
+16401
+16405
+1
+447
+Egészséges gyomnövény
+Healthy weed
+10
+https://www.femina.hu/
+16406
+16415
 0  

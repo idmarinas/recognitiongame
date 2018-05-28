@@ -49122,4 +49122,124 @@ Halle Berry
 Halle Berry
 16375
 Denise Richards
-Denise Richards  
+Denise Richards
+16376
+Angkor Vat, Kambodzsa
+Angkor Vat, Cambodia
+16377
+Plaza de Espana, Sevilla, Spanyolország
+Plaza de Espana, Sevilla, Spain
+16378
+Zájed sejk-nagymecset, Abu-Dhabi
+Zayd Sejk Great Mosque, Abu Dhabi
+16379
+Szent Péter-bazilika, Vatikán
+St. Peter's Basilica, Vatican City
+16380
+Córdobai nagymecset (Mezquita), Spanyolország
+Córdoba Great Mosque (Mezquita), Spain
+16381
+Tádzs Mahal, Agra, India
+Taj Mahal, Agra, India
+16382
+Milánói dóm, Olaszország
+Milan Cathedral, Italy
+16383
+Alcatraz-sziget, San Francisco, USA
+Alcatraz Island, San Francisco, USA
+16384
+Golden Gate híd, San Francisco, USA
+Golden Gate Bridge, San Francisco, USA
+16385
+Országház, Budapest, Magyarország
+House of Parliament, Budapest, Hungary
+16386
+Óváros tér, Prága, Csehország
+Old Town Square, Prague, Czech Republic
+16387
+Notre-Dame-székesegyház, Párizs, Franciaország
+Notre-Dame Cathedral, Paris, France
+16388
+A Megváltó Krisztus szobra, Rio de Janeiro, Brazília
+The Statue of Savior Christ, Rio de Janeiro, Brazil
+16389
+Eiffel-torony, Párizs, Franciaország
+Eiffel Tower, Paris, France
+16390
+Tower of London, Egyesült Királyság
+Tower of London, United Kingdom
+16391
+Akropoliusz, Athén, Görögország
+Acropolis, Athens, Greece
+16392
+A Fekvő Buddha temploma, Bangkok, Thaiföld
+The Phoenician Buddha Temple, Bangkok, Thailand
+16393
+Kínai nagy fal, Peking, Kína
+Chinese Great Wall, Beijing, China
+16394
+Burdzs Kalifa, Dubaj
+Burj Khalifa, Dubai
+16395
+Sydney Operaház, Ausztrália
+Sydney Opera House, Australia
+16396
+Machu Picchu, Peru
+Machu Picchu, Peru
+16397
+El Ateneo Grand Splendid könyvesbolt, Buenos Aires, Argentína
+El Ateneo Grand Splendid Bookstore, Buenos Aires, Argentina
+16398
+Notre-Dame-bazilika, Montreal, Kanada
+Notre-Dame Basilica, Montreal, Canada
+16399
+Fusimi Inari-nagyszentély, Kiotó, Japán
+Fusimi Inari Grand Shrine, Kyoto, Japan
+16400
+Svedagon pagoda, Rangun, Mianmar
+Svedagon pagoda, Rangun, Mianmar
+16401
+Állami Tanítóképző Intézet, Sárospatak
+State Teacher Training Institute, Sárospatak
+16402
+Városháza, Kecskemét
+City Hall, Kecskemét
+16403
+Reök-palota, Szeged
+Reök Palace, Szeged
+16404
+Hotel Palatinus, Pécs
+Hotel Palatinus, Pécs
+16405
+Első Takarékpénztár, Debrecen
+First Savings Bank, Debrecen
+16406
+Fehér libatop
+Chenopodium album
+16407
+Fehér here
+White clover
+16408
+Madársóska
+Oxalis
+16409
+Széleslevelű útifű
+Plantago major
+16410
+Pitypang
+Dandelion
+16411
+Bojtorján
+Greater burdock
+16412
+Közönséges galaj
+Galium mollugo
+16413
+Parlagi ligetszépe
+Evening-primrose
+16414
+Kányazsombor
+Alliaria petiolata
+16415
+Közönséges cickafark
+Common yarrow  
