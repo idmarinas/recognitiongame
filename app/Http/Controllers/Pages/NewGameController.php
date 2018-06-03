@@ -158,6 +158,7 @@ class NewGameController extends Controller {
             if ( rand(0, 1) == 1 )
                 $images = array_replace($images,[$images[1], $images[0]]);    
             $images[0]['textAfterAnswered'] = '';
+            if ($image_ID == $images[0]['id']) $images[1]['textAfterAnswered'] = '';
             $images[0]['text'] = Webpagetext::find(150)->getAttribute('name_'.session('rg_lang'));
             $images[1]['text'] = Webpagetext::find(151)->getAttribute('name_'.session('rg_lang'));
         }

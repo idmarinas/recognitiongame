@@ -159,8 +159,8 @@ http://www.carlogos.org/
 1314
 0
 21
-Gyümölcs
-Fruit
+Gyümölcs (1)
+Fruit (1)
 10
 https://www.wikipedia.org/
 1315
@@ -3573,4 +3573,27 @@ Healthy weed
 https://www.femina.hu/
 16406
 16415
+0
+448
+Ősi város
+Ancient city
+25
+http://kivultagasabb.blog.hu/
+16416
+16421
+0
+449
+Gyümölcs (2)
+Fruit (2)
+10
+https://femina.hu/
+16422
+16431
+0
+450
+Egykor híres sztár
+Once famous star
+http://www.life.hu/
+16432
+16435
 0  
