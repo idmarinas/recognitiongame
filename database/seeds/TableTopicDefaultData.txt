@@ -3231,16 +3231,16 @@ http://www.origo.hu/
 15798
 0
 405
-Magyar sztár
-Hungarian star
+Magyar sztár (1)
+Hungarian star (1)
 70
 https://velvet.hu/
 15799
 15808
 1
 406
-Magyar sztár (smink nélkül)
-Hungarian star (without makeup)
+Magyar sztár (smink nélkül) (1)
+Hungarian star (without makeup) (1)
 69
 https://velvet.hu/
 15809
@@ -3597,4 +3597,60 @@ Once famous star
 http://www.life.hu/
 16432
 16435
-0  
+0
+451
+Magyar sztár (smink nélkül) (2)
+Hungarian star (without makeup) (2)
+69
+https://www.origo.hu/
+16436
+16445
+1
+452
+Magyar sztár (2)
+Hungarian star (2)
+70
+https://www.origo.hu/
+16446
+16455
+1
+453
+Kifulladt filmsorozat
+Wasted movie series
+67
+https://www.origo.hu/
+16456
+16459
+0
+454
+Templom
+Temple
+33
+https://sokszinuvidek.24.hu/
+16460
+16465
+0
+455
+Templom belülről
+Temple inside
+33
+https://sokszinuvidek.24.hu/
+16466
+16468
+0
+456
+Francia kisváros
+French small town
+48
+https://divany.hu/
+16469
+16477
+0
+457
+Európai álomsziget
+French small town
+48
+https://www.origo.hu/
+16478
+16491
+0
