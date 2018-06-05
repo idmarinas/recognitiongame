@@ -133,8 +133,7 @@ public static function mainthemethemetopic_FromDB_Static($input_Array) {
     }
 
     public static function quickgame_FromDB_Static(){  
-        $topic_Count = Topic::count();
-        $topic = Topic::all()->get(rand(0,$topic_Count-1));
+        $topic = Topic::whereIn('hungarian',[0, session('rg_lang')=='hu' ? 1 : 0])->inRandomOrder()->first();
         $image_Count = rand(2,$topic['image_to']-$topic['image_from'] + 1 > 10? 10 : $topic['image_to']-$topic['image_from'] + 1);
         $possibleAnswerID_Array = [];
         for($i=0;$i<$image_Count;$i++){

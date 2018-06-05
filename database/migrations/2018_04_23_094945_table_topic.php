@@ -17,6 +17,7 @@ class TableTopic extends Migration{
                 $table->integer('image_from');
                 $table->integer('image_to');
                 $table->boolean('hungarian');
+                $table->integer('oddoneout');
             });
         }
     }
