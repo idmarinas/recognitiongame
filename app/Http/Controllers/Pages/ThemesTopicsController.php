@@ -20,10 +20,10 @@ class ThemesTopicsController extends Controller {
             MasterController::proposal_Init_Static(),
             MasterController::quickgame_Init_Static(),
             [
-                MasterController::webpagetext_FromDB_Static([1055, 1056, 1057]),
-                MasterController::mainthemethemetopic_FromDB_Static($request->all())
+                MasterController::webpagetext_FromDB_Static([1051, 1052]),
+                MasterController::themesTopics_FromDB_Static($request->all())
             ],
-            MasterController::webpagetext_FromDB_Static([ 1003 ])
+            MasterController::webpagetext_FromDB_Static([ 1002 ])
         ]);
     }
 }

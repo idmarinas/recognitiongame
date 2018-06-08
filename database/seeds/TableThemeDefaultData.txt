@@ -5,7 +5,7 @@ Geography
 2
 Informatika
 Information Technology
-0
+49
 3
 Internet
 Internet
@@ -73,11 +73,11 @@ Mathematics
 19
 Közlekedés
 Transport
-0
+43
 20
 Művészet
 Art
-0
+49
 21
 Irodalom
 Literature
@@ -89,7 +89,7 @@ Painting
 23
 Gasztronómia
 Gastronomy
-0
+49
 24
 Édesség
 Sweetness
@@ -97,7 +97,7 @@ Sweetness
 25
 Történelem
 History
-0
+49
 26
 Film
 Movie
@@ -133,7 +133,7 @@ Architecture
 34
 Zene
 Music
-0
+20
 35
 Asztrológia
 Astrology

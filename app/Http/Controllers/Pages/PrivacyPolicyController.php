@@ -21,7 +21,7 @@ class PrivacyPolicyController extends Controller {
             MasterController::greeting_Init_Static(),
             MasterController::proposal_Init_Static(),
             MasterController::quickgame_Init_Static(),
-            MasterController::webpagetext_FromDB_Static([ 1004, 130 ])
+            MasterController::webpagetext_FromDB_Static([ 1003, 130 ])
         ]);
     }
 }

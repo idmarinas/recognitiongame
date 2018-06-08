@@ -21,11 +21,10 @@ class MasterController extends Controller {
 
     public static function databaseinfo_Init_Static() {
         return  [                    
-                    [   Theme::where('parent',0)->count(),
-                        Theme::where('parent', '<>', 0)->count(),
+                    [   Theme::count(),
                         Topic::count(),
                         Image::count()   ],
-                    MasterController::webpagetext_FromDB_Static([ 8, 1055, 1056, 1057, 9, 17, 16 ]),
+                    MasterController::webpagetext_FromDB_Static([ 8, 1051, 1052, 9, 17, 16 ]),
                 ];
     }
 
@@ -35,83 +34,66 @@ class MasterController extends Controller {
         return  MasterController::webpagetext_FromDB_Static([ 12, 13, 14, 15 ]);
     }
 
-/********************************** Mainthemethemetopic *******************************/
+/********************************** Themetopic *******************************/
 
-public function mainthemethemetopic_FromDB(Request $request) {
-    return response($this->mainthemethemetopic_FromDB_Static($request->all()));
+public function themesTopics_FromDB(Request $request) {
+    return response($this->themesTopics_FromDB_Static($request->all()));
 }
 
-public static function mainthemethemetopic_FromDB_Static($input_Array) {
+public static function themesTopics_FromDB_Static($input_Array) {
     $back_Array=[];
-    if (in_array(1054, $input_Array)){
+    if (in_array(1051, $input_Array)){
         $tmp_Array = Theme::orderBy('name_'.session('rg_lang'))->get(['id','name_'.session('rg_lang')]);
         foreach ($tmp_Array as $item)
-            array_push($back_Array,array('id' => "1054;".$item['id'] , 'text' => $item['name_'.session('rg_lang')] ));
+            array_push($back_Array,array('id' => "1051;".$item['id'] , 'text' => $item['name_'.session('rg_lang')] ));
     }
-    if (in_array(1055, $input_Array)){
-        $tmp_Array =Theme::where('parent',  0)->orderBy('name_'.session('rg_lang'))->get(['id','name_'.session('rg_lang')]);
-        foreach ($tmp_Array as $item)
-            array_push($back_Array,array('id' => "1055;".$item['id'] , 'text' => $item['name_'.session('rg_lang')] ));
-    }
-    if (in_array(1056, $input_Array)){
-        $tmp_Array = Theme::where('parent','<>',  0)->orderBy('name_'.session('rg_lang'))->get(['id','name_'.session('rg_lang')]);
-        foreach ($tmp_Array as $item)
-            array_push($back_Array,array('id' => "1056;".$item['id'] , 'text' => $item['name_'.session('rg_lang')] ));
-    }
-    if (in_array(1057, $input_Array)){
+    if (in_array(1052, $input_Array)){
         $tmp_Array = Topic::orderBy('name_'.session('rg_lang'))->get(['id','name_'.session('rg_lang')]);
         foreach ($tmp_Array as $item)
-            array_push($back_Array,array('id' => "1057;".$item['id'] , 'text' => $item['name_'.session('rg_lang')] ));
+            array_push($back_Array,array('id' => "1052;".$item['id'] , 'text' => $item['name_'.session('rg_lang')] ));
     }
-    if (count($input_Array)>0)
-        usort($back_Array, function($a,$b) {return strnatcasecmp($a['text'],$b['text']);});
+    usort($back_Array, function($a, $b){
+        static $chr = array('á'=>'a', 'é'=>'e', 'í'=>'i', 'ó'=>'o', 'ö'=>'oza', 'ő'=>'ozb', 'ú'=>'u', 'ü'=>'uza', 'ű'=>'uzb', 'cs'=>'cz', 'zs'=>'zz', 'ccs'=>'czcz', 'ggy'=>'gzgz', 'lly'=>'lzlz', 'nny'=>'nznz', 'ssz'=>'szsz', 'tty'=>'tztz', 'zzs'=>'zzzz');  
+        return strcmp(strtr(mb_strtolower($a['text']), $chr), strtr(mb_strtolower($b['text']), $chr)); 
+    });
     return $back_Array;
 }
 
 /**************************************** Proposal ************************************/
-
     public static function proposal_Init_Static() {
         return  [
-                    MasterController::webpagetext_FromDB_Static([ 1055, 1056, 1057, 67, 66, 10 ]),
+                    MasterController::webpagetext_FromDB_Static([ 1051, 1052, 67, 66, 10 ]),
                     MasterController::proposal_FromDB_Static()
                 ];
     }
 
-    public function proposalRefresh_FromDB(Request $request) {
+    public function proposal_FromDB(Request $request) {
         return response($this->proposal_FromDB_Static());
     }
 
     public static function proposal_FromDB_Static(){
-        $mainthemeCount = Theme::where('parent',0)->count();
-        $maintheme_TMP = Theme::where('parent',0)->get(['id','name_'.session('rg_lang')])->get(rand(0,$mainthemeCount-1));
-        $maintheme =    array(
-                            'id' => '1055;'.$maintheme_TMP['id'].';'.$maintheme_TMP['name_'.session('rg_lang')],
-                            'text' => $maintheme_TMP['name_'.session('rg_lang')]
-                        );
-        $themeCount = Theme::where('parent','<>',0)->count();
-        $theme_TMP = Theme::where('parent','<>',0)->get(['id','name_'.session('rg_lang')])->get(rand(0,$themeCount-1));
+        $name_Field = 'name_'.session('rg_lang');
+        $theme_TMP = Theme::inRandomOrder()->get(['id', $name_Field])->first();
         $theme =    array(
-                            'id' => '1056;'.$theme_TMP['id'].';'.$theme_TMP['name_'.session('rg_lang')],
-                            'text' => $theme_TMP['name_'.session('rg_lang')]
+                            'id' => '1051;'.$theme_TMP['id'].';'.$theme_TMP[$name_Field],
+                            'text' => $theme_TMP[$name_Field]
                         );
-        $topicCount = Topic::count()-3;
-        $topic_TMP = Topic::get(['id','name_'.session('rg_lang')])->get(rand(0,$topicCount-1));
+        $topic_TMP = Topic::inRandomOrder()->get(['id', $name_Field])->first();
         $topic =    array(
-                            'id' => '1057;'.$topic_TMP['id'].';'.$theme_TMP['name_'.session('rg_lang')],
-                            'text' => $topic_TMP['name_'.session('rg_lang')]
+                            'id' => '1052;'.$topic_TMP['id'].';'.$topic_TMP[$name_Field],
+                            'text' => $topic_TMP[$name_Field]
                         );
-        $lastTopics_TMP = Topic::orderBy('id','desc')->take(3)->get(['id','name_'.session('rg_lang')]);
+        $lastTopics_TMP = Topic::orderBy('id','desc')->take(3)->get(['id',$name_Field]);
         $lastTopic = [];
         foreach ($lastTopics_TMP as $item)
             array_push($lastTopic,
                 array(
-                    'id' => '1057;'.$item['id'].';'.$item['name_'.session('rg_lang')],
-                    'text' => $item['name_'.session('rg_lang')]
+                    'id' => '1052;'.$item['id'].';'.$item[$name_Field],
+                    'text' => $item[$name_Field]
                 )
             );
         
-        return  [   $maintheme,    
-                    $theme,
+        return  [   $theme,
                     $topic,                    
                     $lastTopic[0],
                     $lastTopic[1],
@@ -120,7 +102,6 @@ public static function mainthemethemetopic_FromDB_Static($input_Array) {
 
 
 /**************************************** Quickgame ***********************************/
-
     public static function quickgame_Init_Static() {
         return  [
                     MasterController::webpagetext_FromDB_Static([ 63, 64, 6, 7, 65, 38 ]),
@@ -128,7 +109,7 @@ public static function mainthemethemetopic_FromDB_Static($input_Array) {
                 ];
     }
 
-    public function quickgameRefresh_FromDB(Request $request) {
+    public function quickgame_FromDB(Request $request) {
         return response($this->quickgame_FromDB_Static());
     }
 
@@ -191,14 +172,14 @@ public static function mainthemethemetopic_FromDB_Static($input_Array) {
 
 /************************************ Topic path **************************************/
 
-    public function topicPath(Request $request) {  
-        if ($request->all()[0]==1056)
-            return response([$this->topicPath_GetStatic($request->all()[1])]);
-        else{
-            $theme_ID = Topic::find($request->all()[1])->getAttribute('theme');
-            return response([$this->topicPath_GetStatic($theme_ID)]);
-        }
-    }
+    // public function topicPath(Request $request) {  
+    //     if ($request->all()[0]==1051)
+    //         return response([$this->topicPath_GetStatic($request->all()[1])]);
+    //     else{
+    //         $theme_ID = Topic::find($request->all()[1])->getAttribute('theme');
+    //         return response([$this->topicPath_GetStatic($theme_ID)]);
+    //     }
+    // }
 
     public static function topicPath_GetStatic( int $id ){
         $parent = 
@@ -214,36 +195,37 @@ public static function mainthemethemetopic_FromDB_Static($input_Array) {
 
 /*************************** All topics, themes of a theme *****************************/
 
-    public function topicsThemesOfTheme(Request $request) {  
-        return response([$this->getTopicsThemesOfTheme_Static(1, $request->all()[0], $request->all()[1])]);
+    public function themesTopicsOfTheme(Request $request) {  
+        return response([$this->themesTopicsOfTheme_Static(1, $request->all()[0], $request->all()[1], $request->all()[2])]);
     }
 
-    public static function getTopicsThemesOfTheme_Static( int $type, int $parent, bool $enablehungarian){
+    public static function themesTopicsOfTheme_Static( int $type, int $parent, bool $enablehungarian, bool $oddoneout){
         // 0 - Topic IDs [ 1, 5, 8, 14 ... ]
-        // 1 - Themes and Topics ID and Name [{id: 1, name: 'Geography'},{id: 2, name: 'Art'}]
+        // 1 - Themes and Topics ID and Name [{id: 1, text: 'Geography'},{id: 2, text: 'Art'}]
+        $name_Field = 'name_'.session('rg_lang');
         $back_Array = [];
         $subThemes = 
-            Theme::where('parent', $parent)->orderBy('name_'.session('rg_lang'))->get(['id', 'name_'.session('rg_lang'), 'parent']);
+            Theme::where('parent', $parent)->orderBy($name_Field)->get(['id', $name_Field, 'parent']);
         $subThemesTopics =[];
         foreach ($subThemes as $item){
-            $subThemesTopics_TMP = MasterController::getTopicsThemesOfTheme_Static($type, $item['id'], $enablehungarian) ;
+            $subThemesTopics_TMP = MasterController::themesTopicsOfTheme_Static($type, $item['id'], $enablehungarian, $oddoneout) ;
             if (count($subThemesTopics_TMP)>0){
                 $subThemesTopics = array_merge($subThemesTopics, $subThemesTopics_TMP);
                 if ((count($subThemesTopics)>0)&&($type == 1))
-                    array_push($back_Array, array( 'id' => '1056;'.$item['id'], 'name' => $item['name_'.session('rg_lang')], 'parent' => $parent));
+                    array_push($back_Array, array( 'id' => '1051;'.$item['id'], 'text' => $item[$name_Field], 'parent' => $parent));
             }
         }
         if (count($subThemesTopics)>0){
             $back_Array = array_merge($back_Array, $subThemesTopics);
         }
         $subTopics = 
-            Topic::where('theme', $parent)->orderBy('name_'.session('rg_lang'))->whereIn('hungarian', [false, $enablehungarian])->get(['id', 'name_'.session('rg_lang')]);
+            Topic::where('theme', $parent)->orderBy($name_Field)->whereIn('hungarian', [false, $enablehungarian])->where('oddoneout', '>=', ($oddoneout ? 0 : -1))->get(['id', $name_Field]);
         if ($subTopics->count())
             foreach ($subTopics as $item){
                 if ($type==0)
                     array_push($back_Array, $item['id']);
                 if ($type==1)
-                    array_push($back_Array, array( 'id' => '1057;'.$item['id'], 'name' => $item['name_'.session('rg_lang')], 'parent' => $parent));
+                    array_push($back_Array, array( 'id' => '1052;'.$item['id'], 'text' => $item[$name_Field], 'parent' => $parent));
             }
         return $back_Array;
     }
@@ -257,27 +239,33 @@ public static function mainthemethemetopic_FromDB_Static($input_Array) {
             switch ($questiontype){
                 case 1:
                     $back_String = "Melyik <i>".$topic_String."</i> látható a képen?";
-                    break;
+                break;
                 case 2:
                     $back_String = "Melyik <i>".$topic_String."</i> látható a képrészleten?";
-                    break;
+                break;
                 case 3:
                     $image_String = Image::find($image_ID)->getAttribute('name_'.session('rg_lang'));
                     $back_String = "A képen látható ".$topic_String.":<br /><i>".$image_String."</i>";
-                    break;
+                break;
+                case 4:
+                    $back_String = "Melyik nem <i>".$topic_String."</i>?";
+                break;
             }
         }else{
             switch ($questiontype){
             case 1:
                 $back_String = "Which <i>".$topic_String."</i> is this image?";
-                break;
+            break;
             case 2:
                 $back_String = "Which <i>".$topic_String."</i> is this image detail?";
-                break;
+            break;
             case 3:
                 $image_String = Image::find($image_ID)->getAttribute('name_'.session('rg_lang'));
                 $back_String = "The ".$topic_String." on the image:<br /><i>".$image_String."</i>";
-                break;
+            break;
+            case 4:
+                $back_String = "Which oddoneout?";
+            break;
             }
         }
         return $back_String;

@@ -87,7 +87,7 @@ https://www.wikipedia.org/
 451
 457
 0
--1
+2
 11
 Kerti madár
 Garden's bird
@@ -924,7 +924,7 @@ https://www.wikipedia.org/
 6669
 6672
 0
--1
+2
 104
 Földközi-tenger puhatestű
 Mediterranean Sea's mollusc
@@ -2580,7 +2580,7 @@ http://www.nba.com/
 12173
 12188
 0
--1
+1
 288
 Boston Celtics kosárlabdázó (2017)
 Boston Celtics basketball player (2017)
@@ -2589,7 +2589,7 @@ http://www.nba.com/
 12189
 12201
 0
--1
+1
 289
 Cleveland Cavaliers kosárlabdázó (2017)
 Cleveland Cavaliers basketball player (2017)
@@ -2598,7 +2598,7 @@ http://www.nba.com/
 12202
 12219
 0
--1
+1
 290
 Chicago Bulls kosárlabdázó (2017)
 Chicago Bulls basketball player (2017)
@@ -2607,7 +2607,7 @@ http://www.nba.com/
 12220
 12236
 0
--1
+1
 291
 Denver Nuggets kosárlabdázó (2017)
 Denver Nuggets basketball player (2017)
@@ -2616,7 +2616,7 @@ http://www.nba.com/
 12237
 12252
 0
--1
+1
 292
 Detroit Pistons kosárlabdázó (2017)
 Detroit Pistons basketball player (2017)
@@ -2625,7 +2625,7 @@ http://www.nba.com/
 12253
 12267
 0
--1
+1
 293
 Houston Rockets kosárlabdázó (2017)
 Houston Rockets basketball player (2017)
@@ -2634,7 +2634,7 @@ http://www.nba.com/
 12268
 12285
 0
--1
+1
 294
 Indiana Pacers kosárlabdázó (2017)
 Indiana Pacers basketball player (2017)
@@ -2643,7 +2643,7 @@ http://www.nba.com/
 12286
 12304
 0
--1
+1
 295
 Los Angeles Lakers kosárlabdázó (2017)
 Los Angeles Lakers basketball player (2017)
@@ -2652,7 +2652,7 @@ http://www.nba.com/
 12305
 12323
 0
--1
+1
 296
 Memphis Grizzlies kosárlabdázó (2017)
 Memphis Grizzlies basketball player (2017)
@@ -2661,7 +2661,7 @@ http://www.nba.com/
 12324
 12342
 0
--1
+1
 297
 Alkonyat karakter
 Twilight character
@@ -2697,7 +2697,7 @@ http://www.nba.com/
 12445
 12462
 0
--1
+1
 301
 Milwaukee Bucks kosárlabdázó (2017)
 Milwaukee Bucks basketball player (2017)
@@ -2706,7 +2706,7 @@ http://www.nba.com/
 12463
 12477
 0
--1
+1
 302
 Minnesota Timberwolves kosárlabdázó (2017)
 Minnesota Timberwolves basketball player (2017)
@@ -2715,7 +2715,7 @@ http://www.nba.com/
 12478
 12488
 0
--1
+1
 303
 New York Knicks kosárlabdázó (2017)
 New York Knicks basketball player (2017)
@@ -2724,7 +2724,7 @@ http://www.nba.com/
 12489
 12508
 0
--1
+1
 304
 Oklahoma City Thunder kosárlabdázó (2017)
 Oklahoma City Thunder basketball player (2017)
@@ -2733,7 +2733,7 @@ http://www.nba.com/
 12509
 12524
 0
--1
+1
 305
 Orlando Magic kosárlabdázó (2017)
 Orlando Magic basketball player (2017)
@@ -2742,7 +2742,7 @@ http://www.nba.com/
 12525
 12543
 0
--1
+1
 306
 Philadelphia 76ers kosárlabdázó (2017)
 Philadelphia 76ers basketball player (2017)
@@ -2751,7 +2751,7 @@ http://www.nba.com/
 12544
 12559
 0
--1
+1
 307
 Sacramento Kings kosárlabdázó (2017)
 Sacramento Kings basketball player (2017)
@@ -2760,7 +2760,7 @@ http://www.nba.com/
 12560
 12575
 0
--1
+1
 308
 Toronto Raptors kosárlabdázó (2017)
 Toronto Raptors basketball player (2017)
@@ -2769,7 +2769,7 @@ http://www.nba.com/
 12576
 12594
 0
--1
+1
 309
 Washington Wizards kosárlabdázó (2017)
 Washington Wizards basketball player (2017)
@@ -2778,7 +2778,7 @@ http://www.nba.com/
 12595
 12610
 0
--1
+1
 310
 Gossip Girl női szereplő
 Gossip Girl female figure
@@ -4109,4 +4109,5 @@ European dream island
 https://www.origo.hu/
 16478
 16491
-0  
+0
+-1  

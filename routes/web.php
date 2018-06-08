@@ -47,11 +47,11 @@ Route::get('/themestopics', [
 ]);
 
 Route::post('/master/answerLog_ToDB', 'Pages\MasterController@answerLog_ToDB');
-Route::post('/master/topicPath', 'Pages\MasterController@topicPath');
-Route::post('/master/topicsThemesOfTheme', 'Pages\MasterController@topicsThemesOfTheme');
-Route::post('/master/mainthemethemetopic_FromDB', 'Pages\MasterController@mainthemethemetopic_FromDB');
-Route::post('/master/proposalRefresh_FromDB', 'Pages\MasterController@proposalRefresh_FromDB');
-Route::post('/master/quickgameRefresh_FromDB', 'Pages\MasterController@quickgameRefresh_FromDB');
+//Route::post('/master/topicPath', 'Pages\MasterController@topicPath');
+Route::post('/master/themesTopicsOfTheme', 'Pages\MasterController@themesTopicsOfTheme');
+Route::post('/master/themesTopics_FromDB', 'Pages\MasterController@themesTopics_FromDB');
+Route::post('/master/proposal_FromDB', 'Pages\MasterController@proposal_FromDB');
+Route::post('/master/quickgame_FromDB', 'Pages\MasterController@quickgame_FromDB');
 Route::post('/master/webpagetext_FromDB', 'Pages\MasterController@webpagetext_FromDB');
 
 Route::post('/contact/init', 'Pages\ContactController@init');

@@ -4,9 +4,9 @@
 // Variables
 @import "variables";
 
-/*********************************************** Game *********************************************/
-.game_button,
-.game_button_disable {
+/*********************************************** Text buttons *********************************************/
+.game_button1,
+.game_button1_disable {
   color: $color7 !important;
   width: 90% !important;
   cursor: pointer !important;
@@ -26,53 +26,97 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-.game_button_disable {
+.game_button1_disable {
   cursor: no-drop !important;
 }
 
-.game_button:hover {
+.game_button1:hover {
   color: $color7 !important;
   text-decoration: none !important;
 }
 
-.game_button:active {
+.game_button1:active {
   color: $color7 !important;
   top: 1px !important;
   position: relative !important;
 }
 
-/************************************** Colored answer buttons ***********************************/
-.button_white, 
-.button_green,
-.button_orange
-.button_red,
-.button_gray {
+/************************************** Colored answer text buttons ***********************************/
+.button1_white, 
+.button1_green,
+.button1_orange,
+.button1_red,
+.button1_gray {
     border: solid 1px $color1;
 }
 
-.button_white_disable { background: $color15; }
-.button_white { background: $color15; }
-.button_white:hover { background: darken($color15, 5%); }
-.button_white:active { background: darken($color15, 15%); }
+.button1_white_disable { background: $color15; }
+.button1_white { background: $color15; }
+.button1_white:hover { background: darken($color15, 5%); }
+.button1_white:active { background: darken($color15, 15%); }
 
-.button_green_disable { background: $color16; }
-.button_green { background: $color16; }
-.button_green:hover { background: darken($color16, 5%); }
-.button_green:active { background: darken($color16, 15%); }
+.button1_green_disable { background: $color16; }
+.button1_green { background: $color16; }
+.button1_green:hover { background: darken($color16, 5%); }
+.button1_green:active { background: darken($color16, 15%); }
 
-.button_orange_disable { background: $color17; }
-.button_orange { background: $color17; }
-.button_orange:hover { background: darken($color17, 5%); }
-.button_orange:active { background: darken($color17, 15%); }
+.button1_orange_disable { background: $color17; }
+.button1_orange { background: $color17; }
+.button1_orange:hover { background: darken($color17, 5%); }
+.button1_orange:active { background: darken($color17, 15%); }
 
-.button_red_disable { background: $color18; }
-.button_red { background: $color18; }
-.button_red:hover { background: darken($color18, 5%); }
-.button_red:active { background: darken($color18, 15%); }
+.button1_red_disable { background: $color18; }
+.button1_red { background: $color18; }
+.button1_red:hover { background: darken($color18, 5%); }
+.button1_red:active { background: darken($color18, 15%); }
 
-.button_gray_disable { background: $color1; }
-.button_gray { background: $color1; }
-.button_gray:hover { background: darken($color1, 5%); }
-.button_gray:active { background: darken($color1, 15%); }
+.button1_gray_disable { background: $color1; }
 
-.button_blueborder { border: 3px solid $color5; }
+.button1_blueborder { border: 3px solid $color5; }
+
+/*********************************************** Image buttons *********************************************/
+.game_button2,
+.game_button2_disable {
+    max-width: 80%;
+    display: inline-block;
+    zoom: 1;
+    cursor: pointer !important;
+    margin: 5px 0 5px 0;
+}
+
+input[class="game_button2"]:hover {
+    outline: solid 5px $color15;
+    outline-offset: -5px;
+}
+
+input[class="game_button2"]:focus {
+    outline: solid 5px $color15;
+    outline-offset: -5px;
+}
+
+.game_button2_disable {
+    outline: none;
+    cursor: no-drop !important;
+    filter: brightness(30%);
+}
+
+/************************************** Colored answer image buttons ***********************************/
+.button2_green{
+    outline: 10px solid rgba($color16, 0.5);
+    outline-offset: -10px;
+}
+
+.button2_orange {
+    outline: 10px solid rgba($color17, 0.5);
+    outline-offset: -10px;
+}
+
+.button2_red {
+    outline: 10px solid rgba($color18, 0.5);
+    outline-offset: -10px;
+}
+
+.button2_blueborder { 
+    outline: 10px solid $color5;
+    outline-offset: -10px;
+}

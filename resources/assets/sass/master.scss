@@ -341,6 +341,7 @@ body {
 }
 
 .img_answer1 {
+    cursor: pointer;
     display: block;
     margin: auto;
     padding: 0 0 5px 0 !important;
@@ -386,18 +387,17 @@ body {
     color: $color4;
 }
 
-.div_question, .div_topicpath {
-    margin: 0 0 5px 0 !important;
-}
-
-// HTML elements
 .hr_4 {
     color: $color4 !important;
     margin: 0 0 5px 0 !important;
     padding: 0 !important;
 }
 
-
+.hr_7 {
+    color: $color7 !important;
+    margin: 0 0 5px 0 !important;
+    padding: 0 !important;
+}
 
 /********************************* Wait for Angular "Loading..." circle **************************/
 .angular_loading1 {
