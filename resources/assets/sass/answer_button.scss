@@ -77,21 +77,14 @@
 /*********************************************** Image buttons *********************************************/
 .game_button2,
 .game_button2_disable {
-    max-width: 80%;
-    display: inline-block;
-    zoom: 1;
+    max-width: 90%;
     cursor: pointer !important;
-    margin: 5px 0 5px 0;
+    margin: 5px 0px 5px 0;
 }
 
-input[class="game_button2"]:hover {
-    outline: solid 5px $color15;
-    outline-offset: -5px;
-}
-
-input[class="game_button2"]:focus {
-    outline: solid 5px $color15;
-    outline-offset: -5px;
+.game_button2:hover {
+    outline: solid 10px $color5;
+    outline-offset: -10px;
 }
 
 .game_button2_disable {

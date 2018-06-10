@@ -209,7 +209,6 @@ class NewGameController extends Controller {
                         'exploded' => false
                     ));
                 }
-                \Log::info($imageGood_ID);
                 shuffle($images);
             break;
         }

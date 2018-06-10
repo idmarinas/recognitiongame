@@ -6,7 +6,7 @@ http://www.free-country-flags.com/
 1
 225
 0
--1
+4
 2
 Böngésző logó
 Browser logo
@@ -60,7 +60,7 @@ http://usa.flagpedia.net/
 376
 425
 0
--1
+4
 8
 Francia kártya szín
 Poker card's color
@@ -654,7 +654,7 @@ http://geology.com/
 5297
 5333
 0
--1
+3
 74
 Hajó
 Ship
@@ -1005,7 +1005,7 @@ https://www.life.hu/
 6975
 6984
 0
--1
+3
 113
 Macska
 Cat
