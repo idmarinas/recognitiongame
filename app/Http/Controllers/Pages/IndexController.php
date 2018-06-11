@@ -86,15 +86,15 @@ class IndexController extends Controller {
                     $possibleTopic_Array2 = [];
             break;
             case 1052:
-                $topicIDs_String1 = Topic::where('oddoneout', Topic::find($gameProperties_Array['selectedDTT'][1])->getAttribute('oddoneout'))->where('id','<>',$gameProperties_Array['selectedDTT'][1])->first()->getAttribute('id');
-                \Log::info($topicIDs_String1);
-                //$topicIDs_String1 = $gameProperties_Array['selectedDTT'][1];
+                $topicIDs_String1 = $gameProperties_Array['selectedDTT'][1];
                 $possibleTopic_Array1 = DB::select("select id, image_from, image_to from topic where id in (".$topicIDs_String1.")");
+                $topicIDs_String2 = Topic::where('oddoneout', Topic::find($gameProperties_Array['selectedDTT'][1])->getAttribute('oddoneout'))->where('id','<>',$gameProperties_Array['selectedDTT'][1])->first()->getAttribute('id');
+                $possibleTopic_Array2 = DB::select("select id, image_from, image_to from topic where id in (".$topicIDs_String2.")");
             break;
         };
         for($i=0;$i<$request->all()[3];$i++){
             $questiontype = $gameProperties_Array['gametype'];
-            if ($gameProperties_Array['gametype']==0) $questiontype = 4;
+            if ($gameProperties_Array['gametype']==0) $questiontype = rand(1,4);
             $possibleTopic_Array = [];
             switch ($gameProperties_Array['selectedDTT'][0]){
                 case 1050: case 1051:
@@ -110,7 +110,10 @@ class IndexController extends Controller {
                     }
                 break;
                 case 1052:
-                    $possibleTopic_Array = $possibleTopic_Array1;
+                    if ($questiontype != 4)
+                        $possibleTopic_Array = $possibleTopic_Array1;
+                    else
+                        $possibleTopic_Array = $possibleTopic_Array2;
                 break;
             };
             // Collect Topic IDs
