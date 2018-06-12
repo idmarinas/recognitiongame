@@ -26,10 +26,9 @@ class NewGameController extends Controller {
         return response(
             [
                 MasterController::webpagetext_FromDB_Static([
-                    40, 41, 42,
                     27, 28, 29, 23, 30, 120, 121, 122, 123, 124,
                     68, 39, 69, 59, 43, 44, 57, 60,
-                    63, 64, 35, 6, 7, 36, 31, 68,]),
+                    63, 64, 35, 6, 7, 36, 31, 68, 41, 42]),
                 NewGameController::currentGame_Data_Static($request->all())
             ]
         );
@@ -76,21 +75,19 @@ class NewGameController extends Controller {
     public static function drawNextQuestion_Static($topic_ID, $questiontype, $imageID_Array){
         $topic = Topic::find($topic_ID);
         // Draw an unused imagePlace
+        $topic_Array = [];
+        $topic_Array['questiontype'] = $questiontype;
+        $topic_Array['help_ZoomLevel'] = $topic_Array['questiontype']==2 ? 2 : 0;
         $imageGood_ID=-1;
-        do{
-            $image_Exists = false;
-            $imageGood_ID = rand( $topic['image_from'] , $topic['image_to']);
-            if (in_array($imageGood_ID, $imageID_Array)) $image_Exists=true;
-        } while ($image_Exists);
+        if ($topic_Array['questiontype']!=4)
+            do{
+                $image_Exists = false;
+                $imageGood_ID = rand( $topic['image_from'] , $topic['image_to']);
+                if (in_array($imageGood_ID, $imageID_Array)) $image_Exists=true;
+            } while ($image_Exists);
         // Draw other images
         $images = [];
         $help_ImagesExploded = [];
-        $topic_Array = [];
-        $topic_Array['questiontype'] = $questiontype;
-        if (($topic_Array['questiontype']==1)||($topic_Array['questiontype']==3))            
-            $topic_Array['help_ZoomLevel'] = 0;
-        else
-            $topic_Array['help_ZoomLevel'] = 2;
         $anotherImage_ID=-1;
         switch ($topic_Array['questiontype']){
             case 3:
@@ -121,17 +118,18 @@ class NewGameController extends Controller {
                 $images[1]['text'] = Webpagetext::find(151)->getAttribute('name_'.session('rg_lang'));
             break;
             case 4:
+                $possibleAnswerTopics_Array = Topic::where('oddoneout', Topic::find($topic_ID)->getAttribute('oddoneout'))->where('id','<>',$topic_ID)->get();
+                $index = rand (0, count($possibleAnswerTopics_Array)-1);
+                $topic_OddOneOut = $possibleAnswerTopics_Array[$index];
+                $imageGood_ID = rand ($topic_OddOneOut['image_from'],$topic_OddOneOut['image_to']);
                 array_push($images, array(
                     'image_ID' => $imageGood_ID, 
                     'text' => Image::find($imageGood_ID)->getAttribute('name_'.session('rg_lang')),
-                    'topic_ID' => $topic_ID,
-                    'topic_ImageFrom' => $topic['image_from'],
-                    'topic_Text' => $topic['name_'.session('rg_lang')]
+                    'topic_ID' => $topic_OddOneOut['id'],
+                    'topic_ImageFrom' => $topic_OddOneOut['image_from'],
+                    'topic_Text' => $topic_OddOneOut['name_'.session('rg_lang')]
                 ));
-                $possibleAnswerTopics_Array = Topic::where('oddoneout', Topic::find($topic_ID)->getAttribute('oddoneout'))->where('id','<>',$topic_ID)->get();
-                $index_TMP = rand (0, count($possibleAnswerTopics_Array)-1);
-                $topic_Answers = $possibleAnswerTopics_Array[$index_TMP];
-                $topic_ID = $topic_Answers['id'];
+                $topic_Answers = Topic::find($topic_ID);
                 $images_Count = rand (2, $topic_Answers['image_to'] - $topic_Answers['image_from'] + 1 < 10 ? $topic_Answers['image_to'] - $topic_Answers['image_from'] + 1 : 10);
                 for($j=0;$j<$images_Count-1;$j++){
                     $imageOther_ID=-1;

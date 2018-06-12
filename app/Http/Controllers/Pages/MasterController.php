@@ -264,7 +264,7 @@ public static function themesTopics_FromDB_Static($input_Array) {
                 $back_String = "The ".$topic_String." on the image:<br /><i>".$image_String."</i>";
             break;
             case 4:
-                $back_String = "Which oddoneout?";
+                $back_String = "Which is the odd one out?";
             break;
             }
         }

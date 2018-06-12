@@ -231,7 +231,7 @@ http://www.tivi.de/
 1757
 1768
 0
--1
+5
 27
 Magyar szerző
 Hungarian author
@@ -249,7 +249,7 @@ http://www.disneyclips.com/
 2545
 2556
 0
--1
+5
 29
 Pocoyo szereplő
 Pocoyo figure
@@ -258,7 +258,7 @@ http://www.zinkia.com/
 2557
 2564
 0
--1
+5
 30
 KRESZ tábla
 Highway code sign
@@ -393,7 +393,7 @@ http://www.port.hu/
 4119
 4137
 0
--1
+5
 45
 Híres építmény
 Famous edifice
@@ -546,7 +546,7 @@ http://lionkingweb.mindenkilapja.hu/
 4892
 4904
 0
--1
+5
 62
 Madagaszkár szereplő
 Madagascar figure
@@ -555,7 +555,7 @@ http://dreamworks.wikia.com/
 4905
 4917
 0
--1
+5
 63
 Amerikai futball-stadion
 American football stadium
@@ -1383,7 +1383,7 @@ https://www.wikipedia.org/
 7906
 7948
 0
--1
+5
 155
 Sztár (50-es, 60-as évek)
 Star (50's, 60's)
@@ -1754,14 +1754,14 @@ http://port.hu/
 0
 -1
 196
-Ben és Holly apró királysága
+Ben és Holly apró királysága szereplő
 Ben & Holly's Little Kingdom figure
 13
 http://www.benandholly.tv/
 8632
 8642
 0
--1
+5
 197
 Gabona
 Grain
@@ -2058,7 +2058,7 @@ Grabouillon figure
 9899
 9902
 0
--1
+5
 230
 Az ifjú Robin Hood kalandjai szereplő
 Robin Hood: Mischief in Sherwood figure
@@ -2067,7 +2067,7 @@ Robin Hood: Mischief in Sherwood figure
 9903
 9911
 0
--1
+5
 231
 Fényképezés történetének első fotója
 The first photo of the photography
@@ -2247,7 +2247,7 @@ http://burzsuj.blog.hu/
 11285
 11289
 0
--1
+6
 251
 Poszapokaliptikus film
 Post-apocalyptic movie
@@ -4146,7 +4146,7 @@ https://www.portfolio.hu/
 16523
 16532
 0
--1
+6
 462
 Magyar kilátó
 Hungarian lookout tower
@@ -4155,4 +4155,13 @@ http://www.port.hu/
 16533
 16544
 1
+-1
+463
+Film (7)
+Movie (7)
+45
+http://www.origo.hu/
+16545
+16556
+0
 -1  

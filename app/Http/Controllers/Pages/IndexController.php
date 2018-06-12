@@ -88,34 +88,26 @@ class IndexController extends Controller {
             case 1052:
                 $topicIDs_String1 = $gameProperties_Array['selectedDTT'][1];
                 $possibleTopic_Array1 = DB::select("select id, image_from, image_to from topic where id in (".$topicIDs_String1.")");
-                $topicIDs_String2 = Topic::where('oddoneout', Topic::find($gameProperties_Array['selectedDTT'][1])->getAttribute('oddoneout'))->where('id','<>',$gameProperties_Array['selectedDTT'][1])->first()->getAttribute('id');
-                $possibleTopic_Array2 = DB::select("select id, image_from, image_to from topic where id in (".$topicIDs_String2.")");
+                if (Topic::find($gameProperties_Array['selectedDTT'][1])->getAttribute('oddoneout')>-1){
+                    $possibleTopic_Array2 = DB::select("select id, image_from, image_to from topic where id = ".$gameProperties_Array['selectedDTT'][1].";");
+                }else
+                    $possibleTopic_Array2 = [];
             break;
         };
         for($i=0;$i<$request->all()[3];$i++){
             $questiontype = $gameProperties_Array['gametype'];
             if ($gameProperties_Array['gametype']==0) $questiontype = rand(1,4);
             $possibleTopic_Array = [];
-            switch ($gameProperties_Array['selectedDTT'][0]){
-                case 1050: case 1051:
-                    if ($questiontype != 4)
-                        $possibleTopic_Array = $possibleTopic_Array1;
-                    else{
-                        if (count($possibleTopic_Array2)>0)
-                            $possibleTopic_Array = $possibleTopic_Array2;
-                        else{
-                            $questiontype = rand(1,3);
-                            $possibleTopic_Array = $possibleTopic_Array1;
-                        }
-                    }
-                break;
-                case 1052:
-                    if ($questiontype != 4)
-                        $possibleTopic_Array = $possibleTopic_Array1;
-                    else
-                        $possibleTopic_Array = $possibleTopic_Array2;
-                break;
-            };
+            if ($questiontype != 4)
+                $possibleTopic_Array = $possibleTopic_Array1;
+            else{
+                if (count($possibleTopic_Array2)>0)
+                    $possibleTopic_Array = $possibleTopic_Array2;
+                else{
+                    $questiontype = rand(1,3);
+                    $possibleTopic_Array = $possibleTopic_Array1;
+                }
+            }
             // Collect Topic IDs
             $topicID_TMP=-1;
             do{

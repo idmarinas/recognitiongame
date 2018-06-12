@@ -55,7 +55,6 @@
                 @if ($share_pageID==5)
                     <div class="col-lg-3">
                         <newgame_statistics></newgame_statistics>
-                        <newgame_help></newgame_help>
                         <newgame_mistakequestion></newgame_mistakequestion>
                     </div>
                 @else
