@@ -152,10 +152,12 @@ class NewGameController extends Controller {
                                     : (($images_Count>=6)&&($images_Count<=8) 
                                         ? 2 
                                         : ($images_Count>=9 ? 3 : 0));
+
                 for($i=0;$i<$count_TMP;$i++){
                     do{
                         $exists = false;
-                        $image_Place = rand (0, $images_Count-2);
+                        $image_Place = rand (0, $images_Count-1);
+                        if ($imageGood_ID==$images[$image_Place]['image_ID']) $exists = true;
                         foreach($help_ImagesExploded as $item)
                             if (($item['image_ID'] == $images[$image_Place]['image_ID'])||($imageGood_ID==$images[$image_Place]['image_ID'])) $exists = true;
                     } while($exists);
@@ -197,7 +199,7 @@ class NewGameController extends Controller {
                 for($i=0;$i<$count_TMP;$i++){
                     do{
                         $exists = false;
-                        $image_Place = rand (0, $images_Count-2);
+                        $image_Place = rand (0, $images_Count-1);
                         if ($imageGood_ID==$images[$image_Place]['image_ID']) $exists = true;
                         foreach($help_ImagesExploded as $item)
                             if ($item['image_ID'] == $images[$image_Place]['image_ID']) $exists = true;
