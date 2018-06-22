@@ -8,7 +8,9 @@ use Illuminate\Support\Facades\DB;
 use RecognitionGame\Models\Webpagetext;
 use RecognitionGame\Models\Theme;
 use RecognitionGame\Models\Topic;
+use RecognitionGame\Models\Topicage;
 use RecognitionGame\Models\Image;
+use RecognitionGame\Models\Imageage;
  
 class MasterController extends Controller {
  
@@ -165,21 +167,17 @@ public static function themesTopics_FromDB_Static($input_Array) {
     }
 
     public static function answerLog_ToDB_Static($input_Array){ 
-        Image::find($input_Array[0])->increment('answer_total', 1);
-        Image::find($input_Array[0])->increment('answer_good', $input_Array[1] ? 1 : 0);
+        if ($input_Array[2] == 5){
+            Imageage::find($input_Array[0])->increment('answer_total', 1);
+            Imageage::find($input_Array[0])->increment('answer_sum', $input_Array[3]);
+        }else{
+            Image::find($input_Array[0])->increment('answer_total', 1);
+            Image::find($input_Array[0])->increment('answer_good', $input_Array[1] ? 1 : 0);
+        }
         return [];
     }
 
 /************************************ Topic path **************************************/
-
-    // public function topicPath(Request $request) {  
-    //     if ($request->all()[0]==1051)
-    //         return response([$this->topicPath_GetStatic($request->all()[1])]);
-    //     else{
-    //         $theme_ID = Topic::find($request->all()[1])->getAttribute('theme');
-    //         return response([$this->topicPath_GetStatic($theme_ID)]);
-    //     }
-    // }
 
     public static function topicPath_GetStatic( int $id ){
         $parent = 
@@ -234,7 +232,10 @@ public static function themesTopics_FromDB_Static($input_Array) {
 
     public static function questionCompose_Static($topic_ID, $questiontype, $image_ID){
         $back_String = '';
-        $topic_String = Topic::find($topic_ID)->getAttribute('name_'.session('rg_lang'));
+        if ($questiontype!=5)
+            $topic_String = Topic::find($topic_ID)->getAttribute('name_'.session('rg_lang'));
+        else
+            $topic_String = Topicage::find($topic_ID)->getAttribute('name_'.session('rg_lang'));
         if (session('rg_lang')=='hu'){
             switch ($questiontype){
                 case 1:
@@ -249,6 +250,9 @@ public static function themesTopics_FromDB_Static($input_Array) {
                 break;
                 case 4:
                     $back_String = "Melyik nem <i>".$topic_String."</i>?";
+                break;
+                case 5:
+                    $back_String = "Hány éves a képen látható <i>".$topic_String."</i>?";
                 break;
             }
         }else{
@@ -265,6 +269,9 @@ public static function themesTopics_FromDB_Static($input_Array) {
             break;
             case 4:
                 $back_String = "Which is the odd one out?";
+            break;
+            case 5:
+                $back_String = "How old is the <i>".$topic_String."</i> in this image?";
             break;
             }
         }
