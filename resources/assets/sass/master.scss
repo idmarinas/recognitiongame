@@ -1,28 +1,24 @@
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 
 // Variables
 @import "variables";
 
 // HTML tags
 html {
+    min-height:100%;
     position: relative;
-    min-height: 100%;
 }
 
 body {
-    font-family: $fontfamily;
     background-color: $color1;
+    font-family: $fontfamily;
     margin-bottom: 70px;
 }
 
 .footer {
-    position: absolute;
     bottom: 0;
-    width: 100%;
-    background-color: $color19;
-    color: $color1;
-    text-align: center;
+    position: absolute;
 }
 
 // Colors
@@ -148,6 +144,26 @@ body {
 
 .fontsize9 {
     font-size: $fontsize9 !important;
+}
+
+.fontsize10 {
+    font-size: $fontsize10 !important;
+}
+
+.fontsize11 {
+    font-size: $fontsize11 !important;
+}
+
+.fontweight1 {
+    font-weight: $fontweight1 !important;
+}
+
+.fontweight2 {
+    font-weight: $fontweight2 !important;
+}
+
+.fontweight3 {
+    font-weight: $fontweight3 !important;
 }
 
 // Cursors
@@ -333,7 +349,6 @@ body {
 
 .img_flag {
     height: 1.2rem;
-    margin-right: 3px !important;
 }
 
 .img_logo {
@@ -375,17 +390,6 @@ body {
 .div_sssempty {
     height: 0.12rem !important;
 } 
-
-.div_maintitle {
-    font-size: $fontsize8;
-    color: $color4;
-    font-weight: 700 !important;
-}
-
-.div_submaintitle {
-    font-size: $fontsize5;
-    color: $color4;
-}
 
 .hr_4 {
     color: $color4 !important;

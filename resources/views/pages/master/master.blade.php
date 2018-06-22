@@ -1,20 +1,16 @@
 <!doctype html>
 <html lang="{{ session('rg_lang') }}">
     <head>
-        <base href="{{URL::asset('/')}}" target="_top">
+        <base href="{{URL::asset('/')}}">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="./img/logo/favicon.ico" rel="icon" type="image/x-icon"/>
-        <title>{{RecognitionGame\Models\Webpagetext::where('id',2)->pluck('name_'.(session('rg_lang')))->first()}}</title>
+        <title>{{RecognitionGame\Models\Webpagetext::find(2)->getAttribute('name_'.(session('rg_lang')))}}</title>
         <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/bootstrapmenu.min.js"></script>
         <script type="text/javascript" src="js/toastr.min.js"></script>
         <script type="text/javascript" src="js/master.min.js"></script>
-        @if ($share_pageID==1000)
-            <link rel="stylesheet" href="css/error.css">
-        @endif
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="js/angular/styles.bundle.css">
         <link rel="stylesheet" href="css/answer_button.min.css">
@@ -45,10 +41,10 @@
                         <master_databaseinfo></master_databaseinfo>
                    </div>
                 @endif
-                @if ($share_pageID!=5)
-                    <div class="col-lg-8">
-                @else
+                @if ($share_pageID==5)
                     <div class="col-lg-9">
+                @else
+                    <div class="col-lg-8">
                 @endif
                     @yield('body')
                 </div>
@@ -64,13 +60,11 @@
                 @endif
             </div>
         @endif
-        <div class="footer">
-            <?
-                print   RecognitionGame\Models\Webpagetext::find(32)->getAttribute('name_'.session('rg_lang'))." <br /> "
-                        .RecognitionGame\Models\Webpagetext::find(33)->getAttribute('name_'.session('rg_lang'))." <br /> ".
-                        RecognitionGame\Models\Webpagetext::find(39)->getAttribute('name_'.session('rg_lang')).": ".
-                        "<a class='link3' href='".route('contact')."'>".RecognitionGame\Models\Webpagetext::find(34)->getAttribute('name_'.session('rg_lang'))."</a>";
-            ?>        
+        <div class="footer bgcolor19 color1 text-center w-100">
+            {{RecognitionGame\Models\Webpagetext::find(32)->getAttribute('name_'.session('rg_lang'))}}<br />
+            {{RecognitionGame\Models\Webpagetext::find(33)->getAttribute('name_'.session('rg_lang'))}}<br />
+            {{RecognitionGame\Models\Webpagetext::find(39)->getAttribute('name_'.session('rg_lang'))}}:
+            <a class='link3' href='{{route('contact')}}'>{{RecognitionGame\Models\Webpagetext::find(34)->getAttribute('name_'.session('rg_lang'))}}</a>
         </div>
         <script type="text/javascript" src="js/angular/inline.bundle.js"></script>
         <script type="text/javascript" src="js/angular/polyfills.bundle.js"></script>

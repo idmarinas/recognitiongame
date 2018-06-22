@@ -58,6 +58,9 @@ Your answer
 20
 Helyes életkor
 Correct age
+21
+A keresett oldal nem található
+Page Not Found
 23
 Játéktípus
 Type of the game
@@ -95,8 +98,8 @@ All rights reserved.
 recognitiongame@gmail.com
 recognitiongame@gmail.com
 35
-KÖVETKEZŐ
-NEXT
+KÖVETKEZŐ KÉRDÉS
+NEXT QUESTION
 36
 VÉGE
 FINISH

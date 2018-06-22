@@ -5,7 +5,3 @@ elixir(function(mix) {
     mix.sass('answer_button.scss','public/css/answer_button.min.css');
     mix.sass('master.scss','public/css/master.min.css');
 });
-
-elixir(function(mix) {
-    mix.sass('error.scss');
-});
