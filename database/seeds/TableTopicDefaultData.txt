@@ -1016,8 +1016,8 @@ https://www.wikipedia.org/
 0
 -1
 114
-Közép-európai kastély (1)
-Central European palace (1)
+Közép-európai kastély
+Central European palace
 25
 https://www.wikipedia.org/
 7035
@@ -4172,5 +4172,14 @@ Ocean’s 8 premiere participant (2018)
 http://www.origo.hu/
 16557
 16564
+0
+-1
+465
+Repülőtér
+Airport
+19
+http://www.origo.hu/
+16565
+16574
 0
 -1  

@@ -1,9 +1,8 @@
-<?php namespace RecognitionGame\Http\Controllers\Pages;
- 
+<?php 
+namespace RecognitionGame\Http\Controllers\Pages;
 
 use RecognitionGame\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use RecognitionGame\Http\Requests;
 use RecognitionGame\Models\Contact;
 
 class ContactController extends Controller {
@@ -20,17 +19,14 @@ class ContactController extends Controller {
             MasterController::proposal_Init_Static(),
             MasterController::quickgame_Init_Static(),
             MasterController::webpagetext_FromDB_Static(
-                [ 1001, 39, 55, 56, 57, 43, 44, 60, 59]
+                [ 1001, 39, 55, 56, 57, 59, 43, 44, 60]
             )
         ]);
     }
 
     public function submitForm(Request $request) {
-        $data = $request->all();
         $contact = new Contact();
-        $contact->email = $request[0];
-        $contact->subject = $request[1];
-        $contact->message = $request[2];
+        $contact->fill($request->all());
         $contact->date =  now();
         $contact->save();
         return response([]);

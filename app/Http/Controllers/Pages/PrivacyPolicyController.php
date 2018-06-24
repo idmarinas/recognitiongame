@@ -1,12 +1,8 @@
-<?php namespace RecognitionGame\Http\Controllers\Pages;
- 
+<?php 
+namespace RecognitionGame\Http\Controllers\Pages;
 
 use RecognitionGame\Http\Controllers\Controller;
- 
 use Illuminate\Http\Request;
-use RecognitionGame\Http\Requests;
-
-use RecognitionGame\Http\Controllers\Pages\MasterController;
 
 class PrivacyPolicyController extends Controller {
  
