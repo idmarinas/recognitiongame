@@ -21,7 +21,6 @@ class AppServiceProvider extends ServiceProvider
                     $rg_lang = 'hu';
                     break;
             }
-            $rg_lang = 'en';
             session(['rg_lang'=>$rg_lang]);
         }
     }
