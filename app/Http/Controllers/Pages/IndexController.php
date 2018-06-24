@@ -3,6 +3,7 @@
 namespace RecognitionGame\Http\Controllers\Pages;
 use RecognitionGame\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 
 use Illuminate\Support\Facades\DB;
 use RecognitionGame\Http\Controllers\Pages\MasterController;
@@ -98,7 +99,6 @@ class IndexController extends Controller {
             for($i=0;$i<$request->all()[3];$i++){
                 $questiontype = $gameProperties_Array['gametype'];
                 if ($gameProperties_Array['gametype']==0) $questiontype = rand(1,5);
-                \Log::info($questiontype);
                 if ($questiontype==5){
                     array_push($predrawQuestion_Array, 
                         array( 
