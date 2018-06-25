@@ -3401,8 +3401,8 @@ http://www.origo.hu/
 0
 -1
 379
-Rendező
-Director
+Fimrendező
+Movie Director
 26
 https://www.mafab.hu/
 14531
@@ -4185,7 +4185,8 @@ http://www.origo.hu/
 -1
 466
 Női filmrendező
-Woman film director
+Woman movie director
+26
 http://www.origo.hu/
 16575
 16594
