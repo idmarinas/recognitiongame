@@ -44,18 +44,14 @@
                 @if ($share_pageID==5)
                     <div class="col-lg-9">
                 @else
-                    <div class="col-lg-8">
+                    <div class="col-lg-10">
                 @endif
-                    @yield('body')
+                @yield('body')
                 </div>
                 @if ($share_pageID==5)
                     <div class="col-lg-3">
                         <newgame_statistics></newgame_statistics>
                         <newgame_mistakequestion></newgame_mistakequestion>
-                    </div>
-                @else
-                    <div class="col-lg-2 d-none d-lg-block">
-                        <master_greeting></master_greeting>
                     </div>
                 @endif
             </div>

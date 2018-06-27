@@ -1,26 +1,24 @@
 <?php 
-
 namespace RecognitionGame\Http\Controllers\Pages;
+
 use RecognitionGame\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-use Illuminate\Support\Facades\DB;
-use RecognitionGame\Models\Webpagetext;
+use RecognitionGame\Models\Image;
+use RecognitionGame\Models\Imageage;
 use RecognitionGame\Models\Theme;
 use RecognitionGame\Models\Topic;
 use RecognitionGame\Models\Topicage;
-use RecognitionGame\Models\Image;
-use RecognitionGame\Models\Imageage;
+use RecognitionGame\Models\Webpagetext;
  
 class MasterController extends Controller {
  
-    public function changelang(\Illuminate\Http\Request $request) {
+    public function changelang(Request $request) {
         session(['rg_lang'=>$request['lang']]);
         return redirect($request['route']);
     }
 
 /************************************** Databaseinfo **********************************/
-
     public static function databaseinfo_Init_Static() {
         return  [                    
                     [   Theme::count(),
@@ -30,36 +28,25 @@ class MasterController extends Controller {
                 ];
     }
 
-/**************************************** Greeting ************************************/
-
-    public static function greeting_Init_Static() {
-        return  MasterController::webpagetext_FromDB_Static([ 12, 13, 14, 15 ]);
-    }
-
 /********************************** Themetopic *******************************/
-
-public function themesTopics_FromDB(Request $request) {
-    return response($this->themesTopics_FromDB_Static($request->all()));
-}
-
-public static function themesTopics_FromDB_Static($input_Array) {
-    $back_Array=[];
-    if (in_array(1051, $input_Array)){
-        $tmp_Array = Theme::orderBy('name_'.session('rg_lang'))->get(['id','name_'.session('rg_lang')]);
-        foreach ($tmp_Array as $item)
-            array_push($back_Array,array('id' => "1051;".$item['id'] , 'text' => $item['name_'.session('rg_lang')] ));
+    public function themesTopics_FromDB(Request $request) {
+        return response($this->themesTopics_FromDB_Static($request->all()));
     }
-    if (in_array(1052, $input_Array)){
-        $tmp_Array = Topic::orderBy('name_'.session('rg_lang'))->get(['id','name_'.session('rg_lang')]);
-        foreach ($tmp_Array as $item)
-            array_push($back_Array,array('id' => "1052;".$item['id'] , 'text' => $item['name_'.session('rg_lang')] ));
+
+    public static function themesTopics_FromDB_Static($input_Array) {
+        $back_Array=[];
+        if (in_array(1051, $input_Array)){
+            $tmp_Array = Theme::orderBy('name_'.session('rg_lang'))->get(['id','name_'.session('rg_lang')]);
+            foreach ($tmp_Array as $item)
+                array_push($back_Array,array('id' => "1051;".$item['id'] , 'text' => $item['name_'.session('rg_lang')] ));
+        }
+        if (in_array(1052, $input_Array)){
+            $tmp_Array = Topic::orderBy('name_'.session('rg_lang'))->get(['id','name_'.session('rg_lang')]);
+            foreach ($tmp_Array as $item)
+                array_push($back_Array,array('id' => "1052;".$item['id'] , 'text' => $item['name_'.session('rg_lang')] ));
+        }
+        return $back_Array;
     }
-    usort($back_Array, function($a, $b){
-        static $chr = array('á'=>'a', 'é'=>'e', 'í'=>'i', 'ó'=>'o', 'ö'=>'oza', 'ő'=>'ozb', 'ú'=>'u', 'ü'=>'uza', 'ű'=>'uzb', 'cs'=>'cz', 'zs'=>'zz', 'ccs'=>'czcz', 'ggy'=>'gzgz', 'lly'=>'lzlz', 'nny'=>'nznz', 'ssz'=>'szsz', 'tty'=>'tztz', 'zzs'=>'zzzz');  
-        return strcmp(strtr(mb_strtolower($a['text']), $chr), strtr(mb_strtolower($b['text']), $chr)); 
-    });
-    return $back_Array;
-}
 
 /**************************************** Proposal ************************************/
     public static function proposal_Init_Static() {
@@ -102,7 +89,6 @@ public static function themesTopics_FromDB_Static($input_Array) {
                     $lastTopic[2]   ];
     }
 
-
 /**************************************** Quickgame ***********************************/
     public static function quickgame_Init_Static() {
         return  [
@@ -131,33 +117,33 @@ public static function themesTopics_FromDB_Static($input_Array) {
         $correctAnswer_ID = $possibleAnswerID_Array[rand(0,$image_Count-1)];
         $answerArray_TMP = Image::whereIn('id',$possibleAnswerID_Array)->inRandomOrder()->get();
         $answer_Array = [];
-        foreach($answerArray_TMP as $item)
+        foreach($answerArray_TMP as $item){
+            $bigImage = get_headers("http://www.felismerojatek.hu/kepek_big/".$topic['id']."/". $item['id'].".png");
             array_push($answer_Array,
                 array(
                     'id' => $item['id'],
-                    'text' => $item['name_'.session('rg_lang')]
+                    'text' => $item['name_'.session('rg_lang')],
+                    'bigImage' => stripos($bigImage[0],"200 OK") ? true : false
                 )
             );
-        $bigImage = get_headers("http://www.felismerojatek.hu/kepek_big/".$topic['id']."/".($correctAnswer_ID-$topic['image_from']+1).".png");
-        $bigImage_Exists = stripos($bigImage[0],"200 OK") ? true : false;
+        }
         return [    $topic,
                     $answer_Array,
                     $correctAnswer_ID,
-                    MasterController::questionCompose_Static($topic->id, 1, null),
-                    $bigImage_Exists    ];
+                    MasterController::questionCompose_Static($topic->id, 1, null)
+                ];
     }
 
 /*************************************** Webpagetext ***********************************/
-
     public function webpagetext_FromDB(Request $request) {
         return response([$this->webpagetext_FromDB_Static($request->all())]);
     }
 
     public static function webpagetext_FromDB_Static( $ids ){
         $back_value=[];
-        foreach($ids as $id){
-            array_push($back_value,Webpagetext::where('id',$id)->pluck('name_'.session('rg_lang'))->first());
-        }
+        foreach($ids as $id)
+            array_push($back_value,
+                $id == -1 ? '' : Webpagetext::find($id)->getAttribute('name_'.session('rg_lang')));
         return $back_value;
     }
 
@@ -178,10 +164,9 @@ public static function themesTopics_FromDB_Static($input_Array) {
     }
 
 /************************************ Topic path **************************************/
-
     public static function topicPath_GetStatic( int $id ){
         $parent = 
-            Theme::where('id', $id)->get(['parent','name_'.session('rg_lang')])->first();
+            Theme::where('id',$id)->get(['parent','name_'.session('rg_lang')])->first();
         if ($parent['parent'] == 0)
             return [array('id' => $id, 'text' => $parent['name_'.session('rg_lang')])];
         $back_Array = array_merge(
@@ -192,13 +177,12 @@ public static function themesTopics_FromDB_Static($input_Array) {
     }
 
 /*************************** All topics, themes of a theme *****************************/
-
     public function themesTopicsOfTheme(Request $request) {  
         return response([$this->themesTopicsOfTheme_Static(1, $request->all()[0], $request->all()[1], $request->all()[2])]);
     }
 
     public static function themesTopicsOfTheme_Static( int $type, int $parent, bool $enablehungarian, bool $oddoneout){
-        // 0 - Topic IDs [ 1, 5, 8, 14 ... ]
+        // 0 - Only Topic IDs [ 1, 5, 8, 14 ... ]
         // 1 - Themes and Topics ID and Name [{id: 1, text: 'Geography'},{id: 2, text: 'Art'}]
         $name_Field = 'name_'.session('rg_lang');
         $back_Array = [];
@@ -229,14 +213,13 @@ public static function themesTopics_FromDB_Static($input_Array) {
     }
 
 /******************************** Compose the question text ****************************/
-
     public static function questionCompose_Static($topic_ID, $questiontype, $image_ID){
         $back_String = '';
         if ($questiontype!=5)
             $topic_String = Topic::find($topic_ID)->getAttribute('name_'.session('rg_lang'));
         else
             $topic_String = Topicage::find($topic_ID)->getAttribute('name_'.session('rg_lang'));
-        if (session('rg_lang')=='hu'){
+        if (session('rg_lang')=='hu')
             switch ($questiontype){
                 case 1:
                     $back_String = "Melyik <i>".$topic_String."</i> látható a képen?";
@@ -255,37 +238,33 @@ public static function themesTopics_FromDB_Static($input_Array) {
                     $back_String = "Hány éves a képen látható <i>".$topic_String."</i>?";
                 break;
             }
-        }else{
+        else
             switch ($questiontype){
-            case 1:
-                $back_String = "Which <i>".$topic_String."</i> is this image?";
-            break;
-            case 2:
-                $back_String = "Which <i>".$topic_String."</i> is this image detail?";
-            break;
-            case 3:
-                $image_String = Image::find($image_ID)->getAttribute('name_'.session('rg_lang'));
-                $back_String = "The ".$topic_String." on the image:<br /><i>".$image_String."</i>";
-            break;
-            case 4:
-                $back_String = "Which is the odd one out?";
-            break;
-            case 5:
-                $back_String = "How old is the <i>".$topic_String."</i> in this image?";
-            break;
+                case 1:
+                    $back_String = "Which <i>".$topic_String."</i> is this image?";
+                break;
+                case 2:
+                    $back_String = "Which <i>".$topic_String."</i> is this image detail?";
+                break;
+                case 3:
+                    $image_String = Image::find($image_ID)->getAttribute('name_'.session('rg_lang'));
+                    $back_String = "The ".$topic_String." on the image:<br /><i>".$image_String."</i>";
+                break;
+                case 4:
+                    $back_String = "Which is the odd one out?";
+                break;
+                case 5:
+                    $back_String = "How old is the <i>".$topic_String."</i> in this image?";
+                break;
             }
-        }
         return $back_String;
     }
 
 /******************************** Compose the True-False answer text ****************************/
-
     public static function answerFalseCompose_Static($text){
-        $back_String ="";
         if (session('rg_lang')=='hu')
-            $back_String="Hamis, mert ".$text;
+            return "Hamis, mert ".$text;
         else
-            $back_String="False, because ".$text;
-        return $back_String;
+            return "False, because ".$text;
     }
 }

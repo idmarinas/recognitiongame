@@ -14,7 +14,6 @@ class ThemesTopicsController extends Controller {
     public function init(Request $request) {
         return response([
             MasterController::databaseinfo_Init_Static(),
-            MasterController::greeting_Init_Static(),
             MasterController::proposal_Init_Static(),
             MasterController::quickgame_Init_Static(),
             [

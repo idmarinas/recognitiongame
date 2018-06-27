@@ -31,18 +31,6 @@ Refresh
 11
 Új játék indítása
 Start a new game
-12
-Köszöntő
-Greeting
-13
-Üdvözöllek ezen az ingyenes online játékoldalon.
-Welcome in this free online game site.
-14
-A kvíz felépítésű játék folyamán kép alapján kell felismerni pl: ország zászlóját, autót vagy hírességet. Tedd próbára a felismerő képességedet, hogy mennyire figyelsz a körülötted lévő dolgokra, mindezt szórakozás és kikapcsolódás formájában.
-Based on images recognize e.g. country's flag, car or celebrity during the quiz based game. Test your recognizing skill, how do you keep attention in your surrounding things with fun and relax.
-15
-Jó játékot kívánok!
-Have a good play!
 16
 darab
 piece
