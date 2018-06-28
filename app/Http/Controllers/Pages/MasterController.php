@@ -22,8 +22,8 @@ class MasterController extends Controller {
     public static function databaseinfo_Init_Static() {
         return  [                    
                     [   Theme::count(),
-                        Topic::count(),
-                        Image::count()   ],
+                        Topic::count()+Topicage::count(),
+                        Image::count()+Imageage::count()   ],
                     MasterController::webpagetext_FromDB_Static([ 8, 1051, 1052, 9, 17, 16 ]),
                 ];
     }
@@ -178,7 +178,7 @@ class MasterController extends Controller {
 
 /*************************** All topics, themes of a theme *****************************/
     public function themesTopicsOfTheme(Request $request) {  
-        return response([$this->themesTopicsOfTheme_Static(1, $request->all()[0], $request->all()[1], $request->all()[2])]);
+        return response([$this->themesTopicsOfTheme_Static($request->all()[0],$request->all()[1],$request->all()[2],$request->all()[3])]);
     }
 
     public static function themesTopicsOfTheme_Static( int $type, int $parent, bool $enablehungarian, bool $oddoneout){

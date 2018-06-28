@@ -339,7 +339,7 @@ https://www.wikipedia.org/
 3836
 3893
 0
--1
+7
 39
 Európai Unió tagállam
 European Union's member state
@@ -366,7 +366,7 @@ https://www.wikipedia.org/
 3988
 4058
 0
--1
+7
 42
 Béka Magyarországon
 Frog in Hungary
@@ -4199,5 +4199,14 @@ Movie (8)
 http://www.port.hu/
 16595
 16603
+0
+-1
+468
+Sci-fi sorozat
+Sci-fi series
+67
+http://www.origo.hu/
+16604
+16621
 0
 -1  

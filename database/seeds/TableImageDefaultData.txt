@@ -49806,4 +49806,58 @@ Mechanikus narancs
 A Clockwork Orange
 16603
 Deadpool
-Deadpool  
+Deadpool
+16604
+Alfa holdbázis
+Space
+16605
+X-akták
+The X Files
+16606
+Hősök
+Heroes
+16607
+Fekete tükör
+Black Mirror
+16608
+Sötét árvák
+Orphan Black
+16609
+Csillagközi romboló
+Battlestar Galactica
+16610
+Prix kalandjai
+Adventures of Prix
+16611
+Stranger Things
+Stranger Things
+16612
+Kolónia
+Colony
+16613
+Humans
+Humans
+16614
+12 majom
+12 Monkeys
+16615
+Időutazók
+Timeless
+16616
+A Térség
+The Expanse
+16617
+Smallville
+Smallville
+16618
+Star Trek: Discovery
+Star Trek: Discovery
+16619
+Mézga Aladár különös kalandjai
+The adventures of Aladár Mézga
+16620
+Csillagok küldötte
+Spadla z oblakov
+16621
+11.22.63
+11.22.63  
