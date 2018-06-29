@@ -97,7 +97,7 @@ class IndexController extends Controller {
             };
             for($i=0;$i<$request->all()[3];$i++){
                 $questiontype = $gameProperties_Array['gametype'];
-                if ($gameProperties_Array['gametype']==0) $questiontype = rand(1,5);
+                if ($gameProperties_Array['gametype']==0) $questiontype = rand(1,4);
                 if ($questiontype==5){
                     array_push($predrawQuestion_Array, 
                         array( 

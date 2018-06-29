@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 use RecognitionGame\Http\Requests;
 use RecognitionGame\Http\Controllers\Pages\MasterController;
+use Illuminate\Support\Facades\Log;
 
 use RecognitionGame\Models\Image;
 use RecognitionGame\Models\Imageage;
@@ -30,7 +31,7 @@ class NewGameController extends Controller {
                 MasterController::webpagetext_FromDB_Static([
                     27, 28, 29, 23, 30, 120, 121, 122, 123, 124, 125,
                     68, 39, 69, 59, 43, 44, 57, 60,
-                    63, 64, 35, 6, 7, 36, 31, 68, 41, 42, 18, 19, 20]),
+                    63, 64, 35, 6, 7, 36, 31, 68, 41, 42, 18, 19, 20, 12]),
                 NewGameController::currentGame_Data_Static($request->all())
             ]
         );
@@ -67,6 +68,11 @@ class NewGameController extends Controller {
                         $session_Array[2][2] = $session_Array[2][2] + 1;
                     }
                     MasterController::answerLog_ToDB_Static([$topic_Array['imageGood_ID'], null, $topic_Array['questiontype'], $input_Array[0]]);
+                    $tmp_Imageage = Imageage::find($topic_Array['imageGood_ID']);
+                    $backData = "---";
+                    if ($tmp_Imageage['answer_sum']!=0) $backData = bcdiv($tmp_Imageage['answer_sum'],$tmp_Imageage['answer_total'],0);
+                    $session_Array[1]['images'][0]['age_averageanswers'] = $backData;
+
                 }else{
                     if ($input_Array[0] == $topic_Array['imageGood_ID'] ){
                         MasterController::answerLog_ToDB_Static([$topic_Array['imageGood_ID'], true, $topic_Array['questiontype'], null]);

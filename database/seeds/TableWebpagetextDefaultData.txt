@@ -31,6 +31,9 @@ Refresh
 11
 Új játék indítása
 Start a new game
+12
+Átlag
+Average
 16
 darab
 piece
@@ -86,8 +89,8 @@ All rights reserved.
 recognitiongame@gmail.com
 recognitiongame@gmail.com
 35
-KÖVETKEZŐ KÉRDÉS
-NEXT QUESTION
+KÖVETKEZŐ
+NEXT
 36
 VÉGE
 FINISH
