@@ -1017,7 +1017,7 @@ https://www.wikipedia.org/
 -1
 114
 Közép-európai kastély
-Central European palace
+Central European castle
 25
 https://www.wikipedia.org/
 7035
@@ -4217,5 +4217,23 @@ Movie (based on car) (2)
 http://www.port.hu/
 16622
 16625
+0
+-1
+470
+Balatoni vár, kastély
+Lake Balaton castle
+25
+http://www.travelo.hu/
+16626
+16629
+1
+-1
+471
+Híres sportoló
+Famous sport player
+14
+http://www.origo.hu/
+16630
+16639
 0
 -1  
