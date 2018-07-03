@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background-color: $color1;
+    background-color: $color2;
     font-family: $fontfamily;
     margin-bottom: 70px;
 }
@@ -82,6 +82,10 @@ body {
     background-color: $color6;
 }
 
+.bgcolor7 {
+    background-color: $color7;
+}
+
 .bgcolor4 {
     background-color: $color4;
 }
@@ -100,6 +104,10 @@ body {
 
 .bgcolor19 {
     background-color: $color19;
+}
+
+.bordercolor2 {
+    border: 0.5px solid $color2 !important;
 }
 
 .bordercolor4 {
@@ -171,95 +179,32 @@ body {
     cursor: pointer !important;
 }
 
+.cursor2 {
+    cursor: help !important;
+}
+
 // Links
 
-.link1 {
-    color: $color1 !important;
+.link1, .link1:hover, .link1:visited {
+    color: $color5 !important;
     cursor: pointer !important;
     text-decoration:none !important;
+    font-weight: $fontweight2;
 }
 
 .link1:hover {
-    color: $color1 !important;
-    cursor: pointer !important;
-    text-decoration:none !important;
+    color: $color7 !important;
 }
 
-.link1:visited {
-    color: $color1 !important;
+.link2, .link2:hover, .link2:visited {
+    color: $color6 !important;
     cursor: pointer !important;
     text-decoration:none !important;
+    font-weight: $fontweight2;
 }
 
-.link3 {
-    color: $color3 !important;
-    cursor: pointer !important;
-    text-decoration:none !important;
-}
-
-.link3:hover {
-    color: $color3 !important;
-    cursor: pointer !important;
-    text-decoration:none !important;
-}
-
-.link3:visited {
-    color: $color3 !important;
-    cursor: pointer !important;
-    text-decoration:none !important;
-}
-.link4 {
-    color: $color4 !important;
-    cursor: pointer !important;
-    text-decoration:none !important;
-}
-
-.link4:hover {
-    color: $color4 !important;
-    cursor: pointer !important;
-    text-decoration:none !important;
-}
-
-.link4:visited {
-    color: $color4 !important;
-    cursor: pointer !important;
-    text-decoration:none !important;
-}
-
-.link5 {
-    color: $color5 !important;
-    cursor: pointer !important;
-    text-decoration:none !important;
-}
-
-.link5:hover {
-    color: $color5 !important;
-    cursor: pointer !important;
-    text-decoration:none !important;
-}
-
-.link5:visited {
-    color: $color5 !important;
-    cursor: pointer !important;
-    text-decoration:none !important;
-}
-
-.link8 {
-    color: $color8 !important;
-    cursor: pointer !important;
-    text-decoration:none !important;
-}
-
-.link8:hover {
-    color: $color8 !important;
-    cursor: pointer !important;
-    text-decoration:none !important;
-}
-
-.link8:visited {
-    color: $color8 !important;
-    cursor: pointer !important;
-    text-decoration:none !important;
+.link2:hover {
+    color: $color7 !important;
 }
 
 // Bootstrap
@@ -276,69 +221,30 @@ body {
     border: none;
 }
 
-.card-header_type1 {
-    background-color: $color4;
-    color: $color6;
-    font-weight:bold;
-    font-size: $fontsize6;
+.card-header1 {
+    background-color: $color3 !important;
+    color: $color8;
     margin: 0px !important;
-    padding: 5px 0 5px 0 !important;
-    text-align: center !important;
+    padding: 5px !important;
     border-radius: 0px !important;
     border: none;
 }
 
-.card-body_type1 {
-    border: 0.5px solid $color5 !important;
+.card-body1 {
+    border: 0.5px solid $color3 !important;
     padding: 5px 5px 10px 5px !important;
-    background-color: $color2;
-    color: $color4;
-    font-size: $fontsize5;
-}
-
-.card-footer_type1 {
-    color: $color4;
-    background-color: $color6;
-    border-top: 0 !important;
-    border-right: 0.5px solid $color5 !important;
-    border-bottom: 0.5px solid $color5 !important;
-    border-left: 0.5px solid $color5 !important;
-    font-size: $fontsize6;
-    padding: 5px !important;
-    border-radius: 0px !important;
-    border: none;
-}
-
-.card-header_type2 {
-    background-color: $color4 !important;
+    background-color: $color8;
     color: $color1;
-    font-size: $fontsize5;
-    margin: 0px !important;
-    padding: 5px !important;
-    text-align: left !important;
-}
-
-.card-body_type2 {
-    border: 0.5px solid $color4 !important;
-    padding: 5px !important;
-    background-color: $color6;
-    color: $color4;
-    font-size: $fontsize5;
 }
 
 .navbar {
     margin-bottom: 5px !important;
     padding: 0 5px 0 10px !important;
-    background-color: $color3 !important;
+    background-color: $color5 !important;
 }
 
 .navbar-brand {
     margin: 0 !important;
-}
-
-.nav-link {
-    color: $color8 !important;
-    font-size: $fontsize5;
 }
 
 .navbar-toggler {
@@ -352,7 +258,8 @@ body {
 }
 
 .img_logo {
-    height: 5rem;   
+    height: 4rem;  
+    margin-right: 5px; 
 }
 
 .img_answer1 {
@@ -389,17 +296,16 @@ body {
     height: 0.12rem !important;
 } 
 
-.hr_4 {
-    color: $color4 !important;
+hr {
     margin: 0 0 5px 0 !important;
     padding: 0 !important;
 }
 
-.hr_7 {
-    color: $color7 !important;
-    margin: 0 0 5px 0 !important;
-    padding: 0 !important;
-}
+.hr_3 { border-top: 1px solid $color3 !important; }
+
+.hr_4 { border-top: 1px solid $color3 !important; }
+
+.hr_7 { border-top: 1px solid $color7 !important; }
 
 /********************************* Wait for Angular "Loading..." circle **************************/
 .angular_loading1 {
@@ -418,13 +324,4 @@ body {
     100% {
         transform: rotate(360deg);
     }
-}
-
-.angular_loading2 {
-    border: 3px solid $color2;
-    border-radius: 50%;
-    border-top: 3px solid $color4;
-    width: 20px !important;
-    height: 20px !important;
-    animation: spin 2s linear infinite;
 }

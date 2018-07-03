@@ -62,8 +62,8 @@ Number of questions
 MEHET
 START
 26
-Témakör vagy téma
-Theme or topic
+Téma
+Topic
 27
 Statisztika
 Statistics

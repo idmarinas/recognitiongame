@@ -294,7 +294,7 @@ https://www.wikipedia.org/
 2843
 2912
 0
--1
+12
 34
 Védett háziállat Magyarországon
 Protected pet in Hungary
@@ -429,7 +429,7 @@ https://www.wikipedia.org/
 4300
 4318
 0
--1
+10
 49
 Csillagjegy
 Starsign
@@ -456,7 +456,7 @@ https://www.wikipedia.org/
 4385
 4398
 0
--1
+10
 52
 Híres zenész
 Famous musician
@@ -1563,7 +1563,7 @@ https://www.wikipedia.org/
 8299
 8332
 0
--1
+12
 175
 Trópusi növény
 Tropical plant
@@ -1797,7 +1797,7 @@ https://www.wikipedia.org/
 8751
 8816
 1
--1
+9
 201
 Görög nemzeti étel
 Greek national food
@@ -1806,7 +1806,7 @@ http://divany.hu/
 8817
 8826
 0
--1
+11
 202
 Trónok harca karakter (Disney hősként)
 Game of thrones character (as Disney hero)
@@ -1887,7 +1887,7 @@ http://www.hung-art.hu/
 9032
 9074
 1
--1
+9
 211
 Ferenczy Károly festmény
 Károly Ferenczy painting
@@ -1896,7 +1896,7 @@ http://www.hung-art.hu/
 9075
 9129
 1
--1
+9
 212
 Veszélyes vulkán
 Dangerous volcano
@@ -2229,7 +2229,7 @@ http://recorder.blog.hu/
 11271
 11280
 1
--1
+8
 249
 Egzotikus hely
 Exotic beach
@@ -2958,7 +2958,7 @@ http://fulesbagoly.blog.hu/
 13062
 13087
 0
--1
+8
 330
 Sztár (először a vörös szőnyegen)
 Star (first in red carpet)
@@ -3858,7 +3858,7 @@ https://divany.hu/
 16088
 16097
 0
--1
+11
 430
 Film (4)
 Movie (4)
@@ -4235,5 +4235,14 @@ Famous sport player
 http://www.origo.hu/
 16630
 16639
+0
+-1
+472
+Gyereksztár
+Child star
+70
+http://www.origo.hu/
+16640
+16646
 0
 -1  

@@ -56,11 +56,11 @@
                 @endif
             </div>
         @endif
-        <div class="footer bgcolor19 color1 text-center w-100">
+        <div class="footer bgcolor6 color5 text-center w-100">
             {{RecognitionGame\Models\Webpagetext::find(32)->getAttribute('name_'.session('rg_lang'))}}<br />
             {{RecognitionGame\Models\Webpagetext::find(33)->getAttribute('name_'.session('rg_lang'))}}<br />
             {{RecognitionGame\Models\Webpagetext::find(39)->getAttribute('name_'.session('rg_lang'))}}:
-            <a class='link3' href='{{route('contact')}}'>{{RecognitionGame\Models\Webpagetext::find(34)->getAttribute('name_'.session('rg_lang'))}}</a>
+            <a class='link1' href='{{route('contact')}}'>{{RecognitionGame\Models\Webpagetext::find(34)->getAttribute('name_'.session('rg_lang'))}}</a>
         </div>
         <script type="text/javascript" src="js/angular/inline.bundle.js"></script>
         <script type="text/javascript" src="js/angular/polyfills.bundle.js"></script>

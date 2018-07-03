@@ -1,0 +1,35 @@
+<div class="card">
+    <div class="card-header1" *ngIf="loaded_DOM">
+        <div class="d-flex justify-content-between">
+            <div>{{ webpageText_Array[4] }}</div>
+            <div>
+                <a class="link1" href="{{ this.question_Data['source'] }}" *ngIf="this.question_Data['source']!=''" target="_blank" title="{{ webpageText_Array[1] + ': ' + this.question_Data['source'] }}"><i class="far fa-copyright"></i></a>
+                <a class="link1" (click)="quickgame_Refresh()" title="{{ webpageText_Array[5] }}"><i class="fas fa-sync"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="card-body1">
+        <div *ngIf="!loaded_DOM">
+            <div class="angular_loading1"></div>
+        </div>
+        <div *ngIf="loaded_DOM">
+            <img
+                class="img_answer1" 
+                (click)="image_Click()" 
+                (contextmenu)="disableRight_Click()"
+                ondragstart="return false;"
+                src="{{ 'http://www.felismerojatek.hu/kepek/'+this.question_Data['topic_ID']+'/'+selected_Item['imageFile_ID']+'.png' }}" 
+                title="{{ webpageText_Array[0] }}" />
+            <div class="text-center my-1" [innerHTML]="this.question_Data['question']"></div>
+            <div class="text-center" *ngFor="let item of this.question_Data['answer_Items'];let i = index;">
+                <a 
+                    class="{{ answerClasses_Array[i] }} {{ (item['image_ID'] == selected_Item['image_ID']) && answered ? ' button1_border' : null }}"
+                    (click)="answered ? answer2_Click(i) : answer1_Click(i)"
+                    (contextmenu)="disableRight_Click()"
+                    ondragstart="return false;">
+                        {{ item['text'] }}
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

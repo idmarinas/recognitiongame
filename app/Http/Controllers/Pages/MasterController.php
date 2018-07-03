@@ -3,6 +3,7 @@ namespace RecognitionGame\Http\Controllers\Pages;
 
 use RecognitionGame\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 use RecognitionGame\Models\Image;
 use RecognitionGame\Models\Imageage;
@@ -21,10 +22,13 @@ class MasterController extends Controller {
 /************************************** Databaseinfo **********************************/
     public static function databaseinfo_Init_Static() {
         return  [                    
-                    [   Theme::count(),
-                        Topic::count()+Topicage::count(),
-                        Image::count()+Imageage::count()   ],
-                    MasterController::webpagetext_FromDB_Static([ 8, 1051, 1052, 9, 17, 16 ]),
+                    [   Topic::count(),
+                        Image::count(),
+                        Topic::where('oddoneout', '<>', -1)->count(),
+                        (int)Topic::select(DB::raw('sum(image_to - image_from + 1) as count'))->where('oddoneout', '<>', -1)->pluck('count')->first(),
+                        Topicage::count(),
+                        Imageage::count()   ],
+                    MasterController::webpagetext_FromDB_Static([ 8, 1052, 9, 17, 16, 121, 122, 123, 124, 125, 23 ]),
                 ];
     }
 
@@ -114,24 +118,26 @@ class MasterController extends Controller {
             } while ($exists);
             $possibleAnswerID_Array[$i] = $id;
         }
-        $correctAnswer_ID = $possibleAnswerID_Array[rand(0,$image_Count-1)];
         $answerArray_TMP = Image::whereIn('id',$possibleAnswerID_Array)->inRandomOrder()->get();
         $answer_Array = [];
         foreach($answerArray_TMP as $item){
-            $bigImage = get_headers("http://www.felismerojatek.hu/kepek_big/".$topic['id']."/". $item['id'].".png");
+            $bigImage = get_headers("http://www.felismerojatek.hu/kepek_big/".$topic['id']."/".($item['id']-$topic['image_from']+1).".png");
             array_push($answer_Array,
                 array(
-                    'id' => $item['id'],
-                    'text' => $item['name_'.session('rg_lang')],
-                    'bigImage' => stripos($bigImage[0],"200 OK") ? true : false
+                    'image_ID' => $item['id'],
+                    'bigImage' => stripos($bigImage[0],"200 OK") ? true : false,
+                    'imageFile_ID' => $item['id']-$topic['image_from']+1,
+                    'text' => $item['name_'.session('rg_lang')]
                 )
             );
         }
-        return [    $topic,
-                    $answer_Array,
-                    $correctAnswer_ID,
-                    MasterController::questionCompose_Static($topic->id, 1, null)
-                ];
+        return  array( 
+                    'answer_Items' => $answer_Array,
+                    'selIndex' => rand(0,$image_Count-1),
+                    'question' => MasterController::questionCompose_Static($topic->id, 1, null),
+                    'source' => $topic['source'],
+                    'topic_ID' => $topic['id']
+                );
     }
 
 /*************************************** Webpagetext ***********************************/

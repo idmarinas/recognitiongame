@@ -1,8 +1,14 @@
 Odd one out & Age:
 Visszafele haladok
 
-Vallás OK
+Tudomány OK
 
 "Odd one out" Next index:
-8
+13
 
+
+
+Angular2:
+Master_databaseinfo OK
+Master_quickgame OK
+Master_proposal OK

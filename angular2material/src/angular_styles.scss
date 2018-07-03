@@ -1,0 +1,211 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,700");
+/// Variables
+@import "../../resources/assets/sass/variables";
+@import '~angular-tree-component/dist/angular-tree-component.css';
+
+/********************************************* Button ********************************************/
+.mat-button {
+    font-family: $fontfamily !important;
+    font-size: $fontsize5 !important;
+    font-weight: $fontweight2;
+    background-color: $color3 !important;
+    color: $color8 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.mat-button:hover {
+    background-color: $color3 !important;
+    color: $color8 !important;
+}
+
+.mat-button:disabled {
+    cursor: no-drop !important;
+}
+/********************************************* Input *********************************************/
+.mat-input-element {
+    color: $color7 !important;
+    font-family: $fontfamily !important;
+    font-size: $fontsize5 !important;
+}
+
+.mat-input-invalid .mat-input-element{
+    color: $color18 !important;    
+}
+  
+.mat-input-placeholder {
+    color: $color5 !important;
+    font-family: $fontfamily !important;
+    font-weight: bold !important;
+    font-size: $fontsize5 !important;
+}
+
+.mat-input-invalid .mat-input-placeholder {
+    color: $color18 !important;
+}
+
+.mat-input-underline {
+    background-color: $color5 !important;
+    height: 1.5px !important;
+} 
+
+.mat-input-ripple {
+    background-color: $color7 !important;
+    height: 1.5px !important;
+}
+
+.mat-input-invalid .mat-input-ripple {
+  background-color:$color18 !important;
+  height: 1.5px !important;
+}
+
+.mat-placeholder-required {
+  color: $color5 !important;
+  font-family: $fontfamily !important;
+  font-size: $fontsize5 !important;
+}
+
+.mat-input-invalid .mat-placeholder-required {
+    color: $color18 !important;
+}
+
+.mat-form-field textarea {
+    resize: none !important;
+}
+
+.mat-hint {
+    font-family: $fontfamily !important;
+    color:$color18 !important;
+}
+/****************************************** RadioButton ******************************************/
+.mat-radio-button {
+    color: $color5 !important;
+}
+
+.mat-radio-label-content {
+    font-family: $fontfamily !important;
+    font-weight: normal !important;
+}
+
+.mat-radio-button .mat-radio-outer-circle {
+    border: 2px solid $color5 !important;
+}
+
+.mat-radio-checked .mat-radio-inner-circle {
+    background-color: $color7 !important;
+}
+
+.mat-radio-checked .mat-radio-outer-circle {
+    border: 2px solid $color7 !important;
+}
+
+.mat-radio-ripple .mat-ripple-element {
+    background-color: rgba($color7, 0.1) !important;
+}
+
+.mat-radio-checked label {
+    color: $color7 !important;
+}
+
+/************************************** Slide toggle *********************************************/
+.mat-slide-toggle-bar {
+    background-color: $color6 !important;
+}
+
+.mat-slide-toggle .mat-slide-toggle-thumb {
+    background-color: $color2 !important;
+}
+
+.mat-checked .mat-slide-toggle-thumb {
+    background-color: $color7 !important;
+}
+
+.mat-slide-toggle label {
+    color: $color2 !important;
+}
+
+.mat-slide-toggle-content {
+    font-family: $fontfamily !important;
+}
+
+.mat-checked label {
+    color: $color7 !important;
+}
+
+/***************************************** Slider ************************************************/
+.mat-slider {
+    width: 100% !important;
+}
+
+.mat-slider .mat-slider-thumb {
+    transform: scale(0) !important;
+}
+  
+.mat-slider-thumb-label {
+    background-color: $color6 !important;
+    transform: rotate(45deg) !important;
+    border-radius: 50% 50% 0 !important;
+}
+  
+.mat-slider-thumb-label-text {
+    color: $color7 !important;
+    opacity: 1 !important;
+    font-weight: $fontweight2;
+}
+  
+.mat-slider-track-fill {
+    background-color: $color7 !important;
+}
+
+.mat-slider-track-background {
+    background-color: $color5 !important;
+}
+
+/***************************************** TreeModule ************************************************/
+.angular-tree-component {
+    padding-left: 10px !important;
+}
+
+.tree-viewport {
+    display: inline !important;
+}
+
+.tree-node {
+    color: $color5 !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    font-weight: bold !important;
+    margin-left: -3px !important;
+}
+
+.tree-node-leaf {
+    color: $color5 !important;
+    font-weight: normal !important;
+    margin-left: -16px !important;
+}
+
+.tree-node_fulldb {
+    font-weight: bold !important;
+}
+
+.tree-node-focused {
+    font-weight: bold !important;
+}
+
+.toggle-children {
+    background-image: url('./img/treemodule.gif') !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.node-content-wrapper:hover { 
+    background: $color6 !important;
+    color: $color7 !important;
+}
+
+.node-content-wrapper-active {
+    background: $color6 !important;
+    color: $color7 !important;
+}

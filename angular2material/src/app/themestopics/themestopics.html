@@ -1,0 +1,25 @@
+<div class="card">
+    <div class="card-header1" *ngIf="loaded_DOM">
+        {{ webpageText_Array[0] }}
+    </div>
+    <div class="card-body1">
+        <div *ngIf="!loaded_DOM">
+            <div class="angular_loading1"></div>
+        </div>
+        <div *ngIf="loaded_DOM">
+            <div class="d-block d-sm-flex justify-content-around py-1">
+                <div *ngFor="let item of radio_Array">
+                    <mat-radio-group [(ngModel)]="radio_SelectedID">
+                        <mat-radio-button (click)="radio_Change(item.id)" [value]="item.id">
+                            {{ item.text }}
+                        </mat-radio-button>
+                    </mat-radio-group>
+                </div>
+            </div>
+            <hr class="hr_4" />
+            <div class="text-center py-1" *ngFor="let item of tableData_Array">
+                <a class="link1" (click)="proposal_Click(item.id)">{{item.text}}</a>
+            </div>    
+        </div>
+    </div>
+</div>
