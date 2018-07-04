@@ -24,7 +24,7 @@ body {
 }
 
 .color3 {
-  color: #9D6B84;
+  color: #3e7c7c;
 }
 
 .color4 {
@@ -64,7 +64,7 @@ body {
 }
 
 .bgcolor3 {
-  background-color: #9D6B84;
+  background-color: #3e7c7c;
 }
 
 .bgcolor5 {
@@ -211,7 +211,7 @@ body {
 }
 
 .card-header1 {
-  background-color: #9D6B84 !important;
+  background-color: #3e7c7c !important;
   color: #e4caa3;
   margin: 0px !important;
   padding: 5px !important;
@@ -220,7 +220,7 @@ body {
 }
 
 .card-body1 {
-  border: 0.5px solid #9D6B84 !important;
+  border: 0.5px solid #3e7c7c !important;
   padding: 5px 5px 10px 5px !important;
   background-color: #e4caa3;
   color: #202020;
@@ -287,11 +287,11 @@ hr {
 }
 
 .hr_3 {
-  border-top: 1px solid #9D6B84 !important;
+  border-top: 1px solid #3e7c7c !important;
 }
 
 .hr_4 {
-  border-top: 1px solid #9D6B84 !important;
+  border-top: 1px solid #3e7c7c !important;
 }
 
 .hr_7 {
