@@ -4,11 +4,11 @@
 // Variables
 @import "variables";
 
-/*********************************************** Game *********************************************/
-.game_button,
-.game_button_nohover {
-  color: $color7 !important;
-  width: 90% !important;
+/*********************************************** Text buttons *********************************************/
+.game_button1,
+.game_button1_disable {
+  color: $color1 !important;
+  width: 100% !important;
   cursor: pointer !important;
   text-align: center !important;
   text-decoration: none !important;
@@ -16,7 +16,7 @@
   display: inline-block;
   vertical-align: baseline;
   margin: 0 0 5px 0;
-  padding: 0.15em 0 .15em 0;
+  padding: 5px 2px 5px 2px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   -webkit-border-radius: .1em;
   -moz-border-radius: .1em;
@@ -25,45 +25,86 @@
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
-// .game_button_nohover {
-//   cursor: no-drop !important;
-// }
-.game_button:hover {
-  color: $color4 !important;
-  text-decoration: none !important;
+.game_button1:hover {
+  color: $color1 !important;
 }
-.game_button:active {
-  color: $color4 !important;
-  top: 1px !important;
-  position: relative !important;
+.game_button1_disable {
+  cursor: no-drop !important;
 }
 
-/************************************** Colored answer buttons ***********************************/
-.button_white, .button_white_nohover, 
-.button_green, .button_green_nohover,
-.button_orange, .button_orange_nohover,
-.button_red, .button_red_nohover,
-.button_gray, .button_gray_nohover {
-    border: solid 1px $color1;
-    //color: $color5;
+/************************************** Colored answer text buttons ***********************************/
+.button1_white, 
+.button1_green,
+.button1_orange,
+.button1_red,
+.button1_gray {
+    border: solid 0.5px $color6;
 }
 
-.button_white, .button_white_nohover { background: $color15; }
-.button_white:hover { background: darken($color15, 5%); }
-.button_white:active { background: darken($color15, 15%); }
+.button1_white_disable { background: $color15; }
+.button1_white { background: $color15; }
+.button1_white:hover { background: darken($color15, 5%); }
+.button1_white:active { background: darken($color15, 15%); }
 
-.button_green, .button_green_nohover { background: $color16; }
-.button_green:hover { background: darken($color16, 5%); }
-.button_green:active { background: darken($color16, 15%); }
+.button1_green_disable { background: $color16; }
+.button1_green { background: $color16; }
+.button1_green:hover { background: darken($color16, 5%); }
+.button1_green:active { background: darken($color16, 15%); }
 
-.button_orange, .button_orange_nohover { background: $color17; }
-.button_orange:hover { background: darken($color17, 5%); }
-.button_orange:active { background: darken($color17, 15%); }
+.button1_orange_disable { background: $color17; }
+.button1_orange { background: $color17; }
+.button1_orange:hover { background: darken($color17, 5%); }
+.button1_orange:active { background: darken($color17, 15%); }
 
-.button_red, .button_red_nohover { background: $color18; }
-.button_red:hover { background: darken($color18, 5%); }
-.button_red:active { background: darken($color18, 15%); }
+.button1_red_disable { background: $color18; }
+.button1_red { background: $color18; }
+.button1_red:hover { background: darken($color18, 5%); }
+.button1_red:active { background: darken($color18, 15%); }
 
-.button_gray, .button_gray_nohover { background: $color19; }
-.button_gray:hover { background: darken($color19, 5%); }
-.button_gray:active { background: darken($color19, 15%); }
+.button1_gray_disable { background: $color1; }
+
+.button1_border { border: 3px solid $color5; }
+
+// majd letörölni
+.button1_blueborder { border: 3px solid $color5; }
+
+
+/*********************************************** Image buttons *********************************************/
+.game_button2,
+.game_button2_disable {
+    width: 100%;
+    cursor: pointer !important;
+    margin: 5px 0px 0 0;
+}
+
+.game_button2:hover {
+    outline: solid 10px $color5;
+    outline-offset: -10px;
+}
+
+.game_button2_disable {
+    outline: none;
+    cursor: no-drop !important;
+    filter: brightness(30%);
+}
+
+/************************************** Colored answer image buttons ***********************************/
+.button2_green{
+    outline: 10px solid rgba($color16, 0.5);
+    outline-offset: -10px;
+}
+
+.button2_orange {
+    outline: 10px solid rgba($color17, 0.5);
+    outline-offset: -10px;
+}
+
+.button2_red {
+    outline: 10px solid rgba($color18, 0.5);
+    outline-offset: -10px;
+}
+
+.button2_blueborder { 
+    outline: 10px solid $color5;
+    outline-offset: -10px;
+}

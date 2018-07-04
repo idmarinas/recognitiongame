@@ -21,7 +21,7 @@ Route::get('/master/changelang',[
     'as' => 'changelang'
 ]);
 
-Route::get('/index',[
+Route::get('/index/{proposal_Data?}',[
     'uses' => 'Pages\IndexController@index',
     'as' => 'index'
 ]);
@@ -46,20 +46,28 @@ Route::get('/themestopics', [
     'as' => 'themestopics'
 ]);
 
-Route::post('/master/answerLogToDB', 'Pages\MasterController@answerLogToDB');
-Route::post('/master/topicsThemesOfTheme', 'Pages\MasterController@topicsThemesOfTheme');
-Route::post('/master/mainthemethemetopicFromDB', 'Pages\MasterController@mainthemethemetopicFromDB');
-Route::post('/master/proposalFromDB', 'Pages\MasterController@proposalFromDB');
-Route::post('/master/quickgameFromDB', 'Pages\MasterController@quickgameFromDB');
-Route::post('/master/webpagetextFromDB', 'Pages\MasterController@webpagetextFromDB');
+Route::post('/master/answerLog_ToDB', 'Pages\MasterController@answerLog_ToDB');
+//Route::post('/master/topicPath', 'Pages\MasterController@topicPath');
+Route::post('/master/themesTopicsOfTheme', 'Pages\MasterController@themesTopicsOfTheme');
+Route::post('/master/themesTopics_FromDB', 'Pages\MasterController@themesTopics_FromDB');
+Route::post('/master/proposal_FromDB', 'Pages\MasterController@proposal_FromDB');
+Route::post('/master/quickgame_FromDB', 'Pages\MasterController@quickgame_FromDB');
+Route::post('/master/webpagetext_FromDB', 'Pages\MasterController@webpagetext_FromDB');
 
+Route::post('/contact/init', 'Pages\ContactController@init');
 Route::post('/contact/submitForm', 'Pages\ContactController@submitForm');
 
+Route::post('/index/init', 'Pages\IndexController@init');
+Route::post('/index/imageCount_FromDB', 'Pages\IndexController@imageCount_FromDB');
 Route::post('/index/startNewGame', 'Pages\IndexController@startNewGame');
-Route::post('/index/imageCountFromDB', 'Pages\IndexController@imageCountFromDB');
 
-Route::post('/newgame/currentGameData', 'Pages\NewGameController@currentGameData');
+Route::post('/newgame/init', 'Pages\NewGameController@init');
+Route::post('/newgame/currentGame_Data', 'Pages\NewGameController@currentGame_Data');
+Route::post('/newgame/help_Change', 'Pages\NewGameController@help_Change');
 
+Route::post('/privacypolicy/init', 'Pages\PrivacyPolicyController@init');
+
+Route::post('/themestopics/init', 'Pages\ThemesTopicsController@init');
 
 Route::get('test', function () {
    Event::fire(new RecognitionGame\Events\NewGameLoadingEvent('KEZDŐDIK'));

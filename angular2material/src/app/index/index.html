@@ -1,0 +1,44 @@
+﻿<div class="card">
+    <div class="card-header1" *ngIf="loaded_DOM">
+        {{ webpageText_Array[1] }}
+    </div>
+    <div class="card-body1">
+        <div *ngIf="!loaded_DOM">
+            <div class="angular_loading1"></div>
+        </div>
+        <div *ngIf="loaded_DOM">
+            <div class="text-right" *ngIf="gametype_SelectedID!='5'">
+                <mat-slide-toggle [checked]="enablehungarian_Checked" (change)="enablehungarian_Click()">{{webpageText_Array[0]}}</mat-slide-toggle>
+            </div>
+            {{webpageText_Array[2]+':'}}
+            <div class="row no-gutters">
+                <div *ngFor="let item of gametype_Items; let i = index;" class="col-sm-4 text-center">
+                    <mat-radio-group [(ngModel)]="gametype_SelectedID">
+                        <mat-radio-button (click)="gametype_Change(item.id)" [value]="item.id">
+                            {{ item.text }}
+                        </mat-radio-button>
+                    </mat-radio-group>
+                </div>
+            </div>
+            <div [hidden]="gametype_SelectedID=='5'" >
+                <div class="my-1">
+                    {{webpageText_Array[8]+':'}}
+                </div>
+                <tree-root #treeComponent (updateData)= "treeModule_UpdateData(treeComponent, $event)" [nodes]="treeModule_Nodes" [options]="treeModule_Options" (activate)="treeModule_Activate($event)" (initialized)="treeModule_Initialized($event)">
+                    <ng-template #treeNodeTemplate let-node="node" let-index="index">
+                        <span [ngClass]="{'tree-node_fulldb' : node.data.id=='1050;0'}">{{ node.data.text }}</span><span id="{{node.data.id}}"></span>
+                    </ng-template>
+                </tree-root>
+            </div>
+            <div class="my-1">
+                {{webpageText_Array[6]+':'}}
+            </div>
+            <div class="text-center mx-2 mt-3">
+                <mat-slider *ngIf="maxnrquestion_Item['max']>1" [(ngModel)]="maxnrquestion_Item['value']" [max]="maxnrquestion_Item['max']" [min]="1" [step]="1" [thumb-label]="true"></mat-slider>
+            </div>
+            <div class="col-6 col-sm-3 ml-auto">
+                <button class="w-100" (click)="startNewGame()" mat-button>{{webpageText_Array[7]}}</button>
+            </div>
+        </div>
+    </div>
+</div>

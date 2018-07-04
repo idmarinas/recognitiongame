@@ -1,0 +1,23 @@
+<div class="card">
+    <div class="card-header1" *ngIf="loaded_DOM">
+        {{ webpageText_Array[0] }}
+    </div>
+    <div class="card-body1">
+        <div *ngIf="!loaded_DOM">
+            <div class="angular_loading1"></div>
+        </div>
+        <div *ngIf="loaded_DOM">
+            <div *ngFor="let i of [0,1,2]">
+                <div class="text-center color7 cursor2" title="{{ webpageText_Array[10] }}">{{ databaseinfo[i]['title'] }}</div>
+                <div class="d-flex justify-content-between" *ngFor="let item of databaseinfo[i]['data']; let j = index;">
+                    {{ webpageText_Array[1+j] }}: 
+                    <div>
+                        <span class="fontweight2">{{ item }}</span>
+                        {{ item == 1 ? webpageText_Array[4] : webpageText_Array[3] }}
+                    </div>
+                </div>
+                <hr class="hr_4" *ngIf="i!=2" />
+            </div>
+        </div>
+    </div>
+</div>

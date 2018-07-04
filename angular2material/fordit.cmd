@@ -1,0 +1,1 @@
+ng build --prod --aot --build-optimizer --output-hashing=none --output-path ..\public\js\angular

@@ -1,3 +1,4 @@
-/angular2material
+/angular2material/node_modules
 /node_modules
 .env
+.vscode

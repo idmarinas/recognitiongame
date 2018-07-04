@@ -1,6 +1,6 @@
 <?php
     return [
-        'routes' => [ 'index', 'contact', 'index', 'themestopics', 'privacypolicy' ],
+        'routes' => [ 'index', 'contact', 'themestopics', 'privacypolicy' ],
         'masterpagePATH' => '/pages/master/master'
     ];
 ?>

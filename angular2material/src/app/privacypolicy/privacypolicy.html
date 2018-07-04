@@ -1,0 +1,11 @@
+﻿<div class="card">
+    <div class="card-header1" *ngIf="loaded_DOM">
+        {{ webpageText_Array[0] }}
+    </div>
+    <div class="card-body1">
+        <div *ngIf="!loaded_DOM">
+            <div class="angular_loading1"></div>
+        </div>
+        <div *ngIf="loaded_DOM" class="text-justify" [innerHTML]="webpageText_Array[1]"></div>
+    </div>
+</div>

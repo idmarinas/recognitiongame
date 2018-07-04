@@ -18,6 +18,7 @@ class TableTopicSeeder extends Seeder{
              $item['image_from'] = fgets($myfile);
              $item['image_to'] = fgets($myfile);
              $item['hungarian'] = fgets($myfile);
+             $item['oddoneout'] = fgets($myfile);
              array_push($dataArray,$item);
         }
         fclose($myfile);

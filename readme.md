@@ -1,1 +1,1 @@
-My www.recognitiongame.com site Laravel's version.
+www.recognitiongame.com

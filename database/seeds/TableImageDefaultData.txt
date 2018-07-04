@@ -27474,7 +27474,7 @@ Inga-vízesés
 Inga Falls
 9159
 Livingstone-vízesés
- Chutes Livingstone 
+Chutes Livingstone
 9160
 Kalambo-vízesés
 Kalambo Falls
@@ -48900,4 +48900,1039 @@ Alyssa Milano
 Alyssa Milano
 16301
 Daniel Stern
-Daniel Stern  
+Daniel Stern
+16302
+Jennifer Aniston
+Jennifer Aniston
+16303
+Madonna
+Madonna
+16304
+Tom Selleck
+Tom Selleck
+16305
+Michael Jackson
+Michael Jackson
+16306
+James Gandolfini
+James Gandolfini
+16307
+Jane Fonda
+Jane Fonda
+16308
+Eminem
+Eminem
+16309
+Falco
+Falco
+16310
+Brad Pitt
+Brad Pitt
+16311
+Al Pacino
+Al Pacino
+16312
+Maradj talpon
+Stay on the floor
+16313
+Ninja Warrior
+Ninja Warrior
+16314
+Honfoglaló
+Conquest
+16315
+A Kód
+The code
+16316
+A széf
+The safe
+16317
+Piramis
+Pyramid
+16318
+Áll az alku
+It's a deal
+16319
+Bumm
+Bumm
+16320
+Ezek megőrültek
+These are crazy
+16321
+Sztárok a fejükre estek
+Stars fell on their heads
+16322
+Multimilliomos
+Multi-millionaire
+16323
+Magyarország, szeretlek
+Hungary, I love you
+16324
+Bezár a bazár
+Close the bazaar
+16325
+Pókerarc
+Poker face
+16326
+Észbontók
+Mind blowing
+16327
+A végső megoldás: Halál
+Alien 3
+16328
+Men in Black - Sötét zsaruk 3
+Men in Black III
+16329
+Szellemirtók 2
+Ghost Busters II
+16330
+Beetlejuice
+Beetlejuice
+16331
+Penge 2
+Blade 2
+16332
+Milla Jovovich
+Milla Jovovich
+16333
+Emma Watson
+Emma Watson
+16334
+Alan Rickman
+Alan Rickman
+16335
+Lady Gaga
+Lady Gaga
+16336
+Daniel Radcliffe
+Daniel Radcliffe
+16337
+Future
+Future
+16338
+Angelina Jolie
+Angelina Jolie
+16339
+Donald Trump
+Donald Trump
+16340
+Hillary Clinton
+Hillary Clinton
+16341
+Amy Winehouse
+Amy Winehouse
+16342
+Harry Styles
+Harry Styles
+16343
+Miley Cyrus
+Miley Cyrus
+16344
+Paul Walker
+Paul Walker
+16345
+Ivanka Trump
+Ivanka Trump
+16346
+Carrie Fisher
+Carrie Fisher
+16347
+Barack Obama
+Barack Obama
+16348
+Scarlett Johansson
+Scarlett Johansson
+16349
+Frank Sinatra
+Frank Sinatra
+16350
+Kendall Jenner
+Kendall Jenner
+16351
+Drew Barrymore
+Drew Barrymore
+16352
+Jimi Hendrix
+Jimi Hendrix
+16353
+Vanessa Paradis
+Vanessa Paradis
+16354
+Kurt Cobain
+Kurt Cobain
+16355
+Johnny Galecki
+Johnny Galecki
+16356
+Matt Damon
+Matt Damon
+16357
+Chantel Jeffries
+Chantel Jeffries
+16358
+Demi Lovato
+Demi Lovato
+16359
+Jenna Dewan
+Jenna Dewan
+16360
+Bebe Rexha
+Bebe Rexha
+16361
+Tyra Banks
+Tyra Banks
+16362
+Cyn
+Cyn
+16363
+Jennifer Lopez
+Jennifer Lopez
+16364
+Julia Michaels
+Julia Michaels
+16365
+Mila Kunis
+Mila Kunis
+16366
+Ciara
+Ciara
+16367
+Alison Brie
+Alison Brie
+16368
+Alyson Stoner
+Alyson Stoner
+16369
+Hailey Baldwin
+Hailey Baldwin
+16370
+Jesse Eisenberg
+Jesse Eisenberg
+16371
+Jesse Eisenberg
+Jesse Eisenberg
+16372
+Arnold Schwarzenegger
+Arnold Schwarzenegger
+16373
+Hayden Christensen
+Hayden Christensen
+16374
+Halle Berry
+Halle Berry
+16375
+Denise Richards
+Denise Richards
+16376
+Angkor Vat, Kambodzsa
+Angkor Vat, Cambodia
+16377
+Plaza de Espana, Sevilla, Spanyolország
+Plaza de Espana, Sevilla, Spain
+16378
+Zájed sejk-nagymecset, Abu-Dhabi
+Zayd Sejk Great Mosque, Abu Dhabi
+16379
+Szent Péter-bazilika, Vatikán
+St. Peter's Basilica, Vatican City
+16380
+Córdobai nagymecset (Mezquita), Spanyolország
+Córdoba Great Mosque (Mezquita), Spain
+16381
+Tádzs Mahal, Agra, India
+Taj Mahal, Agra, India
+16382
+Milánói dóm, Olaszország
+Milan Cathedral, Italy
+16383
+Alcatraz-sziget, San Francisco, USA
+Alcatraz Island, San Francisco, USA
+16384
+Golden Gate híd, San Francisco, USA
+Golden Gate Bridge, San Francisco, USA
+16385
+Országház, Budapest, Magyarország
+House of Parliament, Budapest, Hungary
+16386
+Óváros tér, Prága, Csehország
+Old Town Square, Prague, Czech Republic
+16387
+Notre-Dame-székesegyház, Párizs, Franciaország
+Notre-Dame Cathedral, Paris, France
+16388
+A Megváltó Krisztus szobra, Rio de Janeiro, Brazília
+The Statue of Savior Christ, Rio de Janeiro, Brazil
+16389
+Eiffel-torony, Párizs, Franciaország
+Eiffel Tower, Paris, France
+16390
+Tower of London, Egyesült Királyság
+Tower of London, United Kingdom
+16391
+Akropoliusz, Athén, Görögország
+Acropolis, Athens, Greece
+16392
+A Fekvő Buddha temploma, Bangkok, Thaiföld
+The Phoenician Buddha Temple, Bangkok, Thailand
+16393
+Kínai nagy fal, Peking, Kína
+Chinese Great Wall, Beijing, China
+16394
+Burdzs Kalifa, Dubaj
+Burj Khalifa, Dubai
+16395
+Sydney Operaház, Ausztrália
+Sydney Opera House, Australia
+16396
+Machu Picchu, Peru
+Machu Picchu, Peru
+16397
+El Ateneo Grand Splendid könyvesbolt, Buenos Aires, Argentína
+El Ateneo Grand Splendid Bookstore, Buenos Aires, Argentina
+16398
+Notre-Dame-bazilika, Montreal, Kanada
+Notre-Dame Basilica, Montreal, Canada
+16399
+Fusimi Inari-nagyszentély, Kiotó, Japán
+Fusimi Inari Grand Shrine, Kyoto, Japan
+16400
+Svedagon pagoda, Rangun, Mianmar
+Svedagon pagoda, Rangun, Mianmar
+16401
+Állami Tanítóképző Intézet, Sárospatak
+State Teacher Training Institute, Sárospatak
+16402
+Városháza, Kecskemét
+City Hall, Kecskemét
+16403
+Reök-palota, Szeged
+Reök Palace, Szeged
+16404
+Hotel Palatinus, Pécs
+Hotel Palatinus, Pécs
+16405
+Első Takarékpénztár, Debrecen
+First Savings Bank, Debrecen
+16406
+Fehér libatop
+Chenopodium album
+16407
+Fehér here
+White clover
+16408
+Madársóska
+Oxalis
+16409
+Széleslevelű útifű
+Plantago major
+16410
+Pitypang
+Dandelion
+16411
+Bojtorján
+Greater burdock
+16412
+Közönséges galaj
+Galium mollugo
+16413
+Parlagi ligetszépe
+Evening-primrose
+16414
+Kányazsombor
+Alliaria petiolata
+16415
+Közönséges cickafark
+Common yarrow
+16416
+Mesa Verde, USA
+Mesa Verde, USA
+16417
+Perszepolisz, Irán
+Persepolis, Iran
+16418
+Hvalsey, Grönland
+Hvalsey, Greenland
+16419
+Vijayanagara, India
+Vijayanagara, India
+16420
+Tiwanaku, Bolívia
+Tiwanaku, Bolivia
+16421
+Angkor Wat, Kambodzsa
+Angkor Wat, Cambodia
+16422
+Málna
+Raspberry
+16423
+Eper
+Strawberry
+16424
+Grépfrút
+Grapefruit
+16425
+Meggy
+Sour cherry
+16426
+Narancs
+Orange
+16427
+Sárgabarack
+Apricot
+16428
+Kivi
+Kiwi
+16429
+Áfonya
+Blueberries
+16430
+Alma
+Apple
+16431
+Mandarin
+Mandarin
+16432
+Chevy Chase
+Chevy Chase
+16433
+Bill Cosby
+Bill Cosby
+16434
+Shia LaBeouf
+Shia LaBeouf
+16435
+Val Kilmer
+Val Kilmer
+16436
+Liptai Claudia
+Claudia Liptai
+16437
+Szabó Zsófi
+Zsófi Szabó
+16438
+Tatár Csilla
+Csilla Tatár
+16439
+Tóth Vera
+Vera Tóth
+16440
+Mádai Vivien
+Vivien Mádai
+16441
+Bódi Sylvi
+Sylvi Bódi
+16442
+Ábel Anita
+Anita Ábel
+16443
+Vasvári Vivien
+Vivien Vasvári
+16444
+Zimány Linda
+Linda Zimány
+16445
+Palvin Barbara
+Barbara Palvin
+16446
+Liptai Claudia
+Claudia Liptai
+16447
+Szabó Zsófi
+Zsófi Szabó
+16448
+Tatár Csilla
+Csilla Tatár
+16449
+Tóth Vera
+Vera Tóth
+16450
+Mádai Vivien
+Vivien Mádai
+16451
+Bódi Sylvi
+Sylvi Bódi
+16452
+Ábel Anita
+Anita Ábel
+16453
+Vasvári Vivien
+Vivien Vasvári
+16454
+Zimány Linda
+Linda Zimány
+16455
+Palvin Barbara
+Barbara Palvin
+16456
+American Horror Story
+American Horror Story
+16457
+True Detective
+True Detective
+16458
+Westworld
+Westworld
+16459
+A szolgálólány meséje
+The Handmaid's Tale
+16460
+Zarándoktemplom, Wies, Németország
+Pilgrim Church, Wies, Germany
+16461
+Szentháromság-templom, Antarktisz
+Holy Trinity Church, Antarctica
+16462
+Szent György temploma, Etiópia
+St. George's Church, Ethiopia
+16463
+Borgundi fatemplom, Norvégia
+Borgundi wooden Church, Norway
+16464
+Saksun temploma, Feröer-szigetek
+Saxon Church, Faroe Islands
+16465
+Temppeliaukio templom – Finnország
+Temppeliaukio Church, Finland
+16466
+Zarándoktemplom, Wies, Németország
+Pilgrim Church, Wies, Germany
+16467
+Szentháromság-templom, Antarktisz
+Holy Trinity Church, Antarctica
+16468
+Temppeliaukio templom – Finnország
+Temppeliaukio Church, Finland
+16469
+Amiens
+Amiens
+16470
+Cluny
+Cluny
+16471
+Chamonix
+Chamonix
+16472
+Annecy
+Annecy
+16473
+Vouvant
+Vouvant
+16474
+Bayeux
+Bayeux
+16475
+Éze
+Éze
+16476
+Porquerolles
+Porquerolles
+16477
+Colmar
+Colmar
+16478
+Madeira
+Madeira
+16479
+Tenerife
+Tenerife
+16480
+Kiosz
+Chios
+16481
+Krk
+Krk
+16482
+Fuerteventura
+Fuerteventura
+16483
+Hvar
+Hvar
+16484
+Szamosz
+Samos
+16485
+Brac
+Brac
+16486
+Azori-szigetek
+The Azores
+16487
+Szicília
+Sicily
+16488
+Szardínia
+Sardinia
+16489
+Gran Canaria
+Gran Canaria
+16490
+Ciprus
+Cyprus
+16491
+Lanzarote
+Lanzarote
+16492
+Szerelmünk lapjai
+The Notebook
+16493
+Édes november
+Sweet November
+16494
+Szerelem és más drogok
+Love and Other Drugs
+16495
+Agymenők
+The Big Bang Theory
+16496
+Aviátor
+The Aviator
+16497
+To the Bone
+To the Bone
+16498
+Széttörve
+Split
+16499
+Végzetes vonzerő
+Fatal Attraction
+16500
+A mindenség elmélete
+The Theory of Everything
+16501
+Fekete hattyú
+Black Swan
+16502
+Jennifer Lopez
+Jennifer Lopez
+16503
+Elton John
+Elton John
+16504
+Eminem
+Eminem
+16505
+Eric Clapton
+Eric Clapton
+16506
+Chris Martin
+Chris Martin
+16507
+Naomi Campbell
+Naomi Campbell
+16508
+Tyre Banks
+Tyre Banks
+16509
+Lamar
+Lamar
+16510
+Kim Kardashian
+Kim Kardashian
+16511
+Demi Lovato
+Demi Lovato
+16512
+Lana Del Ray
+Lana Del Ray
+16513
+Pharrell Williams
+Pharrell Williams
+16514
+50 Cent
+50 Cent
+16515
+Leona Lewis
+Leona Lewis
+16516
+Calvin Harris
+Calvin Harris
+16517
+Hosszú Katinka és Shane Tusup
+Katinka Hosszú and Shane Tusup
+16518
+Jennifer Lopez és Marc Anthony
+Jennifer Lopez and Marc Anthony
+16519
+Cameron Diaz és Justin Timberlake
+Cameron Diaz and Justin Timberlake
+16520
+Sophia Bush és Chad Mihcael Murray
+Sophia Bush and Chad Mihcael Murray
+16521
+Angelina Jolie és Johnny Lee Miller
+Angelina Jolie and Johnny Lee Miller
+16522
+Kourtney Kardashian és Scott Disick
+Kourtney Kardashian and Scott Disick
+16523
+F-16 Block 70
+F-16 Block 70
+16524
+Szu-30MKI
+Szu-30MKI
+16525
+Dassault Rafale
+Dassault Rafale
+16526
+F/A-18E/F Super Hornet
+F/A-18E/F Super Hornet
+16527
+Szu-35
+Szu-35
+16528
+J-20
+J-20
+16529
+Eurofighter Typhoon
+Eurofighter Typhoon
+16530
+Szu-57
+Szu-57
+16531
+F-22
+F-22
+16532
+F-35
+F-35
+16533
+Bence-hegyi kilátó, Velence
+Bence mountain lookout, Venice
+16534
+Erzsébet-kilátó, Budapest
+Elizabeth lookout, Budapest
+16535
+Kisfaludy-kilátó, Badacsony
+Kisfaludy lookout, Badacsony
+16536
+Galya-kilátó, Mátra
+Galya lookout, Mátra
+16537
+Balatonboglári Gömbkilátó
+Sphere lookout, Balatonboglár
+16538
+Lombkoronasétány, Pannonhalma
+Promenade greenery, Pannonhalma
+16539
+Julianus Barát torony, Nagymaros
+Julianus Barát tower, Nagymaros
+16540
+Csóványosi kilátó, Börzsöny
+Csóványosi lookout, Börzsöny
+16541
+Pécsi tévétorony
+TV Tower, Pécs
+16542
+Jakab-hegyi kilátó, Mecsek
+Jakab mountain lookout, Mecsek
+16543
+Csergezán Pál-kilátó, Nagykovácsi
+Pál Csergezán lookout, Nagykovácsi
+16544
+Nagykanizsai kilátó
+Lookout, Nagykanizsa
+16545
+Hableány
+Rusalka
+16546
+Előzés
+Il Sorpasso
+16547
+Igazi
+All the Real Girls
+16548
+Isten haragja
+Frailty
+16549
+Diadalmas szerelem
+A Matter of Life and Death
+16550
+Az év asszonya
+Woman of the Year
+16551
+Star 80 - Egy aktmodell halála
+Star 80
+16552
+Tik-tak
+Tic Tac
+16553
+Frances
+Frances
+16554
+Sátáni ötlet
+Max et les ferrailleurs
+16555
+Premier
+Premier
+16556
+A lápvidék gyermekei
+Les enfants du Marais
+16557
+Sandra Bullock
+Sandra Bullock
+16558
+Anne Hathaway
+Anne Hathaway
+16559
+Rihanna
+Rihanna
+16560
+Cate Blanchett
+Cate Blanchett
+16561
+Sarah Paulson
+Sarah Paulson
+16562
+Awkwafina
+Awkwafina
+16563
+Gigi Hadid
+Gigi Hadid
+16564
+Adriana Lima
+Adriana Lima
+16565
+München, Németország
+Munich, Germany
+16566
+Szingapúr-Changi repülőtér, Szingapúr
+Singapore Changi Airport, Singapore
+16567
+Hongkongi nemzetközi repülőtér, Hongkong
+Hong Kong International Airport, Hong Kong
+16568
+Heydar Aliyev nemzetközi repülőtér, Baku, Azerbajdzsán
+Heydar Aliyev International Airport, Baku, Azerbaijan
+16569
+Dubaji nemzetközi repülőtér, Arab Emírségek
+Dubai International Airport, Arab Emirates
+16570
+Incshoni nemzetközi repülőtér, Dél-Korea
+Incheon International Airport, South Korea
+16571
+Haneda nemzetközi repülőtér, Japán
+Haneda International Airport, Japan
+16572
+Vancouver nemzetközi repülőtér, Kanada
+Vancouver International Airport, Canada
+16573
+Madrid-Barajasi repülőtér, Spanyolország
+Madrid-Barajas Airport, Spain
+16574
+Marrakesh Menara nemzetközi repülőtér, Marokkó
+Marrakesh Menara Airport, Morocco
+16575
+Kay Cannon
+Kay Cannon
+16576
+Christine Choe
+Christine Choe
+16577
+Sara Colangelo
+Sara Colangelo
+16578
+Josephine Decker
+Josephine Decker
+16579
+Nia DaCosta
+Nia DaCosta
+16580
+Coralie Fargeat
+Coralie Fargeat
+16581
+Susanna Fogel
+Susanna Fogel
+16582
+Jennifer Fox
+Jennifer Fox
+16583
+Augustine Frizzell
+Augustine Frizzell
+16584
+Karen Gillan
+Karen Gillan
+16585
+Nadine Labaki
+Nadine Labaki
+16586
+Jennifer Yuh Nelson
+Jennifer Yuh Nelson
+16587
+Victoria Mahoney
+Victoria Mahoney
+16588
+Olivia Milch
+Olivia Milch
+16589
+Rungano Nyoni
+Rungano Nyoni
+16590
+Madeleine Olnek
+Madeleine Olnek
+16591
+Josie Rourke
+Josie Rourke
+16592
+Claire Scanlon
+Claire Scanlon
+16593
+Sandi Tan
+Sandi Tan
+16594
+Cathy Yan
+Cathy Yan
+16595
+A texasi láncfűrészes mészárlás
+The Texas Chain Saw Massacre
+16596
+2012
+2012
+16597
+District 9
+District 9
+16598
+Ben Hur
+Ben Hur
+16599
+Brian élete
+Monty Python's Life of Brian
+16600
+Blue Jasmine
+Blue Jasmine
+16601
+Született gyilkosok
+Natural Born Killers
+16602
+Mechanikus narancs
+A Clockwork Orange
+16603
+Deadpool
+Deadpool
+16604
+Alfa holdbázis
+Space
+16605
+X-akták
+The X Files
+16606
+Hősök
+Heroes
+16607
+Fekete tükör
+Black Mirror
+16608
+Sötét árvák
+Orphan Black
+16609
+Csillagközi romboló
+Battlestar Galactica
+16610
+Prix kalandjai
+Adventures of Prix
+16611
+Stranger Things
+Stranger Things
+16612
+Kolónia
+Colony
+16613
+Humans
+Humans
+16614
+12 majom
+12 Monkeys
+16615
+Időutazók
+Timeless
+16616
+A Térség
+The Expanse
+16617
+Smallville
+Smallville
+16618
+Star Trek: Discovery
+Star Trek: Discovery
+16619
+Mézga Aladár különös kalandjai
+The adventures of Aladár Mézga
+16620
+Csillagok küldötte
+Spadla z oblakov
+16621
+11.22.63
+11.22.63
+16622
+Mad Max
+Mad Max
+16623
+A világ nem elég
+A világ nem elég
+16624
+Sin City
+Sin City
+16625
+Taxi 4
+Taxi 4
+16626
+Kinizsi vár, Nagyvázsony
+Kinizsi Castle, Nagyvázsony
+16627
+Szigligeti vár
+Szigliget castle
+16628
+Festetics-kastély, Keszthely
+Festetics Castle, Keszthely
+16629
+Sümegi vár
+Sümeg castle
+16630
+Floyd Mayweather
+Floyd Mayweather
+16631
+Lionel Messi
+Lionel Messi
+16632
+Christiano Ronaldo
+Christiano Ronaldo
+16633
+Conor McGregor
+Conor McGregor
+16634
+Neymar
+Neymar
+16635
+LeBron James
+LeBron James
+16636
+Roger Federer
+Roger Federer
+16637
+Stephen Curry
+Stephen Curry
+16638
+Matt Ryan
+Matt Ryan
+16639
+Matthew Stafford
+Matthew Stafford
+16640
+Millie Bobby Brown
+Millie Bobby Brown
+16641
+Finn Wolfhard
+Finn Wolfhard
+16642
+Quvenzhané Wallis
+Quvenzhané Wallis
+16643
+Iain Armitage
+Iain Armitage
+16644
+Ruby Barnhill
+Ruby Barnhill
+16645
+Mia Talerico
+Mia Talerico
+16646
+Willow Smith
+Willow Smith  

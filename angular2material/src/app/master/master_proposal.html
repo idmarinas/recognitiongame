@@ -1,0 +1,27 @@
+<div class="card">
+    <div class="card-header1" *ngIf="loaded_DOM">
+        <div class="d-flex justify-content-between">
+            <div>{{webpageText_Array[3]}}</div>
+            <a class="link1" (click)="proposal_Get()" title="{{ webpageText_Array[4] }}"><i class="fas fa-sync"></i></a>
+        </div>
+    </div>
+    <div class="card-body1">
+        <div *ngIf="!loaded_DOM">
+            <div class="angular_loading1"></div>
+        </div>
+        <div *ngIf="loaded_DOM">
+            {{ webpageText_Array[0] }}:
+            <div class="text-center">
+                <a class="link1" (click)="proposal_Click(proposal_Array[0].id);">{{ proposal_Array[0].text }}</a>
+            </div>
+            {{ webpageText_Array[1] }}:
+            <div class="text-center">
+                <a class="link1" (click)="proposal_Click(proposal_Array[1].id);" class="link1">{{ proposal_Array[1].text }}</a>
+            </div>
+            {{ webpageText_Array[2] }}:
+            <div class="text-center" *ngFor="let item of proposal_Array.slice(2)">
+                <a class="link1" (click)="proposal_Click(item.id)">{{ item.text }}</a>
+            </div>
+        </div>
+    </div>
+</div>

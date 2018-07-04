@@ -6,6 +6,7 @@ http://www.free-country-flags.com/
 1
 225
 0
+4
 2
 Böngésző logó
 Browser logo
@@ -14,6 +15,7 @@ http://www.iconarchive.com/
 226
 241
 0
+-1
 3
 Sakkfigura
 Chess piece
@@ -22,6 +24,7 @@ https://openclipart.org/
 242
 247
 0
+-1
 4
 Szín
 Color
@@ -30,6 +33,7 @@ Color
 248
 263
 0
+-1
 5
 Szám 0-tól 10-ig
 Number from 0 to 10
@@ -38,6 +42,7 @@ Number from 0 to 10
 264
 274
 0
+-1
 6
 Szám 0-tól 100-ig
 Number from 0 to 100
@@ -46,6 +51,7 @@ Number from 0 to 100
 275
 375
 0
+-1
 7
 USA állam zászló
 US State's flag
@@ -54,6 +60,7 @@ http://usa.flagpedia.net/
 376
 425
 0
+4
 8
 Francia kártya szín
 Poker card's color
@@ -62,6 +69,7 @@ https://www.pinterest.com/
 426
 429
 0
+-1
 9
 Hangulatjel
 Smiley
@@ -70,6 +78,7 @@ http://www.flaticon.com/
 430
 450
 0
+-1
 10
 Kontinens
 Continent
@@ -78,6 +87,7 @@ https://www.wikipedia.org/
 451
 457
 0
+2
 11
 Kerti madár
 Garden's bird
@@ -86,6 +96,7 @@ http://www.mmetapio.hu/
 458
 479
 0
+-1
 12
 Cápa
 Shark
@@ -94,6 +105,7 @@ https://www.wikipedia.org/
 480
 501
 0
+-1
 13
 Medve
 Bear
@@ -102,6 +114,7 @@ https://www.wikipedia.org/
 502
 509
 0
+-1
 14
 Díszmadár
 Ornamental bird
@@ -110,6 +123,7 @@ http://www.diszmadarak.eoldal.hu/
 510
 537
 0
+-1
 15
 Földközi-tenger gerinces
 Mediterranean Sea's vertebrate
@@ -118,6 +132,7 @@ https://www.wikipedia.org/
 538
 613
 0
+-1
 16
 Francia kártya
 Poker card
@@ -126,6 +141,7 @@ http://www.opengameart.org/
 614
 667
 0
+-1
 17
 Gomba
 Mushroom
@@ -134,6 +150,7 @@ http://www.gombak.eu/
 668
 739
 0
+-1
 18
 Pókerkombináció
 Pokercombination
@@ -142,6 +159,7 @@ Pokercombination
 740
 749
 0
+-1
 19
 Ló
 Horse
@@ -150,6 +168,7 @@ http://www.lovasok.hu/
 750
 1065
 0
+-1
 20
 Autómárka
 Car brand
@@ -158,14 +177,16 @@ http://www.carlogos.org/
 1066
 1314
 0
+-1
 21
-Gyümölcs
-Fruit
+Gyümölcs (1)
+Fruit (1)
 10
 https://www.wikipedia.org/
 1315
 1371
 0
+-1
 22
 Zöldség
 Vegetable
@@ -174,6 +195,7 @@ https://www.wikipedia.org/
 1372
 1422
 0
+-1
 23
 Kutya
 Dog
@@ -182,6 +204,7 @@ http://www.kutya-tar.hu/
 1423
 1673
 0
+-1
 24
 Virág
 Flower
@@ -190,6 +213,7 @@ https://www.wikipedia.org/
 1674
 1743
 0
+-1
 25
 Földközi-tenger ízeltlábú
 Mediterranean Sea's arthropod
@@ -198,6 +222,7 @@ https://www.wikipedia.org/
 1744
 1756
 0
+-1
 26
 JoNaLu szereplő
 JoNaLu figure
@@ -206,6 +231,7 @@ http://www.tivi.de/
 1757
 1768
 0
+5
 27
 Magyar szerző
 Hungarian author
@@ -214,6 +240,7 @@ https://www.wikipedia.org/
 1769
 2544
 1
+-1
 28
 Micimackó szereplő
 Winnie-the-Pooh figure
@@ -222,6 +249,7 @@ http://www.disneyclips.com/
 2545
 2556
 0
+5
 29
 Pocoyo szereplő
 Pocoyo figure
@@ -230,6 +258,7 @@ http://www.zinkia.com/
 2557
 2564
 0
+5
 30
 KRESZ tábla
 Highway code sign
@@ -238,6 +267,7 @@ https://www.wikipedia.org/
 2565
 2624
 0
+-1
 31
 Fokozottan védett állat Magyarországon
 Strictly protected animal in Hungary
@@ -246,6 +276,7 @@ https://www.wikipedia.org/
 2625
 2774
 1
+-1
 32
 Híres festmény
 Famous painting
@@ -254,6 +285,7 @@ https://www.wikipedia.org/
 2775
 2842
 0
+-1
 33
 Sütemény
 Cake
@@ -262,6 +294,7 @@ https://www.wikipedia.org/
 2843
 2912
 0
+12
 34
 Védett háziállat Magyarországon
 Protected pet in Hungary
@@ -270,6 +303,7 @@ https://www.wikipedia.org/
 2913
 2929
 1
+-1
 35
 Hal Magyarországon
 Fish in Hungary
@@ -278,6 +312,7 @@ https://www.wikipedia.org/
 2930
 3014
 1
+-1
 36
 Filmszínész (1)
 Movie actor (1)
@@ -286,6 +321,7 @@ https://www.wikipedia.org/
 3015
 3514
 0
+-1
 37
 Történelmi személy
 Historical person
@@ -294,6 +330,7 @@ https://www.wikipedia.org/
 3515
 3835
 0
+-1
 38
 Egyiptomi isten
 Egyptian god
@@ -302,6 +339,7 @@ https://www.wikipedia.org/
 3836
 3893
 0
+7
 39
 Európai Unió tagállam
 European Union's member state
@@ -310,6 +348,7 @@ https://www.wikipedia.org/
 3894
 3921
 0
+-1
 40
 Emlős Magyarországon
 Mammal in Hungary
@@ -318,6 +357,7 @@ https://www.wikipedia.org/
 3922
 3987
 1
+-1
 41
 Görög isten
 Greek god
@@ -326,6 +366,7 @@ https://www.wikipedia.org/
 3988
 4058
 0
+7
 42
 Béka Magyarországon
 Frog in Hungary
@@ -334,6 +375,7 @@ https://www.wikipedia.org/
 4059
 4070
 1
+-1
 43
 Ázsiai ország
 Asian country
@@ -342,6 +384,7 @@ https://www.wikipedia.org/
 4071
 4118
 0
+-1
 44
 Némó nyomában szereplő
 Finding Nemo figure
@@ -350,6 +393,7 @@ http://www.port.hu/
 4119
 4137
 0
+5
 45
 Híres építmény
 Famous edifice
@@ -358,6 +402,7 @@ https://www.wikipedia.org/
 4138
 4220
 0
+-1
 46
 Kínai uralkodó
 Chinese emperor
@@ -366,6 +411,7 @@ https://www.wikipedia.org/
 4221
 4269
 0
+-1
 47
 Amerikai basszusgitáros
 American bassist
@@ -374,6 +420,7 @@ https://www.wikipedia.org/
 4270
 4299
 0
+-1
 48
 Egyiptomi piramis
 Egyptian pyramid
@@ -382,6 +429,7 @@ https://www.wikipedia.org/
 4300
 4318
 0
+10
 49
 Csillagjegy
 Starsign
@@ -390,6 +438,7 @@ https://www.tarot.com/
 4319
 4330
 0
+-1
 50
 Afrikai ország
 African country
@@ -398,6 +447,7 @@ http://www.azatlasz.hu/
 4331
 4384
 0
+-1
 51
 Egyiptomi templom
 Egyptian temple
@@ -406,6 +456,7 @@ https://www.wikipedia.org/
 4385
 4398
 0
+10
 52
 Híres zenész
 Famous musician
@@ -414,6 +465,7 @@ https://www.wikipedia.org/
 4399
 4413
 0
+-1
 53
 Közép-európai vár
 Central European castle
@@ -422,6 +474,7 @@ https://www.wikipedia.org/
 4414
 4474
 0
+-1
 54
 Európai vízimadár
 European waterfowl
@@ -430,6 +483,7 @@ http://www.europamadarai.hu/
 4475
 4527
 0
+-1
 55
 Népcsoport
 Ethnic group
@@ -438,6 +492,7 @@ https://www.wikipedia.org/
 4528
 4591
 0
+-1
 56
 Bogár, rovar
 Bug, insect
@@ -446,6 +501,7 @@ https://www.wikipedia.org/
 4592
 4641
 0
+-1
 57
 Francia Forradalom résztvevő
 French Revolution's participant
@@ -454,6 +510,7 @@ https://www.wikipedia.org/
 4642
 4726
 0
+-1
 58
 Film (1)
 Movie (1)
@@ -462,6 +519,7 @@ https://www.wikipedia.org/
 4727
 4796
 0
+-1
 59
 Hangszer
 Musical instrument
@@ -470,6 +528,7 @@ https://www.wikipedia.org/
 4797
 4856
 0
+-1
 60
 Harry Potter szereplő
 Harry Potter figure
@@ -478,6 +537,7 @@ http://harrypotterestarsai.ewk.hu/
 4857
 4891
 0
+-1
 61
 Oroszlánkirály szereplő
 The Lion King figure
@@ -486,6 +546,7 @@ http://lionkingweb.mindenkilapja.hu/
 4892
 4904
 0
+5
 62
 Madagaszkár szereplő
 Madagascar figure
@@ -494,6 +555,7 @@ http://dreamworks.wikia.com/
 4905
 4917
 0
+5
 63
 Amerikai futball-stadion
 American football stadium
@@ -502,6 +564,7 @@ https://www.wikipedia.org/
 4918
 4925
 0
+-1
 64
 Csillagkép (1)
 Constellation (1)
@@ -510,6 +573,7 @@ https://www.wikipedia.org/
 4926
 5013
 0
+-1
 65
 Superhős (1)
 Superhero (1)
@@ -518,6 +582,7 @@ https://www.wikipedia.org/
 5014
 5058
 0
+-1
 66
 Sportfajta
 Sport type
@@ -526,6 +591,7 @@ https://www.wikipedia.org/
 5059
 5120
 0
+-1
 67
 Pszichológus, pszichiáter
 Psychologist, psychiatrist
@@ -534,6 +600,7 @@ https://www.wikipedia.org/
 5121
 5172
 0
+-1
 68
 USA állam
 US State
@@ -542,6 +609,7 @@ http://geology.com/
 5173
 5222
 0
+-1
 69
 Magyar válogatott labdarúgó (2017)
 Hungarian national team footballer (2017)
@@ -550,6 +618,7 @@ http://www.origo.hu/
 5223
 5233
 1
+-1
 70
 Portugál válogatott labdarúgó (2017)
 Portugal national team footballer (2017)
@@ -558,6 +627,7 @@ http://www.origo.hu/
 5234
 5244
 0
+-1
 71
 Magyar labdarúgó aranycsapat tagja
 Hungarian golden football team member
@@ -566,6 +636,7 @@ https://www.wikipedia.org/
 5245
 5256
 1
+-1
 72
 Szobanövény
 Indoor plant
@@ -574,6 +645,7 @@ https://www.wikipedia.org/
 5257
 5296
 0
+-1
 73
 Kőzet
 Rock
@@ -582,6 +654,7 @@ http://geology.com/
 5297
 5333
 0
+3
 74
 Hajó
 Ship
@@ -590,6 +663,7 @@ https://www.wikipedia.org/
 5334
 5361
 0
+-1
 75
 Lepke Magyarországon
 Butterfly
@@ -598,6 +672,7 @@ https://www.wikipedia.org/
 5362
 5506
 0
+-1
 76
 Kémiai elem
 Chemical element
@@ -606,6 +681,7 @@ https://www.wikipedia.org/
 5507
 5573
 0
+-1
 77
 Színház, operaház
 Theater, opera house
@@ -614,6 +690,7 @@ https://www.wikipedia.org/
 5574
 5594
 0
+-1
 78
 Ókori filozófus
 Ancient philosopher
@@ -622,6 +699,7 @@ https://www.wikipedia.org/
 5595
 5639
 0
+-1
 79
 Drágakő
 Gem
@@ -630,6 +708,7 @@ http://geology.com/
 5640
 5709
 0
+-1
 80
 Emma nevű színésznő, énekes
 Actress, singer named Emma
@@ -638,6 +717,7 @@ http://www.index.hu/
 5710
 5715
 0
+-1
 81
 Kalóz
 Pirate
@@ -646,6 +726,7 @@ https://www.wikipedia.org/
 5716
 5729
 0
+-1
 82
 Grimm-mese
 Grimm's fairy tale
@@ -654,6 +735,7 @@ https://www.wikipedia.org/
 5730
 5780
 0
+-1
 83
 Dinoszaurusz
 Dinosaur
@@ -662,6 +744,7 @@ https://www.wikipedia.org/
 5781
 6096
 0
+-1
 84
 Naprendszer bolygó
 Solar system planet
@@ -670,6 +753,7 @@ https://www.wikipedia.org/
 6097
 6109
 0
+-1
 85
 Magyar megye, város címer
 Hungarian county, city coat of arms
@@ -678,6 +762,7 @@ http://www.nemzetijelkepek.hu/
 6110
 6194
 1
+-1
 86
 Paralimpiai sport
 Paralympic sport
@@ -686,6 +771,7 @@ https://www.wikipedia.org/
 6195
 6218
 0
+-1
 87
 Tábla, kártyajáték
 Board, card game
@@ -694,6 +780,7 @@ https://www.wikipedia.org/
 6219
 6242
 0
+-1
 88
 Star trek faj
 Star trek species
@@ -702,6 +789,7 @@ https://www.wikipedia.org/
 6243
 6252
 0
+-1
 89
 Űrhajó
 Spaceship
@@ -710,6 +798,7 @@ https://www.wikipedia.org/
 6253
 6270
 0
+-1
 90
 Filmszínész (1900-as évek)
 Movie actor (1900's)
@@ -718,6 +807,7 @@ http://mydailyquizz.com/
 6271
 6285
 0
+-1
 91
 Film (hangulatjel alapján)
 Movie (based on smiley)
@@ -726,6 +816,7 @@ http://www.playbuzz.com/
 6286
 6300
 0
+-1
 92
 Házibuli szereplő
 La Boum figure
@@ -734,6 +825,7 @@ http://www.life.hu/
 6301
 6307
 0
+-1
 93
 Házibuli szereplő (2017)
 La Boum figure (2017)
@@ -742,6 +834,7 @@ http://www.life.hu/
 6308
 6314
 0
+-1
 94
 Híres férfi (1900-as évek)
 Famous man (1900's)
@@ -750,6 +843,7 @@ http://www.playbuzz.com/
 6315
 6344
 0
+-1
 95
 Disney sztár
 Disney star
@@ -758,6 +852,7 @@ http://www.life.hu/
 6345
 6360
 0
+-1
 96
 Disney sztár (2017)
 Disney star (2017)
@@ -766,6 +861,7 @@ http://www.life.hu/
 6361
 6376
 0
+-1
 97
 Veszélyes kisváros film
 Dangerous small town movie
@@ -774,6 +870,7 @@ http://www.origo.hu/
 6377
 6385
 0
+-1
 98
 Film (90-es évek)
 Movie (90's)
@@ -782,6 +879,7 @@ http://www.hvg.hu/
 6386
 6484
 0
+-1
 99
 Sláger (90-es évek)
 Hit (90's)
@@ -790,6 +888,7 @@ http://www.playbuzz.com/
 6485
 6583
 0
+-1
 100
 Magyar biológus
 Hungarian biologist
@@ -798,6 +897,7 @@ https://www.wikipedia.org/
 6584
 6597
 1
+-1
 101
 Állat Ausztráliában
 Animal in Australia
@@ -806,6 +906,7 @@ https://www.wikipedia.org/
 6598
 6626
 0
+-1
 102
 Extrém sport
 Extreme sport
@@ -814,6 +915,7 @@ http://www.extremesportok.hu/
 6627
 6668
 0
+-1
 103
 Szuperkontinens
 Supercontinent
@@ -822,6 +924,7 @@ https://www.wikipedia.org/
 6669
 6672
 0
+2
 104
 Földközi-tenger puhatestű
 Mediterranean Sea's mollusc
@@ -830,6 +933,7 @@ https://www.wikipedia.org/
 6673
 6684
 0
+-1
 105
 Repülő rovar
 Flying insect
@@ -838,6 +942,7 @@ https://www.wikipedia.org/
 6685
 6734
 0
+-1
 106
 Szám (Színtévesztő teszt)
 Number (Color-blind test)
@@ -846,6 +951,7 @@ https://www.wikipedia.org/
 6735
 6755
 0
+-1
 107
 Élőlény (Színtévesztő teszt)
 Organism (Color-blind test)
@@ -854,6 +960,7 @@ https://www.wikipedia.org/
 6756
 6771
 0
+-1
 108
 Magyar fizikus
 Hungarian physicist
@@ -862,6 +969,7 @@ https://www.wikipedia.org/
 6772
 6844
 1
+-1
 109
 Pénz
 Money
@@ -870,6 +978,7 @@ https://www.wikipedia.org/
 6845
 6906
 0
+-1
 110
 Régi használati eszköz
 Old utility
@@ -878,6 +987,7 @@ https://www.wikipedia.org/
 6907
 6959
 0
+-1
 111
 Híres zenekar (1)
 Famous music band (1)
@@ -886,6 +996,7 @@ https://www.wikipedia.org/
 6960
 6974
 0
+-1
 112
 Ásvány
 Mineral
@@ -894,6 +1005,7 @@ https://www.life.hu/
 6975
 6984
 0
+3
 113
 Macska
 Cat
@@ -902,14 +1014,16 @@ https://www.wikipedia.org/
 6985
 7034
 0
+-1
 114
-Közép-európai kastély (1)
-Central European palace (1)
+Közép-európai kastély
+Central European castle
 25
 https://www.wikipedia.org/
 7035
 7067
 0
+-1
 115
 Fiatal filmszínész (80-as évek)
 Young movie actor (80's)
@@ -918,6 +1032,7 @@ http://mediapanda.blog.hu/
 7068
 7079
 0
+-1
 116
 Csillagkép (2)
 Constellation (2)
@@ -926,6 +1041,7 @@ https://www.wikipedia.org/
 7080
 7124
 0
+-1
 117
 Filmsorozat (90-es évek)
 Movie series (90's)
@@ -934,6 +1050,7 @@ https://www.wikipedia.org/
 7125
 7221
 0
+-1
 118
 Mesés kastély
 Fabulous castle
@@ -942,6 +1059,7 @@ https://www.life.hu/
 7222
 7226
 0
+-1
 119
 Disney-kastély
 Disney castle
@@ -950,6 +1068,7 @@ https://www.life.hu/
 7227
 7230
 0
+-1
 120
 Cigánykártya
 Gypsy card
@@ -958,6 +1077,7 @@ http://www.ciganykartya.hu/
 7231
 7286
 0
+-1
 121
 Nyaralóhely (1)
 Summer resort (1)
@@ -966,6 +1086,7 @@ http://www.divany.hu/
 7287
 7292
 0
+-1
 122
 Film karakter (1)
 Movie character (1)
@@ -974,6 +1095,7 @@ http://www.playbuzz.com/
 7293
 7307
 0
+-1
 123
 Európai strand
 European beach
@@ -982,6 +1104,7 @@ http://www.pinterest.com/
 7308
 7313
 0
+-1
 124
 Színésznő (A Múmia díszbemutató)
 Actress (The Mummy showcase)
@@ -990,6 +1113,7 @@ http://www.gettyimages.com/
 7314
 7319
 0
+-1
 125
 Trónok harca karakter (1)
 Game of thrones character (1)
@@ -998,6 +1122,7 @@ http://toochee.reblog.hu/
 7320
 7334
 0
+-1
 126
 Trónok harca szereplő (1)
 Game of thrones figure (1)
@@ -1006,6 +1131,7 @@ http://toochee.reblog.hu/
 7335
 7349
 0
+-1
 127
 CFDA díjkiosztó résztvevő (2017)
 CFDA Awards participant (2017)
@@ -1014,6 +1140,7 @@ http://www.gettyimages.com/photos/taylor-hill/
 7350
 7379
 0
+-1
 128
 Történelmi film
 Hystorical movie
@@ -1022,6 +1149,7 @@ http://filmtress.blog.hu/
 7380
 7389
 0
+-1
 129
 Született feleségek szereplő (2017)
 Desperate housewifes figure (2017)
@@ -1030,6 +1158,7 @@ http://www.velvet.hu/
 7390
 7397
 0
+-1
 130
 Csillagkapu szereplő
 Stargate figure
@@ -1038,6 +1167,7 @@ http://www.origo.hu/
 7398
 7401
 0
+-1
 131
 Csillagkapu szereplő (2017)
 Stargate figure (2017)
@@ -1046,6 +1176,7 @@ http://www.origo.hu/
 7402
 7405
 0
+-1
 132
 Felismerhetetlen film szereplő
 Unrecognizable movie figure
@@ -1054,6 +1185,7 @@ http://www.nlcafe.hu/
 7406
 7413
 0
+-1
 133
 Film karakter (2)
 Movie character (2)
@@ -1062,6 +1194,7 @@ http://www.nlcafe.hu/
 7414
 7421
 0
+-1
 134
 Autós film
 Car movie
@@ -1070,6 +1203,7 @@ http://supernaturalmovies.blog.hu/
 7422
 7431
 0
+-1
 135
 Szexi film szereplő (2000-es évek)
 Sexy movie figure (2000's)
@@ -1078,6 +1212,7 @@ http://www.life.hu/
 7432
 7440
 0
+-1
 136
 Szexi film szereplő (2000-es évek) (2017)
 Sexy movie figure (2000's) (2017)
@@ -1086,6 +1221,7 @@ http://www.life.hu/
 7441
 7449
 0
+-1
 137
 Kelet-európai tengerpart
 Eastern European beach
@@ -1094,6 +1230,7 @@ http://elet-erzes.blog.hu/
 7450
 7454
 0
+-1
 138
 Filmpremier (1997)
 Movie premiere (1997)
@@ -1102,6 +1239,7 @@ http://www.nlcafe.hu/
 7455
 7464
 0
+-1
 139
 Filmszínész (1997)
 Movie actor (1997)
@@ -1110,6 +1248,7 @@ http://www.nlcafe.hu/
 7465
 7476
 0
+-1
 140
 Geometriai alakzat
 Geometric shape
@@ -1118,6 +1257,7 @@ https://www.wikipedia.org/
 7477
 7506
 0
+-1
 141
 Híd
 Bridge
@@ -1126,6 +1266,7 @@ https://www.wikipedia.org/
 7507
 7542
 0
+-1
 142
 Film (étel alapján)
 Movie (based on food)
@@ -1134,6 +1275,7 @@ http://www.federicomauro.eu/
 7543
 7574
 0
+-1
 143
 Film (cipő alapján)
 Movie (based on shoes)
@@ -1142,6 +1284,7 @@ http://www.federicomauro.eu/
 7575
 7597
 0
+-1
 144
 Film (fegyver alapján)
 Movie (based on gun)
@@ -1150,6 +1293,7 @@ http://www.federicomauro.eu/
 7598
 7637
 0
+-1
 145
 Filmszínész (másik nemű szerepben)
 Movie actor (in another gender role)
@@ -1158,6 +1302,7 @@ http://toochee.reblog.hu/
 7638
 7647
 0
+-1
 146
 Sztár (haj alapján)
 Star (based on hair)
@@ -1166,6 +1311,7 @@ http://www.velvet.hu/
 7648
 7654
 0
+-1
 147
 Nemzeti étel
 National food
@@ -1174,6 +1320,7 @@ https://www.wikipedia.org/
 7655
 7725
 0
+-1
 148
 Magyar megye
 Hungarian county
@@ -1182,6 +1329,7 @@ http://www.magyarorszagjatek.hu/
 7726
 7744
 1
+-1
 149
 Maxim HOT 100 party résztvevő (2017)
 Maxim HOT 100 party participant (2017)
@@ -1190,6 +1338,7 @@ http://www.velvet.hu/
 7745
 7761
 0
+-1
 150
 Majom
 Monkey
@@ -1198,6 +1347,7 @@ https://www.wikipedia.org/
 7762
 7791
 0
+-1
 151
 Csodálatos sziget
 Amazing island
@@ -1206,6 +1356,7 @@ http://govia.blog.hu/
 7792
 7806
 0
+-1
 152
 Kaktusz
 Cactus
@@ -1214,6 +1365,7 @@ https://www.wikipedia.org/
 7807
 7837
 0
+-1
 153
 Magyar uralkodó
 Hungarian emperor
@@ -1221,7 +1373,8 @@ Hungarian emperor
 https://www.wikipedia.org/
 7838
 7905
-0
+1
+-1
 154
 Pokemon szereplő
 Pokemon figure
@@ -1230,6 +1383,7 @@ https://www.wikipedia.org/
 7906
 7948
 0
+5
 155
 Sztár (50-es, 60-as évek)
 Star (50's, 60's)
@@ -1238,6 +1392,7 @@ http://www.nlcafe.hu/
 7949
 7954
 0
+-1
 156
 Sztárpár (50-es, 60-as évek)
 Star couple (50's, 60's)
@@ -1246,6 +1401,7 @@ http://www.nlcafe.hu/
 7955
 7960
 0
+-1
 157
 Mesés naplemente
 Fabulous sunset
@@ -1254,6 +1410,7 @@ http://gretta.blog.hu/
 7961
 7975
 0
+-1
 158
 Pszichotriller film
 Pszichothriller movie
@@ -1262,6 +1419,7 @@ http://mozitekercs.blog.hu/
 7976
 7985
 0
+-1
 159
 Börtönös film
 Prison movie
@@ -1270,6 +1428,7 @@ http://filmworlds.blog.hu/
 7986
 8000
 0
+-1
 160
 Vígjáték (1)
 Comedy (1)
@@ -1278,6 +1437,7 @@ http://filmtress.blog.hu/
 8001
 8010
 0
+-1
 161
 Lombhullató
 Deciduous
@@ -1286,6 +1446,7 @@ https://www.wikipedia.org/
 8011
 8050
 0
+-1
 162
 Filmsorozat (1)
 Movie series (1)
@@ -1294,6 +1455,7 @@ https://www.wikipedia.org/
 8051
 8095
 0
+-1
 163
 Trónok harca karakter (2)
 Game of thrones character (2)
@@ -1302,6 +1464,7 @@ http://www.nlcafe.hu/
 8096
 8120
 0
+-1
 164
 Trónok harca szereplő (2) (2017)
 Game of thrones figure (2) (2017)
@@ -1310,6 +1473,7 @@ http://www.nlcafe.hu/
 8121
 8145
 0
+-1
 165
 Superhős (2)
 Superhero (2)
@@ -1318,6 +1482,7 @@ http://www.origo.hu/
 8146
 8156
 0
+-1
 166
 Motor
 Motorbike
@@ -1326,6 +1491,7 @@ https://www.wikipedia.org/
 8157
 8213
 0
+-1
 167
 17. FINA világbajnokság szexi női résztvevő
 17th FINA World Championships sexy female participant
@@ -1334,6 +1500,7 @@ https://www.origo.hu/
 8214
 8218
 0
+-1
 168
 17. FINA világbajnokság szexi férfi résztvevő
 17th FINA World Championships sexy male participant
@@ -1342,6 +1509,7 @@ https://www.origo.hu/
 8219
 8223
 0
+-1
 169
 Képregényszereplő
 Comics in
@@ -1350,6 +1518,7 @@ https://www.wikipedia.org/
 8224
 8254
 0
+-1
 170
 Baywatch szereplő
 Baywatch figure
@@ -1358,6 +1527,7 @@ http://www.nlcafe.hu/
 8255
 8262
 0
+-1
 171
 Baywatch szereplő (2017)
 Baywatch figure (2017)
@@ -1366,6 +1536,7 @@ http://www.nlcafe.hu/
 8263
 8270
 0
+-1
 172
 Harrison Ford film
 Harrison Ford movie
@@ -1374,6 +1545,7 @@ http://www.origo.hu/
 8271
 8278
 0
+-1
 173
 Citrusféle
 Citrus
@@ -1382,6 +1554,7 @@ http://www.egzotikusdisznovenyek.hu/
 8279
 8298
 0
+-1
 174
 Cukor
 Candy
@@ -1390,6 +1563,7 @@ https://www.wikipedia.org/
 8299
 8332
 0
+12
 175
 Trópusi növény
 Tropical plant
@@ -1398,6 +1572,7 @@ http://www.egzotikusdisznovenyek.hu/
 8333
 8362
 0
+-1
 176
 Trónok harca női szereplő (2017 VII. évad premier)
 Game of thrones female figure (2017 Season VII premiere)
@@ -1406,6 +1581,7 @@ http://www.velvet.hu/
 8363
 8369
 0
+-1
 177
 Mozis verda
 Movie's car
@@ -1414,14 +1590,16 @@ http://dreamblur.reblog.hu/
 8370
 8379
 0
+-1
 178
-Film (autó alapján)
-Movie (based on car)
+Film (autó alapján) (1)
+Movie (based on car) (1)
 50
 http://dreamblur.reblog.hu/
 8380
 8389
 0
+-1
 179
 Sztárpár (70-es, 80-as évek)
 Star couple (70's, 80's)
@@ -1430,6 +1608,7 @@ http://www.life.hu/
 8390
 8395
 0
+-1
 180
 Sztárpár (2017)
 Star couple (2017)
@@ -1438,6 +1617,7 @@ http://www.life.hu/
 8396
 8402
 0
+-1
 181
 Elhagyott hely
 Abandoned place
@@ -1446,6 +1626,7 @@ http://zoldintezmeny.blog.hu/
 8403
 8407
 0
+-1
 182
 Filmsorozat (2)
 Movie series (2)
@@ -1454,6 +1635,7 @@ http://www.origo.hu/
 8408
 8414
 0
+-1
 183
 Sztár (smink nélkül) (1)
 Star (without makeup) (1)
@@ -1462,6 +1644,7 @@ http://kontentbanya.reblog.hu/
 8415
 8440
 0
+-1
 184
 Sztár (1)
 Star (1)
@@ -1470,6 +1653,7 @@ http://kontentbanya.reblog.hu/
 8441
 8466
 0
+-1
 185
 Váratlan utazás karakter
 Road to Avonlea character
@@ -1478,6 +1662,7 @@ http://www.femina.hu/
 8467
 8475
 0
+-1
 186
 Váratlan utazás szereplő
 Road to Avonlea figure
@@ -1486,6 +1671,7 @@ http://www.femina.hu/
 8476
 8484
 0
+-1
 187
 Váratlan utazás karakter (2017)
 Road to Avonlea character (2017)
@@ -1494,6 +1680,7 @@ http://www.femina.hu/
 8485
 8493
 0
+-1
 188
 Váratlan utazás szereplő (2017)
 Road to Avonlea figure (2017)
@@ -1502,6 +1689,7 @@ http://www.femina.hu/
 8494
 8502
 0
+-1
 189
 Balatoni kilátó
 Lake Balaton lookout tower
@@ -1510,6 +1698,7 @@ http://www.femina.hu/
 8503
 8510
 1
+-1
 190
 Régi magyar üzem
 Old Hungarian plant
@@ -1518,6 +1707,7 @@ http://www.fortepan.hu/
 8511
 8547
 1
+-1
 191
 Szárnyas
 Poultry
@@ -1526,6 +1716,7 @@ http://www.fortepan.hu/
 8548
 8567
 0
+-1
 192
 Híres zenekar (2)
 Famous music band (2)
@@ -1534,6 +1725,7 @@ http://rockstation.blog.hu/
 8568
 8603
 0
+-1
 193
 Egzotikus strand
 Exotic beach
@@ -1542,6 +1734,7 @@ http://gretta.blog.hu/
 8604
 8613
 0
+-1
 194
 Film (2)
 Movie (2)
@@ -1550,6 +1743,7 @@ http://filmekapolcrol.blog.hu/
 8614
 8624
 0
+-1
 195
 Vereségből győzelembe film
 From defeat to victory movie
@@ -1558,14 +1752,16 @@ http://port.hu/
 8625
 8631
 0
+-1
 196
-Ben és Holly apró királysága
+Ben és Holly apró királysága szereplő
 Ben & Holly's Little Kingdom figure
 13
 http://www.benandholly.tv/
 8632
 8642
 0
+5
 197
 Gabona
 Grain
@@ -1574,6 +1770,7 @@ https://www.wikipedia.org/
 8643
 8686
 0
+-1
 198
 Labda
 Ball
@@ -1582,6 +1779,7 @@ https://www.wikipedia.org/
 8687
 8714
 0
+-1
 199
 Kihalt állat
 Extinct animal
@@ -1590,6 +1788,7 @@ https://www.wikipedia.org/
 8715
 8750
 0
+-1
 200
 Munkácsy festmény
 Munkácsy painting
@@ -1598,6 +1797,7 @@ https://www.wikipedia.org/
 8751
 8816
 1
+9
 201
 Görög nemzeti étel
 Greek national food
@@ -1606,6 +1806,7 @@ http://divany.hu/
 8817
 8826
 0
+11
 202
 Trónok harca karakter (Disney hősként)
 Game of thrones character (as Disney hero)
@@ -1614,6 +1815,7 @@ http://www.nlcafe.hu/
 8827
 8835
 0
+-1
 203
 Trónok harca szereplő (Disney hősként)
 Game of thrones figure (as Disney hero)
@@ -1622,6 +1824,7 @@ http://www.nlcafe.hu/
 8836
 8844
 0
+-1
 204
 Magyar tó
 Hungarian lake
@@ -1630,6 +1833,7 @@ https://www.wikipedia.org/
 8845
 8880
 1
+-1
 205
 Film (menyasszonyi ruha alapján)
 Movie (based on wedding dress)
@@ -1638,6 +1842,7 @@ http://www.nlcafe.hu/
 8881
 8892
 0
+-1
 206
 Menyasszonyi ruhás film
 Wedding dress movie
@@ -1646,6 +1851,7 @@ http://www.nlcafe.hu/
 8893
 8904
 0
+-1
 207
 Titanic szereplő
 Titanic figure
@@ -1654,6 +1860,7 @@ http://www.velvet.hu/
 8905
 8911
 0
+-1
 208
 Titanic szereplő (2017)
 Titanic figure (2017)
@@ -1662,6 +1869,7 @@ http://www.velvet.hu/
 8912
 8918
 0
+-1
 209
 Irodalmi Nobel-díjas
 Nobel laureates in Literature
@@ -1670,6 +1878,7 @@ https://www.wikipedia.org/
 8919
 9031
 0
+-1
 210
 Csontváry festmény
 Csontvári painting
@@ -1678,6 +1887,7 @@ http://www.hung-art.hu/
 9032
 9074
 1
+9
 211
 Ferenczy Károly festmény
 Károly Ferenczy painting
@@ -1686,6 +1896,7 @@ http://www.hung-art.hu/
 9075
 9129
 1
+9
 212
 Veszélyes vulkán
 Dangerous volcano
@@ -1694,6 +1905,7 @@ http://havasidorka.blog.hu/
 9130
 9139
 0
+-1
 213
 Utazással kapcsolatos film
 Travel related movies
@@ -1702,6 +1914,7 @@ http://travel4more.blog.hu/
 9140
 9144
 0
+-1
 214
 Vízesés
 Waterfall
@@ -1710,6 +1923,7 @@ https://www.wikipedia.org/
 9145
 9198
 0
+-1
 215
 Felfedező
 Explorer
@@ -1718,6 +1932,7 @@ https://www.wikipedia.org/
 9199
 9321
 0
+-1
 216
 Magyar kulturális világörökség
 Hungarian cultural World Heritage
@@ -1726,6 +1941,7 @@ https://www.wikipedia.org/
 9322
 9346
 1
+-1
 217
 Veszélyeztetett világörökség
 Endangered World Heritage
@@ -1734,6 +1950,7 @@ https://www.wikipedia.org/
 9347
 9396
 0
+-1
 218
 Magyar kávéház
 Hungarian coffee house
@@ -1742,6 +1959,7 @@ https://www.wikipedia.org/
 9397
 9441
 1
+-1
 219
 Csúszópálya
 Sliding Track
@@ -1750,6 +1968,7 @@ http://travelhunter.blog.hu/
 9442
 9452
 0
+-1
 220
 Lepusztult magyar stadion (2017)
 Deteriorated hungarian soccer stadium (2017)
@@ -1758,6 +1977,7 @@ https://www.index.hu/
 9453
 9474
 1
+-1
 221
 Római pápa
 Roman pope
@@ -1766,6 +1986,7 @@ https://www.wikipedia.org/
 9475
 9653
 0
+-1
 222
 Híres FC Barcelona labdarúgó
 Famous FC Barcelona footballer
@@ -1774,6 +1995,7 @@ https://www.wikipedia.org/
 9654
 9803
 0
+-1
 223
 Horror film szereplő
 Horror movie figure
@@ -1782,6 +2004,7 @@ http://toochee.reblog.hu/
 9804
 9825
 0
+-1
 224
 Horror film (szereplő alapján)
 Horror movie (based on figure)
@@ -1790,6 +2013,7 @@ http://toochee.reblog.hu/
 9826
 9846
 0
+-1
 225
 Horror film szereplő (2017)
 Horror movie figure (2017)
@@ -1798,6 +2022,7 @@ http://toochee.reblog.hu/
 9847
 9868
 0
+-1
 226
 Veszélyes állat Magyarországon
 Dangerous animal in Hungary
@@ -1806,6 +2031,7 @@ http://www.femina.hu/
 9869
 9878
 1
+-1
 227
 Különleges hely
 Especial place
@@ -1814,6 +2040,7 @@ http://gretta.blog.hu/
 9879
 9888
 0
+-1
 228
 Nyaralóhely (2)
 Summer resort (2)
@@ -1822,6 +2049,7 @@ http://gretta.blog.hu/
 9889
 9898
 0
+-1
 229
 Loopdidoo szereplő
 Grabouillon figure
@@ -1830,6 +2058,7 @@ Grabouillon figure
 9899
 9902
 0
+5
 230
 Az ifjú Robin Hood kalandjai szereplő
 Robin Hood: Mischief in Sherwood figure
@@ -1838,6 +2067,7 @@ Robin Hood: Mischief in Sherwood figure
 9903
 9911
 0
+5
 231
 Fényképezés történetének első fotója
 The first photo of the photography
@@ -1846,6 +2076,7 @@ http://maimanohaz.blog.hu/
 9912
 9918
 0
+-1
 232
 Herkules karakter
 Hercules: The Legendary character
@@ -1854,6 +2085,7 @@ http://www.origo.hu/
 9919
 9924
 0
+-1
 233
 Herkules szereplő
 Hercules: The Legendary figure
@@ -1862,6 +2094,7 @@ http://www.origo.hu/
 9925
 9930
 0
+-1
 234
 Herkules karakter (2017)
 Hercules: The Legendary character (2017)
@@ -1870,6 +2103,7 @@ http://www.origo.hu/
 9931
 9936
 0
+-1
 235
 Herkules szereplő (2017)
 Hercules: The Legendary figure (2017)
@@ -1878,6 +2112,7 @@ http://www.origo.hu/
 9937
 9942
 0
+-1
 236
 Családi film (1)
 Family movie (1)
@@ -1886,6 +2121,7 @@ http://port.hu/
 9943
 9952
 0
+-1
 237
 Aranyérmes magyar olimpikon
 Gold hungarian Olympian
@@ -1894,6 +2130,7 @@ http://olimpia.hu/
 9953
 10250
 0
+-1
 238
 Manchester United FC labdarúgó (2017)
 Manchester United FC footballer (2017)
@@ -1902,6 +2139,7 @@ https://www.wikipedia.org/
 10251
 10282
 0
+-1
 239
 F1 pilóta
 F1 pilot
@@ -1910,6 +2148,7 @@ https://www.wikipedia.org/
 10283
 11039
 0
+-1
 240
 Magyar állatkert
 Hungarian ZOO
@@ -1918,6 +2157,7 @@ http://magyarorszagkul.nlcafe.hu/
 11040
 11048
 1
+-1
 241
 Jó érzéssel eltöltő film
 Feel good movie
@@ -1926,6 +2166,7 @@ https://www.buzzfeed.com/
 11049
 11084
 0
+-1
 242
 Juventus FC labdarúgó (2017)
 Juventus FC footballer (2017)
@@ -1934,6 +2175,7 @@ http://olimpia.hu/
 11085
 11114
 0
+-1
 243
 Arsenal FC labdarúgó (2017)
 Arsenal FC footballer (2017)
@@ -1942,6 +2184,7 @@ http://olimpia.hu/
 11115
 11154
 0
+-1
 244
 Chelsea FC labdarúgó (2017)
 Chelsea FC footballer (2017)
@@ -1950,6 +2193,7 @@ http://olimpia.hu/
 11155
 11213
 0
+-1
 245
 FC Bayern München labdarúgó (2017)
 FC Bayern Munich footballer (2017)
@@ -1958,6 +2202,7 @@ http://olimpia.hu/
 11214
 11241
 0
+-1
 246
 Magyar horgásztó
 Hungarian fishing lake
@@ -1966,6 +2211,7 @@ http://www.femina.hu/
 11242
 11260
 1
+-1
 247
 Magyar pad
 Hungarian bench
@@ -1974,6 +2220,7 @@ http://www.femina.hu/
 11261
 11270
 1
+-1
 248
 Magyar popsztár (1854-1954 között)
 Hungarian pop star (between 1854 and 1954)
@@ -1982,6 +2229,7 @@ http://recorder.blog.hu/
 11271
 11280
 1
+8
 249
 Egzotikus hely
 Exotic beach
@@ -1990,6 +2238,7 @@ http://www.origo.hu/
 11281
 11284
 0
+-1
 250
 Magánrepülő
 Private airplane
@@ -1998,6 +2247,7 @@ http://burzsuj.blog.hu/
 11285
 11289
 0
+6
 251
 Poszapokaliptikus film
 Post-apocalyptic movie
@@ -2006,6 +2256,7 @@ http://tejossz.blog.hu/
 11290
 11297
 0
+-1
 252
 Magyar híresség
 Hungarian celebrity
@@ -2014,6 +2265,7 @@ http://www.origo.hu/
 11298
 11319
 1
+-1
 253
 Sam Neill film
 Sam Neill movie
@@ -2022,6 +2274,7 @@ https://www.port.hu/
 11320
 11326
 0
+-1
 254
 Szexi filmszínész
 Sexy movie actor
@@ -2030,6 +2283,7 @@ http://nemvagyokenkeribredso.blog.hu/
 11327
 11331
 0
+-1
 255
 Királynő
 Queen
@@ -2038,6 +2292,7 @@ https://www.wikipedia.org/
 11332
 11410
 0
+-1
 256
 AC Milan labdarúgó (2017)
 AC Milan footballer (2017)
@@ -2046,6 +2301,7 @@ https://www.wikipedia.org/
 11411
 11446
 0
+-1
 257
 Meggyilkolt uralkodó
 Murdered emperor
@@ -2054,6 +2310,7 @@ https://www.wikipedia.org/
 11447
 11509
 0
+-1
 258
 AFC Ajax labdarúgó (2017)
 AFC Ajax footballer (2017)
@@ -2062,6 +2319,7 @@ https://www.wikipedia.org/
 11510
 11540
 0
+-1
 259
 Ferencvárosi TC labdarúgó (2017)
 Ferencvárosi TC footballer (2017)
@@ -2070,6 +2328,7 @@ https://www.fradi.hu/
 11541
 11568
 1
+-1
 260
 PC játék
 PC game
@@ -2078,6 +2337,7 @@ https://www.pcgamer.com/
 11569
 11721
 0
+-1
 261
 Família Kft. karakter
 Família Kft. character
@@ -2086,6 +2346,7 @@ https://www.life.hu/
 11722
 11729
 1
+-1
 262
 Família Kft. szereplő
 Família Kft. figure
@@ -2094,6 +2355,7 @@ https://www.life.hu/
 11730
 11737
 1
+-1
 263
 Família Kft. karakter (2017)
 Família Kft. character (2017)
@@ -2102,6 +2364,7 @@ https://www.life.hu/
 11738
 11745
 1
+-1
 264
 Família Kft. szereplő (2017)
 Família Kft. figure (2017)
@@ -2110,6 +2373,7 @@ https://www.life.hu/
 11746
 11753
 1
+-1
 265
 Film (kulisszák mögött)
 Movie (behind the scenes)
@@ -2118,6 +2382,7 @@ https://www.wikipedia.org/
 11754
 11804
 0
+-1
 266
 Nemzetiség
 Nationality
@@ -2126,6 +2391,7 @@ http://www.nlcafe.hu/
 11805
 11819
 0
+-1
 267
 Will és Grace szereplő
 Will & Grace figure
@@ -2134,6 +2400,7 @@ http://www.origo.hu/
 11820
 11823
 0
+-1
 268
 Will és Grace karakter
 Will & Grace character
@@ -2142,6 +2409,7 @@ http://www.origo.hu/
 11824
 11827
 0
+-1
 269
 Mickey Rourke film
 Mickey Rourke movie
@@ -2150,6 +2418,7 @@ http://www.port.hu/
 11828
 11832
 0
+-1
 270
 Bohócos film
 Clown movie
@@ -2158,6 +2427,7 @@ http://www.port.hu/
 11833
 11841
 0
+-1
 271
 Budakalász FKC kézilabdázó (2017)
 Budakalász FKC handballer (2017)
@@ -2166,6 +2436,7 @@ http://budakalaszfkc.hu/
 11842
 11862
 1
+-1
 272
 DVSC-TVP kézilabdázó (2017)
 DVSC-TVP handballer (2017)
@@ -2174,6 +2445,7 @@ http://dvsckezilabda.hu/
 11863
 11880
 1
+-1
 273
 Dunaújvárosi KKA kézilabdázó (2017)
 Dunaújvárosi KKA handballer (2017)
@@ -2182,6 +2454,7 @@ https://kohaszkezi.hu/
 11881
 11899
 1
+-1
 274
 Békéscsabai ENKSE kézilabdázó (2017)
 Békéscsabai ENKSE handballer (2017)
@@ -2190,6 +2463,7 @@ http://elorenkse.hu/
 11900
 11919
 1
+-1
 275
 FTC Rail Cargo Hungária kézilabdázó (2017)
 FTC Rail Cargo Hungária handballer (2017)
@@ -2198,6 +2472,7 @@ http://www.fradi.hu/
 11920
 11937
 1
+-1
 276
 FTC Rail Cargo Hungária kézilabdázó (2017)
 FTC Rail Cargo Hungária handballer (2017)
@@ -2206,6 +2481,7 @@ http://www.fradi.hu/
 11938
 11958
 1
+-1
 277
 Győri Audi ETO KC kézilabdázó (2017)
 Győri Audi ETO KC handballer (2017)
@@ -2214,6 +2490,7 @@ http://www.gyorietokc.hu/
 11959
 11973
 1
+-1
 278
 Kecskeméti NKSE kézilabdázó (2017)
 Kecskeméti NKSE KC handballer (2017)
@@ -2222,6 +2499,7 @@ http://kecskemetinkse.net/
 11974
 11994
 1
+-1
 279
 Komló KC kézilabdázó (2017)
 Komló KC handballer (2017)
@@ -2230,6 +2508,7 @@ http://komlokezi.hu/
 11995
 12016
 1
+-1
 280
 Mezőkövesdi KC kézilabdázó (2017)
 Mezőkövesi KC handballer (2017)
@@ -2238,6 +2517,7 @@ http://www.mezokovesdikc.hu/
 12017
 12034
 1
+-1
 281
 MOL-Pick Szeged kézilabdázó (2017)
 MOL-Pick Szeged handballer (2017)
@@ -2246,6 +2526,7 @@ http://www.pickhandball.hu/
 12035
 12055
 1
+-1
 282
 Siófok KC kézilabdázó (2017)
 Siófok KC handballer (2017)
@@ -2254,6 +2535,7 @@ http://www.siofokkc.hu/
 12056
 12072
 1
+-1
 283
 Váci NKSE kézilabdázó (2017)
 Váci NKSE handballer (2017)
@@ -2262,6 +2544,7 @@ http://www.vacikse.hu/
 12073
 12088
 1
+-1
 284
 Vasas SC kézilabdázó (2017)
 Vasas SC handballer (2017)
@@ -2270,6 +2553,7 @@ http://www.vasassc.hu/
 12089
 12132
 1
+-1
 285
 Telekom Veszprém kézilabdázó (2017)
 Telekom Veszprém handballer (2017)
@@ -2278,6 +2562,7 @@ http://handballveszprem.hu/
 12133
 12152
 1
+-1
 286
 Szeszes ital
 Alcoholic beverage
@@ -2286,6 +2571,7 @@ http://kvizmester.com/
 12153
 12172
 0
+-1
 287
 Atlanta Hawks kosárlabdázó (2017)
 Atlanta Hawks basketball player (2017)
@@ -2294,6 +2580,7 @@ http://www.nba.com/
 12173
 12188
 0
+1
 288
 Boston Celtics kosárlabdázó (2017)
 Boston Celtics basketball player (2017)
@@ -2302,6 +2589,7 @@ http://www.nba.com/
 12189
 12201
 0
+1
 289
 Cleveland Cavaliers kosárlabdázó (2017)
 Cleveland Cavaliers basketball player (2017)
@@ -2310,6 +2598,7 @@ http://www.nba.com/
 12202
 12219
 0
+1
 290
 Chicago Bulls kosárlabdázó (2017)
 Chicago Bulls basketball player (2017)
@@ -2318,6 +2607,7 @@ http://www.nba.com/
 12220
 12236
 0
+1
 291
 Denver Nuggets kosárlabdázó (2017)
 Denver Nuggets basketball player (2017)
@@ -2326,6 +2616,7 @@ http://www.nba.com/
 12237
 12252
 0
+1
 292
 Detroit Pistons kosárlabdázó (2017)
 Detroit Pistons basketball player (2017)
@@ -2334,6 +2625,7 @@ http://www.nba.com/
 12253
 12267
 0
+1
 293
 Houston Rockets kosárlabdázó (2017)
 Houston Rockets basketball player (2017)
@@ -2342,6 +2634,7 @@ http://www.nba.com/
 12268
 12285
 0
+1
 294
 Indiana Pacers kosárlabdázó (2017)
 Indiana Pacers basketball player (2017)
@@ -2350,6 +2643,7 @@ http://www.nba.com/
 12286
 12304
 0
+1
 295
 Los Angeles Lakers kosárlabdázó (2017)
 Los Angeles Lakers basketball player (2017)
@@ -2358,6 +2652,7 @@ http://www.nba.com/
 12305
 12323
 0
+1
 296
 Memphis Grizzlies kosárlabdázó (2017)
 Memphis Grizzlies basketball player (2017)
@@ -2366,6 +2661,7 @@ http://www.nba.com/
 12324
 12342
 0
+1
 297
 Alkonyat karakter
 Twilight character
@@ -2374,6 +2670,7 @@ https://www.wikipedia.org/
 12343
 12390
 0
+-1
 298
 Gyűrűk ura karakter
 Lord of Rings character
@@ -2382,6 +2679,7 @@ https://www.wikipedia.org/
 12391
 12420
 0
+-1
 299
 Film (Lego alapján)
 Movie (based on Lego)
@@ -2390,6 +2688,7 @@ http://www.boredpanda.com/
 12421
 12444
 0
+-1
 300
 Miami Heat kosárlabdázó (2017)
 Miami Heat basketball player (2017)
@@ -2398,6 +2697,7 @@ http://www.nba.com/
 12445
 12462
 0
+1
 301
 Milwaukee Bucks kosárlabdázó (2017)
 Milwaukee Bucks basketball player (2017)
@@ -2406,6 +2706,7 @@ http://www.nba.com/
 12463
 12477
 0
+1
 302
 Minnesota Timberwolves kosárlabdázó (2017)
 Minnesota Timberwolves basketball player (2017)
@@ -2414,6 +2715,7 @@ http://www.nba.com/
 12478
 12488
 0
+1
 303
 New York Knicks kosárlabdázó (2017)
 New York Knicks basketball player (2017)
@@ -2422,6 +2724,7 @@ http://www.nba.com/
 12489
 12508
 0
+1
 304
 Oklahoma City Thunder kosárlabdázó (2017)
 Oklahoma City Thunder basketball player (2017)
@@ -2430,6 +2733,7 @@ http://www.nba.com/
 12509
 12524
 0
+1
 305
 Orlando Magic kosárlabdázó (2017)
 Orlando Magic basketball player (2017)
@@ -2438,6 +2742,7 @@ http://www.nba.com/
 12525
 12543
 0
+1
 306
 Philadelphia 76ers kosárlabdázó (2017)
 Philadelphia 76ers basketball player (2017)
@@ -2446,6 +2751,7 @@ http://www.nba.com/
 12544
 12559
 0
+1
 307
 Sacramento Kings kosárlabdázó (2017)
 Sacramento Kings basketball player (2017)
@@ -2454,6 +2760,7 @@ http://www.nba.com/
 12560
 12575
 0
+1
 308
 Toronto Raptors kosárlabdázó (2017)
 Toronto Raptors basketball player (2017)
@@ -2462,6 +2769,7 @@ http://www.nba.com/
 12576
 12594
 0
+1
 309
 Washington Wizards kosárlabdázó (2017)
 Washington Wizards basketball player (2017)
@@ -2470,6 +2778,7 @@ http://www.nba.com/
 12595
 12610
 0
+1
 310
 Gossip Girl női szereplő
 Gossip Girl female figure
@@ -2478,6 +2787,7 @@ http://velvet.hu/
 12611
 12615
 0
+-1
 311
 Gossip Girl női szereplő (2017)
 Gossip Girl female figure (2017)
@@ -2486,6 +2796,7 @@ http://velvet.hu/
 12616
 12620
 0
+-1
 312
 Gossip Girl női karakter
 Gossip Girl female character
@@ -2494,6 +2805,7 @@ http://velvet.hu/
 12621
 12625
 0
+-1
 313
 Gossip Girl női karakter (2017)
 Gossip Girl female character (2017)
@@ -2502,6 +2814,7 @@ http://velvet.hu/
 12626
 12630
 0
+-1
 314
 Gossip Girl férfi szereplő
 Gossip Girl male figure
@@ -2510,6 +2823,7 @@ http://velvet.hu/
 12631
 12634
 0
+-1
 315
 Gossip Girl férfi szereplő (2017)
 Gossip Girl male figure (2017)
@@ -2518,6 +2832,7 @@ http://velvet.hu/
 12635
 12638
 0
+-1
 316
 Gossip Girl férfi karakter
 Gossip Girl male character
@@ -2526,6 +2841,7 @@ http://velvet.hu/
 12639
 12642
 0
+-1
 317
 Gossip Girl férfi karakter (2017)
 Gossip Girl male character (2017)
@@ -2534,6 +2850,7 @@ http://velvet.hu/
 12643
 12646
 0
+-1
 318
 Szép autóút
 Beautiful highway
@@ -2542,6 +2859,7 @@ http://gretta.blog.hu/
 12647
 12656
 0
+-1
 319
 Charlie angyalai szereplő
 Charlie's angles figure
@@ -2550,6 +2868,7 @@ http://www.life.hu/
 12657
 12665
 0
+-1
 320
 Charlie angyalai szereplő (2017)
 Charlie's angles figure (2017)
@@ -2558,6 +2877,7 @@ http://www.life.hu/
 12666
 12674
 0
+-1
 321
 Playmate
 Playmate
@@ -2566,6 +2886,7 @@ http://www.life.hu/
 12675
 12682
 0
+-1
 322
 Filmsorozat (főcím alapján)
 Movie series (based on main title)
@@ -2574,6 +2895,7 @@ http://www.origo.hu/
 12683
 12702
 0
+-1
 323
 USA gyönyörű természeti képződmény
 USA's beautiful natural form
@@ -2582,6 +2904,7 @@ http://kulturpara.blog.hu/
 12703
 12727
 0
+-1
 324
 Főváros
 Capital
@@ -2590,6 +2913,7 @@ https://www.wikipedia.org/
 12728
 12907
 0
+-1
 325
 Híres baseball játékos
 Famous baseball player
@@ -2598,6 +2922,7 @@ https://www.wikipedia.org/
 12908
 13007
 0
+-1
 326
 Magyar kisvasút
 Hungarian railway
@@ -2606,6 +2931,7 @@ http://csatangolo.blog.hu/
 13008
 13011
 1
+-1
 327
 Magyar TV sorozat
 Hungarian TV series
@@ -2614,6 +2940,7 @@ http://outsider.reblog.hu/
 13012
 13023
 1
+-1
 328
 TV sorozat
 TV series
@@ -2622,6 +2949,7 @@ http://outsider.reblog.hu/
 13024
 13061
 0
+-1
 329
 Rocksztár a 27-es klubból
 Rockstar from Club 27
@@ -2630,6 +2958,7 @@ http://fulesbagoly.blog.hu/
 13062
 13087
 0
+8
 330
 Sztár (először a vörös szőnyegen)
 Star (first in red carpet)
@@ -2638,6 +2967,7 @@ http://szubkult.blog.hu/
 13088
 13103
 0
+-1
 331
 Amerikai atléta
 American athlete
@@ -2646,6 +2976,7 @@ https://hu.wikipedia.org/
 13104
 13163
 0
+-1
 332
 Doctor Who karakter
 Doctor Who character
@@ -2654,6 +2985,7 @@ https://www.wikipedia.org/
 13164
 13190
 0
+-1
 333
 Családi film (2)
 Family movie (2)
@@ -2662,6 +2994,7 @@ https://www.mafab.hu/
 13191
 13243
 0
+-1
 334
 Hacker film
 Hacker movie
@@ -2670,6 +3003,7 @@ https://hu.wikipedia.org/
 13244
 13268
 0
+-1
 335
 Horror film (1)
 Horror movie (1)
@@ -2678,6 +3012,7 @@ https://www.mafab.hu/
 13269
 13318
 0
+-1
 336
 Kisméretű kutyafajta
 Small dog breed
@@ -2686,6 +3021,7 @@ http://olebugyek.blog.hu/
 13319
 13323
 0
+-1
 337
 Céglogó
 Company logo
@@ -2694,6 +3030,7 @@ http://www.velvet.hu/
 13324
 13339
 0
+-1
 338
 Film (állatszereplő alapján)
 Movie (based on animal actor)
@@ -2702,6 +3039,7 @@ https://www.mafab.hu/
 13340
 13359
 0
+-1
 339
 Írói film
 Writer movie
@@ -2710,6 +3048,7 @@ https://www.mafab.hu/
 13360
 13384
 0
+-1
 340
 USA elnök
 President of the USA
@@ -2718,6 +3057,7 @@ https://hu.wikipedia.org/
 13385
 13428
 0
+-1
 341
 Lélegzetelállító hely
 Breathtaking place
@@ -2726,6 +3066,7 @@ http://elet-erzes.blog.hu/
 13429
 13433
 0
+-1
 342
 Grace klinika karakter
 Grey's Anatomy character
@@ -2734,6 +3075,7 @@ http://www.velvet.hu/
 13434
 13441
 0
+-1
 343
 Grace klinika karakter (2017)
 Grey's Anatomy character (2017)
@@ -2742,6 +3084,7 @@ http://www.velvet.hu/
 13442
 13449
 0
+-1
 344
 Grace klinika szereplő
 Grey's Anatomy figure
@@ -2750,6 +3093,7 @@ http://www.velvet.hu/
 13450
 13457
 0
+-1
 345
 Grace klinika szereplő (2017)
 Grey's Anatomy figure (2017)
@@ -2758,14 +3102,16 @@ http://www.velvet.hu/
 13458
 13465
 0
+-1
 346
 Látnivaló Washington DC-ben
-Monument in Washington DC
+Attraction in Washington DC
 48
 http://kulturpara.blog.hu/
 13466
 13475
 0
+-1
 347
 James Cagney film
 James Cagney movie
@@ -2774,6 +3120,7 @@ http://timegoesby.blog.hu/
 13476
 13485
 0
+-1
 348
 Ausztrália természeti kincse
 Australia's natural treasures
@@ -2782,6 +3129,7 @@ http://kulturpara.blog.hu/
 13486
 13490
 0
+-1
 349
 Feltaláló
 Inventor
@@ -2790,6 +3138,7 @@ http://www.famousinventors.org/
 13491
 13643
 0
+-1
 350
 Színésznő
 Actress
@@ -2798,6 +3147,7 @@ http://filmekapolcrol.blog.hu/
 13644
 13648
 0
+-1
 351
 Film (állat alapján)
 Film (based on animal)
@@ -2806,6 +3156,7 @@ http://filmrefel.reblog.hu/
 13649
 13678
 0
+-1
 352
 Szupermodell (régen)
 Szupermodell (then)
@@ -2814,6 +3165,7 @@ http://www.life.hu/
 13679
 13694
 0
+-1
 353
 Szupermodell (2017)
 Szupermodell (2017)
@@ -2822,6 +3174,7 @@ http://www.life.hu/
 13695
 13710
 0
+-1
 354
 Magyar kis híd
 Hungarian small bridge
@@ -2830,6 +3183,7 @@ http://www.origo.hu/
 13711
 13715
 1
+-1
 355
 Film karakter (3)
 Movie character (3)
@@ -2838,6 +3192,7 @@ http://szubkult.blog.hu/
 13716
 13720
 0
+-1
 356
 Katalin nevű sztár
 Star named Kate (Catherine)
@@ -2846,14 +3201,16 @@ http://szubkult.blog.hu/
 13721
 13735
 0
+-1
 357
-Sztárpár
-Star couple
+Sztárpár (1)
+Star couple (1)
 72
 https://velvet.hu/
 13736
 13746
 0
+-1
 358
 Város akkor és most
 City then and now
@@ -2862,6 +3219,7 @@ http://toochee.reblog.hu/
 13747
 13766
 0
+-1
 359
 Michelin séf
 Michelin chef
@@ -2870,6 +3228,7 @@ https://hu.wikipedia.org/
 13767
 13988
 0
+-1
 360
 Divattervező
 Fashion designer
@@ -2878,6 +3237,7 @@ http://www.bykoket.com/
 13989
 14054
 0
+-1
 361
 Énekes
 Singer
@@ -2886,6 +3246,7 @@ http://www.rollingstone.com/
 14055
 14154
 0
+-1
 362
 Julianne Moore film
 Julianne Moore movie
@@ -2894,6 +3255,7 @@ http://www.port.hu/
 14155
 14161
 0
+-1
 363
 Horror film (2)
 Horror movie (2)
@@ -2902,6 +3264,7 @@ http://filmpremierek.blog.hu/
 14162
 14171
 0
+-1
 364
 Gyár
 Factory
@@ -2910,6 +3273,7 @@ https://www.betterbuys.com/
 14172
 14195
 0
+-1
 365
 Űrlényes film
 Alien movie (2)
@@ -2918,6 +3282,7 @@ https://www.mafab.hu/
 14196
 14245
 0
+-1
 366
 Filmszínész (2)
 Movie actor (2)
@@ -2926,6 +3291,7 @@ http://www.vh1.com/
 14246
 14341
 0
+-1
 367
 Gyerekszínész
 Child actor
@@ -2934,6 +3300,7 @@ http://www.vh1.com/
 14342
 14437
 0
+-1
 368
 Jótékony hatású növény
 Beneficial plant
@@ -2942,6 +3309,7 @@ http://divany.hu/
 14438
 14447
 0
+-1
 369
 Ország szépsége
 Country's beauty
@@ -2950,6 +3318,7 @@ http://huntasztikus.blog.hu/
 14448
 14462
 0
+-1
 370
 Star Wars karakter
 Star Wars character
@@ -2958,6 +3327,7 @@ https://femina.hu/
 14463
 14469
 0
+-1
 371
 Star Wars szereplő
 Star Wars figure
@@ -2966,6 +3336,7 @@ https://femina.hu/
 14470
 14476
 0
+-1
 372
 Star Wars karakter (2017)
 Star Wars character (2017)
@@ -2974,6 +3345,7 @@ https://femina.hu/
 14477
 14483
 0
+-1
 373
 Star Wars szereplő (2017)
 Star Wars figure (2017)
@@ -2982,6 +3354,7 @@ https://femina.hu/
 14484
 14490
 0
+-1
 374
 Bűvészes film
 Magical movie
@@ -2990,6 +3363,7 @@ https://port.hu/
 14491
 14496
 0
+-1
 375
 Karácsonyi film
 Christmas movie
@@ -2998,6 +3372,7 @@ https://port.hu/
 14497
 14500
 0
+-1
 376
 Európai város (1)
 European city (1)
@@ -3006,6 +3381,7 @@ http://megicaleurope.blog.hu/
 14501
 14516
 0
+-1
 377
 Steve Buscemi film
 Steve Buscemi movie
@@ -3014,6 +3390,7 @@ http://port.hu/
 14517
 14522
 0
+-1
 378
 Európai város (2)
 European city (2)
@@ -3022,14 +3399,16 @@ http://www.origo.hu/
 14523
 14530
 0
+-1
 379
-Rendező
-Director
+Fimrendező
+Movie Director
 26
 https://www.mafab.hu/
 14531
 14775
 0
+-1
 380
 Golden Globe sorozat (2010-2017)
 Golden Globe series (2010-2017)
@@ -3038,6 +3417,7 @@ https://www.mafab.hu/
 14776
 14867
 0
+-1
 381
 Oscar díjas film (2014-2017)
 Oscar movie (2014-2017)
@@ -3046,6 +3426,7 @@ https://www.mafab.hu/
 14868
 15005
 0
+-1
 382
 Vígjáték (2)
 Comedy (2)
@@ -3054,6 +3435,7 @@ https://port.hu/
 15006
 15014
 0
+-1
 383
 Háborús film
 War movie
@@ -3062,6 +3444,7 @@ https://www.mafab.hu/
 15015
 15264
 0
+-1
 384
 Jogi film
 Law movie
@@ -3070,6 +3453,7 @@ http://www.filmezzunk.hu/
 15265
 15314
 0
+-1
 385
 Verekedős film
 Fighting movie
@@ -3078,6 +3462,7 @@ http://www.mafab.hu/
 15315
 15331
 0
+-1
 386
 Egyszer volt, hol nem volt karakter
 Once Upon a Time character
@@ -3086,6 +3471,7 @@ https://hu.wikipedia.org/
 15332
 15383
 0
+-1
 387
 Vintage autó
 Vintage car
@@ -3094,6 +3480,7 @@ http://www.espolarte.com/
 15384
 15471
 0
+-1
 388
 Barátok közt karakter
 Among Friends character
@@ -3102,6 +3489,7 @@ https://femina.hu/
 15472
 15477
 1
+-1
 389
 Barátok közt szereplő
 Among Friends figure
@@ -3110,6 +3498,7 @@ https://femina.hu/
 15478
 15483
 1
+-1
 390
 Barátok közt karakter (2017)
 Among Friends character (2017)
@@ -3118,6 +3507,7 @@ https://femina.hu/
 15484
 15489
 1
+-1
 391
 Barátok közt szereplő (2017)
 Among Friends figure (2017)
@@ -3126,6 +3516,7 @@ https://femina.hu/
 15490
 15495
 1
+-1
 392
 Filmsorozat (3)
 Movie series (3)
@@ -3134,6 +3525,7 @@ http://www.origo.hu/
 15496
 15513
 0
+-1
 393
 Filmsorozat karakter
 Movie series character
@@ -3142,6 +3534,7 @@ http://www.origo.hu/
 15514
 15532
 0
+-1
 394
 Filmsorozat szereplő
 Movie series figure
@@ -3150,6 +3543,7 @@ http://www.origo.hu/
 15533
 15551
 0
+-1
 395
 Informatikus
 IT expert
@@ -3158,6 +3552,7 @@ https://www.biography.com/
 15552
 15596
 0
+-1
 396
 Némafilm
 Silent movie
@@ -3166,6 +3561,7 @@ https://hu.wikipedia.org/
 15597
 15648
 0
+-1
 397
 Tyúk
 Hen
@@ -3174,6 +3570,7 @@ https://hu.wikipedia.org/
 15649
 15693
 0
+-1
 398
 Zenés film
 Music movie
@@ -3182,6 +3579,7 @@ https://www.mafab.hu/
 15694
 15740
 0
+-1
 399
 Sztár (2)
 Star (2)
@@ -3190,6 +3588,7 @@ http://www.velvet.hu/
 15741
 15752
 0
+-1
 400
 Sztár (régen) (1)
 Star (then) (1)
@@ -3198,6 +3597,7 @@ http://www.velvet.hu/
 15753
 15764
 0
+-1
 401
 Európai város (3)
 European city (3)
@@ -3206,6 +3606,7 @@ http://megicaleurope.blog.hu/
 15765
 15770
 0
+-1
 402
 Sztár (smink nélkül) (2)
 Star (without makeup) (2)
@@ -3214,6 +3615,7 @@ https://velvet.hu/
 15771
 15779
 0
+-1
 403
 Sztár (3)
 Star (3)
@@ -3222,6 +3624,7 @@ https://velvet.hu/
 15780
 15788
 0
+-1
 404
 Filmsorozat (2017)
 Movie series (2017)
@@ -3230,22 +3633,25 @@ http://www.origo.hu/
 15789
 15798
 0
+-1
 405
-Magyar sztár
-Hungarian star
+Magyar sztár (1)
+Hungarian star (1)
 70
 https://velvet.hu/
 15799
 15808
 1
+-1
 406
-Magyar sztár (smink nélkül)
-Hungarian star (without makeup)
+Magyar sztár (smink nélkül) (1)
+Hungarian star (without makeup) (1)
 69
 https://velvet.hu/
 15809
 15818
 1
+-1
 407
 Film (2017) (1)
 Movie (2017) (1)
@@ -3254,6 +3660,7 @@ http://filmekapolcrol.blog.hu/
 15819
 15838
 0
+-1
 408
 Elhagyott szellemtelep
 Abandoned block of flats
@@ -3262,6 +3669,7 @@ https://femina.hu/
 15839
 15848
 0
+-1
 409
 Palm Springs Film Festival résztvevő (2018)
 Palm Springs Film Festival participant (2018)
@@ -3270,6 +3678,7 @@ https://velvet.hu/
 15849
 15857
 0
+-1
 410
 Golden Globe résztvevő (1998)
 Golden Globe participant (1998)
@@ -3278,6 +3687,7 @@ https://velvet.hu/
 15858
 15888
 0
+-1
 411
 Las Vegas-i szálloda
 Hotel in Las Vegas
@@ -3286,6 +3696,7 @@ https://index.hu/
 15889
 15898
 0
+-1
 412
 Újévi gála női résztvevő (2018)
 New Year Gala participant (2018)
@@ -3294,6 +3705,7 @@ https://velvet.hu/
 15899
 15904
 0
+-1
 413
 Critics choice awards résztvevő (2018)
 Critics choice awards participant (2018)
@@ -3302,6 +3714,7 @@ https://divany.hu/
 15905
 15935
 0
+-1
 414
 Celebgyerek a kifutón
 Celeb kid on the runway
@@ -3310,6 +3723,7 @@ https://velvet.hu/
 15936
 15940
 0
+-1
 415
 Filmszínész (3)
 Movie actor (3)
@@ -3318,6 +3732,7 @@ http://b1foto.blog.hu/
 15941
 15949
 0
+-1
 416
 Filmszínész (4)
 Movie actor (4)
@@ -3326,6 +3741,7 @@ http://b1foto.blog.hu/
 15950
 15957
 0
+-1
 417
 Tank
 Tank
@@ -3334,6 +3750,7 @@ https://www.portfolio.hu/
 15958
 15967
 0
+-1
 418
 SAG díjkiosztó résztvevő
 SAG Awards participant
@@ -3342,6 +3759,7 @@ https://velvet.hu/
 15968
 15981
 0
+-1
 419
 Film (2017) (2)
 Movie (2017) (2)
@@ -3350,6 +3768,7 @@ https://port.hu/
 15982
 15991
 0
+-1
 420
 Különleges szálloda
 Special hotel
@@ -3358,6 +3777,7 @@ http://vojazs.blog.hu/
 15992
 16001
 0
+-1
 421
 Különleges metróállomás
 Special metro station
@@ -3366,6 +3786,7 @@ http://mixie.blog.hu/
 16002
 16009
 0
+-1
 422
 Európai nyaralóhely
 European summer resort
@@ -3374,6 +3795,7 @@ https://divany.hu/
 16010
 16013
 0
+-1
 423
 Revlon party résztvevő (2018)
 Revlon party participant (2018)
@@ -3382,6 +3804,7 @@ https://velvet.hu/
 16014
 16017
 0
+-1
 424
 Hideg város
 Cold town
@@ -3390,6 +3813,7 @@ http://mixie.blog.hu/
 16018
 16022
 0
+-1
 425
 Film (3)
 Movie (3)
@@ -3398,6 +3822,7 @@ http://konzervtelefon.blog.hu/
 16023
 16032
 0
+-1
 426
 Színdarab
 Play
@@ -3406,6 +3831,7 @@ http://konzervtelefon.blog.hu/
 16033
 16042
 1
+-1
 427
 Régi autó
 Old car
@@ -3414,6 +3840,7 @@ http://www.origo.hu/
 16043
 16062
 0
+-1
 428
 Grammy díjkiosztó résztvevő (2018)
 Grammy awards participant (2018)
@@ -3422,6 +3849,7 @@ https://velvet.hu/
 16063
 16087
 0
+-1
 429
 Spanyol nemzeti étel
 Spain national food
@@ -3430,6 +3858,7 @@ https://divany.hu/
 16088
 16097
 0
+11
 430
 Film (4)
 Movie (4)
@@ -3438,6 +3867,7 @@ https://port.hu/
 16098
 16104
 0
+-1
 431
 Filmes szerelmespár
 Movie lovers
@@ -3446,6 +3876,7 @@ https://port.hu/
 16105
 16111
 0
+-1
 432
 Sztár (4)
 Star (4)
@@ -3454,6 +3885,7 @@ http://karriersziget.blog.hu/
 16112
 16136
 0
+-1
 433
 Sztár (hétköznapi ruhában)
 Star (exeryday clothing)
@@ -3462,6 +3894,7 @@ http://www.velvet.hu/
 16137
 16141
 0
+-1
 434
 Sztár (5)
 Star (5)
@@ -3470,6 +3903,7 @@ http://www.velvet.hu/
 16142
 16146
 0
+-1
 435
 Magyar hímzés
 Hungarian embroidery
@@ -3478,6 +3912,7 @@ Hungarian embroidery
 16147
 16170
 1
+-1
 436
 Extrém szálloda
 Extreme hotel
@@ -3486,6 +3921,7 @@ http://mixie.blog.hu/
 16171
 16179
 0
+-1
 437
 Sztár (régen) (2)
 Star (then) (2)
@@ -3494,6 +3930,7 @@ https://tettybetty.com/
 16180
 16240
 0
+-1
 438
 Sztár (2010-es évek)
 Star (2010's)
@@ -3501,4 +3938,311 @@ Star (2010's)
 https://tettybetty.com/
 16241
 16301
-0  
+0
+-1
+439
+Sztár (testrész alapján)
+Star (based on body part)
+69
+http://www.origo.hu/
+16302
+16311
+0
+-1
+440
+Magyar vetélkedő
+Hungarian quiz show
+42
+http://www.origo.hu/
+16312
+16326
+1
+-1
+441
+Film (5)
+Movie (5)
+45
+https://port.hu/
+16327
+16331
+0
+-1
+442
+Fiatal sztár
+Young star
+70
+http://toochee.reblog.hu/
+16332
+16356
+0
+-1
+443
+Billboard díjkiosztó résztvevő (2018)
+Billboard Awards participant (2018)
+71
+https://velvet.hu/
+16357
+16369
+0
+-1
+444
+Filmszínész (5)
+Movie actor (5)
+44
+http://port.hu/
+16370
+16375
+0
+-1
+445
+Népszerű látnivaló a világon
+Popular attraction in the world
+48
+http://origo.hu/
+16376
+16400
+0
+-1
+446
+Magyar szecessziós épület
+Hungarian Art Nouveau building
+33
+http://multidezoepiteszet.blog.hu/
+16401
+16405
+1
+-1
+447
+Egészséges gyomnövény
+Healthy weed
+10
+https://www.femina.hu/
+16406
+16415
+0
+-1
+448
+Ősi város
+Ancient city
+25
+http://kivultagasabb.blog.hu/
+16416
+16421
+0
+-1
+449
+Gyümölcs (2)
+Fruit (2)
+10
+https://femina.hu/
+16422
+16431
+0
+-1
+450
+Egykor híres sztár
+Once famous star
+70
+http://www.life.hu/
+16432
+16435
+0
+-1
+451
+Magyar sztár (smink nélkül) (2)
+Hungarian star (without makeup) (2)
+69
+https://www.origo.hu/
+16436
+16445
+1
+-1
+452
+Magyar sztár (2)
+Hungarian star (2)
+70
+https://www.origo.hu/
+16446
+16455
+1
+-1
+453
+Kifulladt filmsorozat
+Wasted movie series
+67
+https://www.origo.hu/
+16456
+16459
+0
+-1
+454
+Templom
+Temple
+33
+https://sokszinuvidek.24.hu/
+16460
+16465
+0
+-1
+455
+Templom belülről
+Temple inside
+33
+https://sokszinuvidek.24.hu/
+16466
+16468
+0
+-1
+456
+Francia kisváros
+French small town
+48
+https://divany.hu/
+16469
+16477
+0
+-1
+457
+Európai álomsziget
+European dream island
+48
+https://www.origo.hu/
+16478
+16491
+0
+-1
+458
+Film (6)
+Movie (6)
+45
+http://juice.reblog.hu/
+16492
+16501
+0
+-1
+459
+Sztár (6)
+Star (6)
+70
+http://www.origo.hu/
+16502
+16516
+0
+-1
+460
+Sztárpár (2)
+Star couple (2)
+72
+http://lovemylife.reblog.hu/
+16517
+16522
+0
+-1
+461
+Vadászrepülő
+Fighter
+19
+https://www.portfolio.hu/
+16523
+16532
+0
+6
+462
+Magyar kilátó
+Hungarian lookout tower
+48
+http://www.port.hu/
+16533
+16544
+1
+-1
+463
+Film (7)
+Movie (7)
+45
+http://www.origo.hu/
+16545
+16556
+0
+-1
+464
+Ocean’s 8 premier résztvevő (2018)
+Ocean’s 8 premiere participant (2018)
+42
+http://www.origo.hu/
+16557
+16564
+0
+-1
+465
+Repülőtér
+Airport
+19
+http://www.origo.hu/
+16565
+16574
+0
+-1
+466
+Női filmrendező
+Woman movie director
+26
+http://www.origo.hu/
+16575
+16594
+0
+-1
+467
+Film (8)
+Movie (8)
+45
+http://www.port.hu/
+16595
+16603
+0
+-1
+468
+Sci-fi sorozat
+Sci-fi series
+67
+http://www.origo.hu/
+16604
+16621
+0
+-1
+469
+Film (autó alapján) (2)
+Movie (based on car) (2)
+50
+http://www.port.hu/
+16622
+16625
+0
+-1
+470
+Balatoni vár, kastély
+Lake Balaton castle
+25
+http://www.travelo.hu/
+16626
+16629
+1
+-1
+471
+Híres sportoló
+Famous sport player
+14
+http://www.origo.hu/
+16630
+16639
+0
+-1
+472
+Gyereksztár
+Child star
+70
+http://www.origo.hu/
+16640
+16646
+0
+-1  
