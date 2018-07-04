@@ -109,7 +109,7 @@ export class Index_Component {
         this.http.post('/index/imageCount_FromDB', [
             this.enablehungarian_Checked,
             this.selectedDTT_Type,
-            this.gametype_SelectedID
+            this.gametype_SelectedID == '4'
         ]).subscribe( (res:number) => {
             this.maxnrquestion_Item.max = res> 20 ? 20 : res;
             if ( this.maxnrquestion_Item['value']>this.maxnrquestion_Item['max']) this.maxnrquestion_Item['value'] = this.maxnrquestion_Item['max'];

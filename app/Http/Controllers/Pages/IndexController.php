@@ -53,7 +53,7 @@ class IndexController extends Controller {
         $topicID_Array = [];
         switch ($input_Array[1][0]){
             case 1050: case 1051:
-                $topicID_Array = MasterController::themesTopicsOfTheme_Static(0, $input_Array[1][1], $input_Array[0], $input_Array[2]);
+                $topicID_Array = MasterController::themesTopicsOfTheme_Static(0, $input_Array[1][1], $input_Array[0], $input_Array[2]=='3');
                 break;
             case 1052:
                 array_push($topicID_Array,$input_Array[1][1]);
