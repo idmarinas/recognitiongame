@@ -96,7 +96,7 @@ http://www.mmetapio.hu/
 458
 479
 0
--1
+21
 12
 Cápa
 Shark
@@ -105,7 +105,7 @@ https://www.wikipedia.org/
 480
 501
 0
--1
+22
 13
 Medve
 Bear
@@ -123,7 +123,7 @@ http://www.diszmadarak.eoldal.hu/
 510
 537
 0
--1
+21
 15
 Földközi-tenger gerinces
 Mediterranean Sea's vertebrate
@@ -132,7 +132,7 @@ https://www.wikipedia.org/
 538
 613
 0
--1
+20
 16
 Francia kártya
 Poker card
@@ -195,7 +195,7 @@ https://www.wikipedia.org/
 1372
 1422
 0
--1
+13
 23
 Kutya
 Dog
@@ -213,7 +213,7 @@ https://www.wikipedia.org/
 1674
 1743
 0
--1
+13
 25
 Földközi-tenger ízeltlábú
 Mediterranean Sea's arthropod
@@ -222,7 +222,7 @@ https://www.wikipedia.org/
 1744
 1756
 0
--1
+20
 26
 JoNaLu szereplő
 JoNaLu figure
@@ -276,7 +276,7 @@ https://www.wikipedia.org/
 2625
 2774
 1
--1
+19
 32
 Híres festmény
 Famous painting
@@ -303,7 +303,7 @@ https://www.wikipedia.org/
 2913
 2929
 1
--1
+18
 35
 Hal Magyarországon
 Fish in Hungary
@@ -312,7 +312,7 @@ https://www.wikipedia.org/
 2930
 3014
 1
--1
+22
 36
 Filmszínész (1)
 Movie actor (1)
@@ -483,7 +483,7 @@ http://www.europamadarai.hu/
 4475
 4527
 0
--1
+21
 55
 Népcsoport
 Ethnic group
@@ -492,7 +492,7 @@ https://www.wikipedia.org/
 4528
 4591
 0
--1
+17
 56
 Bogár, rovar
 Bug, insect
@@ -600,7 +600,7 @@ https://www.wikipedia.org/
 5121
 5172
 0
--1
+16
 68
 USA állam
 US State
@@ -645,7 +645,7 @@ https://www.wikipedia.org/
 5257
 5296
 0
--1
+14
 73
 Kőzet
 Rock
@@ -699,7 +699,7 @@ https://www.wikipedia.org/
 5595
 5639
 0
--1
+16
 79
 Drágakő
 Gem
@@ -897,7 +897,7 @@ https://www.wikipedia.org/
 6584
 6597
 1
--1
+15
 101
 Állat Ausztráliában
 Animal in Australia
@@ -906,7 +906,7 @@ https://www.wikipedia.org/
 6598
 6626
 0
--1
+19
 102
 Extrém sport
 Extreme sport
@@ -933,7 +933,7 @@ https://www.wikipedia.org/
 6673
 6684
 0
--1
+20
 105
 Repülő rovar
 Flying insect
@@ -951,7 +951,7 @@ https://www.wikipedia.org/
 6735
 6755
 0
--1
+16
 107
 Élőlény (Színtévesztő teszt)
 Organism (Color-blind test)
@@ -960,7 +960,7 @@ https://www.wikipedia.org/
 6756
 6771
 0
--1
+16
 108
 Magyar fizikus
 Hungarian physicist
@@ -969,7 +969,7 @@ https://www.wikipedia.org/
 6772
 6844
 1
--1
+15
 109
 Pénz
 Money
@@ -1572,7 +1572,7 @@ http://www.egzotikusdisznovenyek.hu/
 8333
 8362
 0
--1
+14
 176
 Trónok harca női szereplő (2017 VII. évad premier)
 Game of thrones female figure (2017 Season VII premiere)
@@ -2031,7 +2031,7 @@ http://www.femina.hu/
 9869
 9878
 1
--1
+18
 227
 Különleges hely
 Especial place
@@ -2391,7 +2391,7 @@ http://www.nlcafe.hu/
 11805
 11819
 0
--1
+17
 267
 Will és Grace szereplő
 Will & Grace figure
@@ -4244,5 +4244,14 @@ Child star
 http://www.origo.hu/
 16640
 16646
+0
+-1
+473
+Étel
+Food
+23
+https://femina.hu/
+16647
+16656
 0
 -1  

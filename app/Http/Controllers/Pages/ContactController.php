@@ -26,7 +26,7 @@ class ContactController extends Controller {
     public function submitForm(Request $request) {
         $contact = new Contact();
         $contact->fill($request->all());
-        $contact->date =  now();
+        $contact->date = now();
         $contact->save();
         return response([]);
     }

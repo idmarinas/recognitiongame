@@ -1,10 +1,10 @@
 Odd one out & Age:
 Visszafele haladok
 
-Tudomány OK
+Természet OK
 
 "Odd one out" Next index:
-13
+23
 
 
 
@@ -12,3 +12,9 @@ Angular2:
 Master_databaseinfo OK
 Master_quickgame OK
 Master_proposal OK
+Contact OK
+
+Laravel:
+ContactController OK
+MasterComponent:
+    Quickgame 3 functions OK

@@ -7,7 +7,7 @@
             <div class="angular_loading1"></div>
         </div>
         <div [hidden]="!loaded_DOM">
-            <form #contactForm="ngForm" autocomplete="off">
+            <form #contact_Form="ngForm" autocomplete="off">
                 <mat-form-field class="w-100">
                   <input matInput maxlength="50" name="email" [(ngModel)]="contact_Item.email" #email="ngModel" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" [placeholder]="webpageText_Array[1]" required id="focusElement1">
                   <mat-hint align="end" class="input_required" *ngIf="email.errors && (email.dirty || email.touched)">{{this.contact_Item.email == "" ? this.errorText_Array[0] : this.errorText_Array[1]}}</mat-hint>
@@ -19,7 +19,7 @@
                   <textarea matAutosizeMinRows="5" matInput matTextareaAutosize name="message" [(ngModel)]="contact_Item.message" #message="ngModel" [placeholder]="webpageText_Array[3]" required></textarea>
                   <mat-hint align="end" class="input_required" [hidden]="!message.errors.required" *ngIf="message.errors && (message.dirty || message.touched)">{{errorText_Array[2]}}</mat-hint>
                 </mat-form-field>
-                <div class="text-center"><button (click)="submit_Form();contactForm.reset()" [disabled]="!contactForm.form.valid" mat-button type="submit">{{webpageText_Array[4]}}</button></div>
+                <div class="text-center"><button (click)="submit_Form();contact_Form.reset()" [disabled]="!contact_Form.form.valid" mat-button type="submit">{{webpageText_Array[4]}}</button></div>
             </form>
         </div>
     </div>
